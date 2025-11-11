@@ -1,0 +1,2288 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An introductory course to Trigonometry">
+      
+      
+        <meta name="author" content="Hank Ratzesberger">
+      
+      
+        <link rel="canonical" href="https://iowerx.github.io/intro-to-trig/chapters/chapter-08/">
+      
+      
+        <link rel="prev" href="../chapter-07/">
+      
+      
+        <link rel="next" href="../chapter-09/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Chapter 8 - Advanced Triangle Solutions - Introduction to Trigonometry</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Chapter 8 - Advanced Triangle Solutions - Introduction to Trigonometry" />
+<meta property="og:description" content="An introductory course to Trigonometry" />
+<meta property="og:image" content="https://iowerx.github.io/intro-to-trig/assets/images/social/chapters/chapter-08.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://iowerx.github.io/intro-to-trig/chapters/chapter-08/" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Chapter 8 - Advanced Triangle Solutions - Introduction to Trigonometry" />
+<meta property="twitter:description" content="An introductory course to Trigonometry" />
+<meta property="twitter:image" content="https://iowerx.github.io/intro-to-trig/assets/images/social/chapters/chapter-08.png" />
+</head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-8-advanced-triangle-solutions" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Introduction to Trigonometry" class="md-header__button md-logo" aria-label="Introduction to Trigonometry" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Introduction to Trigonometry
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 8 - Advanced Triangle Solutions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/iowerx/intro-to-trig" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../course-description/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Course Description
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../learning-graph/" class="md-tabs__link">
+          
+  
+  
+  Learning Graph
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../chapter-01/" class="md-tabs__link">
+          
+  
+  
+  Course Content
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Introduction to Trigonometry" class="md-nav__button md-logo" aria-label="Introduction to Trigonometry" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    Introduction to Trigonometry
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/iowerx/intro-to-trig" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Graph
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Learning Graph
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/course-description-assessment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Assessment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-taxonomy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept Taxonomy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/taxonomy-distribution-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Taxonomy Distribution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/chapters-outline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters Outline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Content
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Course Content
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1 - Foundations of Geometry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2 - The Pythagorean Theorem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3 - Trigonometric Ratios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 4 - Special Right Triangles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5 - Unit Circle & Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6 - Trigonometric Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-07/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7 - Solving Triangles & Angles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8 - Advanced Triangle Solutions
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8 - Advanced Triangle Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chapter-learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Learning Objectives
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-81-law-of-sines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 8.1: Law of Sines
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 8.1: Law of Sines">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-law-of-sines-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Law of Sines Statement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-to-use-the-law-of-sines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to Use the Law of Sines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why It Works
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standard-labeling-convention" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Standard Labeling Convention
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-81-solving-aas-triangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 8.1: Solving AAS Triangle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-82-solving-asa-triangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 8.2: Solving ASA Triangle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-83-finding-an-unknown-angle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 8.3: Finding an Unknown Angle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-84-real-world-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 8.4: Real-World Application
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-82-the-ambiguous-case-ssa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 8.2: The Ambiguous Case (SSA)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 8.2: The Ambiguous Case (SSA)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-the-ambiguous-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Is the Ambiguous Case?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#determining-the-number-of-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Determining the Number of Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finding-both-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Finding Both Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-85-ambiguous-case-two-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 8.5: Ambiguous Case - Two Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-86-ambiguous-case-no-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 8.6: Ambiguous Case - No Solution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-87-ambiguous-case-one-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 8.7: Ambiguous Case - One Solution
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-83-law-of-cosines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 8.3: Law of Cosines
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 8.3: Law of Cosines">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-law-of-cosines-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Law of Cosines Statement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-to-use-the-law-of-cosines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to Use the Law of Cosines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alternative-form-for-finding-angles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alternative Form (for finding angles)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-88-solving-sas-triangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 8.8: Solving SAS Triangle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-89-solving-sss-triangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 8.9: Solving SSS Triangle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-810-application-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 8.10: Application Problem
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-84-triangle-area-formulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 8.4: Triangle Area Formulas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 8.4: Triangle Area Formulas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#standard-area-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Standard Area Formula
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#area-using-two-sides-and-included-angle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Area Using Two Sides and Included Angle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#herons-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heron's Formula
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#area-using-circumradius" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Area Using Circumradius
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-811-area-using-sas-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 8.11: Area Using SAS Formula
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-812-area-using-herons-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 8.12: Area Using Heron's Formula
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-813-comparing-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 8.13: Comparing Methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-85-selecting-solution-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 8.5: Selecting Solution Methods
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 8.5: Selecting Solution Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decision-tree-for-triangle-problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decision Tree for Triangle Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#choosing-area-formulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Choosing Area Formulas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#efficiency-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Efficiency Tips
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-814-choosing-the-best-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 8.14: Choosing the Best Method
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-86-chapter-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 8.6: Chapter Summary
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 8.6: Chapter Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-laws-and-formulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Laws and Formulas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-to-use-each-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to Use Each Method
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-ambiguous-case-ssa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Ambiguous Case (SSA)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-solving-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem-Solving Strategy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-trigonometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Trigonometry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#looking-ahead" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Looking Ahead
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chapter-review-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Review Questions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 9 - Real-World Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 10 - Tools & Integration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="chapter-8-advanced-triangle-solutions">Chapter 8: Advanced Triangle Solutions</h1>
+<h2 id="introduction">Introduction</h2>
+<p>In Chapter 7, we mastered solving right triangles. But what about triangles without a right angle? Oblique triangles (triangles that are not right triangles) appear everywhere in real-world applications—from GPS positioning to architectural design to analyzing forces in physics.</p>
+<p>This chapter introduces two powerful laws that work for <strong>any triangle</strong>: the <strong>Law of Sines</strong> and the <strong>Law of Cosines</strong>. These laws extend our problem-solving abilities beyond right triangles. We'll also learn multiple methods for calculating triangle areas and develop strategies for choosing the most efficient approach for each problem.</p>
+<h3 id="chapter-learning-objectives">Chapter Learning Objectives</h3>
+<p>After completing this chapter, you will be able to:</p>
+<ul>
+<li><strong>Remember</strong>: Recall the Law of Sines and Law of Cosines</li>
+<li><strong>Understand</strong>: Explain when to use each law and why they work</li>
+<li><strong>Apply</strong>: Solve any triangle given sufficient information</li>
+<li><strong>Analyze</strong>: Recognize the ambiguous case and determine the number of solutions</li>
+<li><strong>Evaluate</strong>: Choose the most efficient method for different triangle problems</li>
+<li><strong>Create</strong>: Solve complex real-world problems involving oblique triangles</li>
+</ul>
+<hr />
+<h2 id="section-81-law-of-sines">Section 8.1: Law of Sines</h2>
+<h3 id="the-law-of-sines-statement">The Law of Sines Statement</h3>
+<p>For any triangle ABC with sides a, b, c opposite angles A, B, C respectively:</p>
+<div class="arithmatex">\[\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}\]</div>
+<p><strong>Alternative form</strong> (equally valid):
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}\)</span>\)</span></p>
+<h3 id="when-to-use-the-law-of-sines">When to Use the Law of Sines</h3>
+<p>Use the Law of Sines when you know:
+- <strong>ASA</strong> (Angle-Side-Angle): Two angles and the included side
+- <strong>AAS</strong> (Angle-Angle-Side): Two angles and a non-included side
+- <strong>SSA</strong> (Side-Side-Angle): Two sides and an angle opposite one of them (ambiguous case!)</p>
+<h3 id="why-it-works">Why It Works</h3>
+<p>The Law of Sines comes from the area formula. For any triangle:
+<span class="arithmatex">\(<span class="arithmatex">\(\text{Area} = \frac{1}{2}ab\sin C = \frac{1}{2}bc\sin A = \frac{1}{2}ac\sin B\)</span>\)</span></p>
+<p>Setting these equal and simplifying leads to the Law of Sines.</p>
+<h3 id="standard-labeling-convention">Standard Labeling Convention</h3>
+<p><strong>Important</strong>: In triangle ABC:
+- Side <strong>a</strong> is opposite angle <strong>A</strong>
+- Side <strong>b</strong> is opposite angle <strong>B</strong>
+- Side <strong>c</strong> is opposite angle <strong>C</strong></p>
+<p>This notation is used consistently in all formulas.</p>
+<hr />
+<h3 id="worked-examples">Worked Examples</h3>
+<h4 id="example-81-solving-aas-triangle">Example 8.1: Solving AAS Triangle</h4>
+<p><strong>Problem</strong>: In triangle ABC, angle A = 40°, angle B = 65°, and side a = 10 cm. Find all remaining parts.</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Step 1</strong>: Find angle C
+<span class="arithmatex">\(<span class="arithmatex">\(C = 180° - 40° - 65° = 75°\)</span>\)</span></p>
+<p><strong>Step 2</strong>: Use Law of Sines to find side b
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{a}{\sin A} = \frac{b}{\sin B}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{10}{\sin 40°} = \frac{b}{\sin 65°}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(b = \frac{10 \sin 65°}{\sin 40°}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(b = \frac{10(0.906)}{0.643} \approx 14.10 \text{ cm}\)</span>\)</span></p>
+<p><strong>Step 3</strong>: Use Law of Sines to find side c
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{a}{\sin A} = \frac{c}{\sin C}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{10}{\sin 40°} = \frac{c}{\sin 75°}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(c = \frac{10 \sin 75°}{\sin 40°}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(c = \frac{10(0.966)}{0.643} \approx 15.02 \text{ cm}\)</span>\)</span></p>
+<p><strong>Answer</strong>:
+- Angle C = 75°
+- Side b ≈ 14.10 cm
+- Side c ≈ 15.02 cm</p>
+<hr />
+<h4 id="example-82-solving-asa-triangle">Example 8.2: Solving ASA Triangle</h4>
+<p><strong>Problem</strong>: In triangle ABC, angle A = 50°, side b = 12 inches, and angle C = 70°. Find all remaining parts.</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Step 1</strong>: Find angle B
+<span class="arithmatex">\(<span class="arithmatex">\(B = 180° - 50° - 70° = 60°\)</span>\)</span></p>
+<p><strong>Step 2</strong>: Use Law of Sines to find side a
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{a}{\sin A} = \frac{b}{\sin B}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{a}{\sin 50°} = \frac{12}{\sin 60°}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(a = \frac{12 \sin 50°}{\sin 60°}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(a = \frac{12(0.766)}{0.866} \approx 10.61 \text{ inches}\)</span>\)</span></p>
+<p><strong>Step 3</strong>: Use Law of Sines to find side c
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{c}{\sin C} = \frac{b}{\sin B}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{c}{\sin 70°} = \frac{12}{\sin 60°}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(c = \frac{12 \sin 70°}{\sin 60°}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(c = \frac{12(0.940)}{0.866} \approx 13.02 \text{ inches}\)</span>\)</span></p>
+<p><strong>Answer</strong>:
+- Angle B = 60°
+- Side a ≈ 10.61 inches
+- Side c ≈ 13.02 inches</p>
+<hr />
+<h4 id="example-83-finding-an-unknown-angle">Example 8.3: Finding an Unknown Angle</h4>
+<p><strong>Problem</strong>: In triangle ABC, a = 15 cm, b = 20 cm, and angle A = 35°. Find angle B.</p>
+<p><strong>Solution</strong>:</p>
+<p>Use Law of Sines:
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{a}{\sin A} = \frac{b}{\sin B}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{15}{\sin 35°} = \frac{20}{\sin B}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\sin B = \frac{20 \sin 35°}{15}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\sin B = \frac{20(0.574)}{15} \approx 0.765\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(B = \arcsin(0.765) \approx 49.9°\)</span>\)</span></p>
+<p><strong>Answer</strong>: Angle B ≈ <strong>49.9°</strong></p>
+<p><strong>Note</strong>: This is the SSA case, which we'll explore more in Section 8.2!</p>
+<hr />
+<h4 id="example-84-real-world-application">Example 8.4: Real-World Application</h4>
+<p><strong>Problem</strong>: Two fire lookout towers are 10 miles apart. Rangers at each tower spot a fire. From tower A, the fire is at a bearing of 42° from due north. From tower B (which is due east of A), the fire is at a bearing of 315° from due north. How far is the fire from each tower?</p>
+<p><strong>Solution</strong>:</p>
+<p>Setting up the triangle:
+- The angle at A (between AB and AF) = 90° - 42° = 48°
+- The angle at B (between BA and BF) = 315° - 270° = 45° (or 360° - 315° = 45° from west)
+- Actually, angle at B from AB to BF = 270° - 315° + 360° = 315°... Let me recalculate.</p>
+<p>The angle at B (interior to triangle) = 315° - 270° = 45°
+The angle at F = 180° - 48° - 45° = 87°</p>
+<p>Using Law of Sines:
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{c}{\sin F} = \frac{AB}{\sin F} = \frac{10}{\sin 87°}\)</span>\)</span></p>
+<p>Distance from A to fire:
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{BF}{\sin 48°} = \frac{10}{\sin 87°}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(BF = \frac{10 \sin 48°}{\sin 87°} \approx 7.44 \text{ miles}\)</span>\)</span></p>
+<p>Distance from B to fire:
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{AF}{\sin 45°} = \frac{10}{\sin 87°}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(AF = \frac{10 \sin 45°}{\sin 87°} \approx 7.08 \text{ miles}\)</span>\)</span></p>
+<p><strong>Answer</strong>: Fire is approximately <strong>7.44 miles from tower A</strong> and <strong>7.08 miles from tower B</strong>.</p>
+<hr />
+<h3 id="practice-problems">Practice Problems</h3>
+<p><strong>Problem 8.1</strong>: In triangle ABC, angle A = 55°, angle C = 78°, and side a = 16 m. Find all remaining parts.</p>
+<p><strong>Problem 8.2</strong>: In triangle ABC, angle B = 42°, side a = 9 cm, and angle A = 60°. Find all remaining parts.</p>
+<p><strong>Problem 8.3</strong>: In triangle ABC, a = 8 ft, b = 10 ft, and angle A = 30°. Find angle B.</p>
+<p><strong>Problem 8.4</strong>: Two sides of a triangle are 12 inches and 15 inches. The angle opposite the 12-inch side is 45°. Find the angle opposite the 15-inch side.</p>
+<p><strong>Problem 8.5</strong>: A ship leaves port and travels 40 miles on a bearing of N 50° E. It then turns and travels on a bearing of N 20° W until it is due north of the port. How far is the ship from port?</p>
+<hr />
+<h2 id="section-82-the-ambiguous-case-ssa">Section 8.2: The Ambiguous Case (SSA)</h2>
+<h3 id="what-is-the-ambiguous-case">What Is the Ambiguous Case?</h3>
+<p>When you know two sides and an angle opposite one of them (SSA), there might be:
+- <strong>No triangle</strong> (impossible configuration)
+- <strong>One triangle</strong> (unique solution)
+- <strong>Two different triangles</strong> (two valid solutions)</p>
+<p>This is called the <strong>ambiguous case</strong> because the number of solutions is ambiguous until you check.</p>
+<h3 id="determining-the-number-of-solutions">Determining the Number of Solutions</h3>
+<p>Given sides a and b, and angle A (opposite side a):</p>
+<p><strong>Calculate the height</strong>: h = b sin A</p>
+<p><strong>Then check</strong>:</p>
+<ol>
+<li><strong>If a &lt; h</strong>: No triangle (side a is too short)</li>
+<li><strong>If a = h</strong>: One right triangle (exactly reaches)</li>
+<li><strong>If h &lt; a &lt; b</strong>: Two triangles (ambiguous case)</li>
+<li><strong>If a ≥ b</strong>: One triangle (side a is long enough to determine uniquely)</li>
+</ol>
+<p><strong>Special case</strong>: If angle A ≥ 90°, there's at most one triangle (and only if a &gt; b).</p>
+<h3 id="finding-both-solutions">Finding Both Solutions</h3>
+<p>When two triangles exist:
+1. Find the first angle B using arcsin
+2. Find the second possible angle B' = 180° - B
+3. Check if both lead to valid triangles (sum of angles = 180°)
+4. Solve each triangle completely</p>
+<hr />
+<h3 id="worked-examples_1">Worked Examples</h3>
+<h4 id="example-85-ambiguous-case-two-solutions">Example 8.5: Ambiguous Case - Two Solutions</h4>
+<p><strong>Problem</strong>: In triangle ABC, a = 10 cm, b = 12 cm, and angle A = 40°. Find all possible triangles.</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Step 1</strong>: Calculate height h
+<span class="arithmatex">\(<span class="arithmatex">\(h = b \sin A = 12 \sin 40° = 12(0.643) = 7.72 \text{ cm}\)</span>\)</span></p>
+<p><strong>Step 2</strong>: Compare with a
+Since h = 7.72 &lt; a = 10 &lt; b = 12, there are <strong>two possible triangles</strong>.</p>
+<p><strong>Step 3</strong>: Find angle B using Law of Sines
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{a}{\sin A} = \frac{b}{\sin B}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\sin B = \frac{b \sin A}{a} = \frac{12 \sin 40°}{10} = 0.771\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(B_1 = \arcsin(0.771) \approx 50.5°\)</span>\)</span></p>
+<p><strong>Step 4</strong>: Find the second possible angle B
+<span class="arithmatex">\(<span class="arithmatex">\(B_2 = 180° - 50.5° = 129.5°\)</span>\)</span></p>
+<p><strong>Triangle 1</strong> (using B₁ = 50.5°):
+- A = 40°, B = 50.5°
+- C = 180° - 40° - 50.5° = 89.5°
+- Find c: <span class="arithmatex">\(c = \frac{a \sin C}{\sin A} = \frac{10 \sin 89.5°}{\sin 40°} \approx 15.54\)</span> cm</p>
+<p><strong>Triangle 2</strong> (using B₂ = 129.5°):
+- A = 40°, B = 129.5°
+- C = 180° - 40° - 129.5° = 10.5°
+- Find c: <span class="arithmatex">\(c = \frac{a \sin C}{\sin A} = \frac{10 \sin 10.5°}{\sin 40°} \approx 2.83\)</span> cm</p>
+<p><strong>Answer</strong>: Two triangles exist with the following measurements:</p>
+<p><strong>Triangle 1</strong>: B ≈ 50.5°, C ≈ 89.5°, c ≈ 15.54 cm
+<strong>Triangle 2</strong>: B ≈ 129.5°, C ≈ 10.5°, c ≈ 2.83 cm</p>
+<hr />
+<h4 id="example-86-ambiguous-case-no-solution">Example 8.6: Ambiguous Case - No Solution</h4>
+<p><strong>Problem</strong>: In triangle ABC, a = 5 ft, b = 12 ft, and angle A = 30°. How many triangles are possible?</p>
+<p><strong>Solution</strong>:</p>
+<p>Calculate height:
+<span class="arithmatex">\(<span class="arithmatex">\(h = b \sin A = 12 \sin 30° = 12(0.5) = 6 \text{ ft}\)</span>\)</span></p>
+<p>Since a = 5 &lt; h = 6, side a is too short to reach from the baseline.</p>
+<p><strong>Answer</strong>: <strong>No triangle possible</strong></p>
+<hr />
+<h4 id="example-87-ambiguous-case-one-solution">Example 8.7: Ambiguous Case - One Solution</h4>
+<p><strong>Problem</strong>: In triangle ABC, a = 15 m, b = 10 m, and angle A = 50°. How many triangles are possible?</p>
+<p><strong>Solution</strong>:</p>
+<p>Calculate height:
+<span class="arithmatex">\(<span class="arithmatex">\(h = b \sin A = 10 \sin 50° = 10(0.766) = 7.66 \text{ m}\)</span>\)</span></p>
+<p>Since a = 15 &gt; b = 10, there is exactly <strong>one triangle</strong>.</p>
+<p>Using Law of Sines:
+<span class="arithmatex">\(<span class="arithmatex">\(\sin B = \frac{b \sin A}{a} = \frac{10 \sin 50°}{15} = 0.511\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(B \approx 30.7°\)</span>\)</span></p>
+<p>The supplement (180° - 30.7° = 149.3°) would make A + B &gt; 180°, so it's invalid.</p>
+<p><strong>Answer</strong>: <strong>One triangle</strong> with B ≈ 30.7°</p>
+<hr />
+<h3 id="practice-problems_1">Practice Problems</h3>
+<p><strong>Problem 8.6</strong>: Determine the number of possible triangles:
+1. a = 8, b = 10, A = 45°
+2. a = 6, b = 15, A = 25°
+3. a = 20, b = 12, A = 60°</p>
+<p><strong>Problem 8.7</strong>: In triangle ABC, a = 7 cm, b = 9 cm, and A = 35°. Find all possible triangles.</p>
+<p><strong>Problem 8.8</strong>: For what values of a would exactly two triangles be possible if b = 10 and A = 40°?</p>
+<hr />
+<h2 id="section-83-law-of-cosines">Section 8.3: Law of Cosines</h2>
+<h3 id="the-law-of-cosines-statement">The Law of Cosines Statement</h3>
+<p>For any triangle ABC:</p>
+<div class="arithmatex">\[a^2 = b^2 + c^2 - 2bc \cos A$$
+$$b^2 = a^2 + c^2 - 2ac \cos B$$
+$$c^2 = a^2 + b^2 - 2ab \cos C\]</div>
+<p><strong>Note</strong>: This generalizes the Pythagorean theorem! When C = 90°, cos C = 0, and we get a² + b² = c².</p>
+<h3 id="when-to-use-the-law-of-cosines">When to Use the Law of Cosines</h3>
+<p>Use the Law of Cosines when you know:
+- <strong>SAS</strong> (Side-Angle-Side): Two sides and the included angle
+- <strong>SSS</strong> (Side-Side-Side): All three sides</p>
+<h3 id="alternative-form-for-finding-angles">Alternative Form (for finding angles)</h3>
+<p>When you know all three sides and need an angle:</p>
+<div class="arithmatex">\[\cos A = \frac{b^2 + c^2 - a^2}{2bc}$$
+$$\cos B = \frac{a^2 + c^2 - b^2}{2ac}$$
+$$\cos C = \frac{a^2 + b^2 - c^2}{2ab}\]</div>
+<hr />
+<h3 id="worked-examples_2">Worked Examples</h3>
+<h4 id="example-88-solving-sas-triangle">Example 8.8: Solving SAS Triangle</h4>
+<p><strong>Problem</strong>: In triangle ABC, b = 8 cm, c = 5 cm, and angle A = 60°. Find all remaining parts.</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Step 1</strong>: Use Law of Cosines to find side a
+<span class="arithmatex">\(<span class="arithmatex">\(a^2 = b^2 + c^2 - 2bc \cos A\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(a^2 = 8^2 + 5^2 - 2(8)(5) \cos 60°\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(a^2 = 64 + 25 - 80(0.5)\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(a^2 = 64 + 25 - 40 = 49\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(a = 7 \text{ cm}\)</span>\)</span></p>
+<p><strong>Step 2</strong>: Use Law of Sines to find angle B
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{a}{\sin A} = \frac{b}{\sin B}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{7}{\sin 60°} = \frac{8}{\sin B}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\sin B = \frac{8 \sin 60°}{7} = \frac{8(0.866)}{7} \approx 0.989\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(B \approx 81.8°\)</span>\)</span></p>
+<p><strong>Step 3</strong>: Find angle C
+<span class="arithmatex">\(<span class="arithmatex">\(C = 180° - 60° - 81.8° = 38.2°\)</span>\)</span></p>
+<p><strong>Answer</strong>:
+- Side a = 7 cm
+- Angle B ≈ 81.8°
+- Angle C ≈ 38.2°</p>
+<hr />
+<h4 id="example-89-solving-sss-triangle">Example 8.9: Solving SSS Triangle</h4>
+<p><strong>Problem</strong>: In triangle ABC, a = 10 m, b = 12 m, and c = 15 m. Find all angles.</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Step 1</strong>: Use Law of Cosines to find angle A
+<span class="arithmatex">\(<span class="arithmatex">\(\cos A = \frac{b^2 + c^2 - a^2}{2bc}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\cos A = \frac{12^2 + 15^2 - 10^2}{2(12)(15)}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\cos A = \frac{144 + 225 - 100}{360} = \frac{269}{360} \approx 0.747\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(A = \arccos(0.747) \approx 41.7°\)</span>\)</span></p>
+<p><strong>Step 2</strong>: Use Law of Cosines to find angle B
+<span class="arithmatex">\(<span class="arithmatex">\(\cos B = \frac{a^2 + c^2 - b^2}{2ac}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\cos B = \frac{10^2 + 15^2 - 12^2}{2(10)(15)}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\cos B = \frac{100 + 225 - 144}{300} = \frac{181}{300} \approx 0.603\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(B = \arccos(0.603) \approx 52.9°\)</span>\)</span></p>
+<p><strong>Step 3</strong>: Find angle C
+<span class="arithmatex">\(<span class="arithmatex">\(C = 180° - 41.7° - 52.9° = 85.4°\)</span>\)</span></p>
+<p><strong>Answer</strong>:
+- Angle A ≈ 41.7°
+- Angle B ≈ 52.9°
+- Angle C ≈ 85.4°</p>
+<hr />
+<h4 id="example-810-application-problem">Example 8.10: Application Problem</h4>
+<p><strong>Problem</strong>: Two ships leave a port at the same time. One travels at 20 knots on a bearing of N 35° E, and the other travels at 25 knots on a bearing of N 55° W. How far apart are they after 2 hours?</p>
+<p><strong>Solution</strong>:</p>
+<p>After 2 hours:
+- Ship 1 has traveled: 20(2) = 40 nautical miles
+- Ship 2 has traveled: 25(2) = 50 nautical miles</p>
+<p>The angle between their paths:
+- Ship 1: 35° east of north
+- Ship 2: 55° west of north
+- Angle between paths: 35° + 55° = 90°</p>
+<p>Using Law of Cosines with SAS (sides 40 and 50, included angle 90°):
+<span class="arithmatex">\(<span class="arithmatex">\(d^2 = 40^2 + 50^2 - 2(40)(50) \cos 90°\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(d^2 = 1600 + 2500 - 0\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(d^2 = 4100\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(d = \sqrt{4100} \approx 64.0 \text{ nautical miles}\)</span>\)</span></p>
+<p><strong>Answer</strong>: The ships are approximately <strong>64.0 nautical miles apart</strong>.</p>
+<hr />
+<h3 id="practice-problems_2">Practice Problems</h3>
+<p><strong>Problem 8.9</strong>: In triangle ABC, a = 6 ft, b = 8 ft, and angle C = 70°. Find all remaining parts.</p>
+<p><strong>Problem 8.10</strong>: In triangle ABC, a = 5 cm, b = 7 cm, and c = 9 cm. Find all angles.</p>
+<p><strong>Problem 8.11</strong>: Two sides of a triangle are 13 inches and 18 inches, and they form a 45° angle. Find the third side.</p>
+<p><strong>Problem 8.12</strong>: Three towns are connected by straight roads. Town A is 15 miles from town B and 20 miles from town C. The road from B to C is 25 miles long. Find the angles at each town.</p>
+<hr />
+<h2 id="section-84-triangle-area-formulas">Section 8.4: Triangle Area Formulas</h2>
+<h3 id="standard-area-formula">Standard Area Formula</h3>
+<p>The most basic formula (for any triangle):
+<span class="arithmatex">\(<span class="arithmatex">\(\text{Area} = \frac{1}{2} \times \text{base} \times \text{height}\)</span>\)</span></p>
+<h3 id="area-using-two-sides-and-included-angle">Area Using Two Sides and Included Angle</h3>
+<p>When you know two sides and the angle between them:
+<span class="arithmatex">\(<span class="arithmatex">\(\text{Area} = \frac{1}{2}ab \sin C = \frac{1}{2}bc \sin A = \frac{1}{2}ac \sin B\)</span>\)</span></p>
+<p>This is extremely useful when you don't know the height directly.</p>
+<h3 id="herons-formula">Heron's Formula</h3>
+<p>When you know all three sides:
+<span class="arithmatex">\(<span class="arithmatex">\(\text{Area} = \sqrt{s(s-a)(s-b)(s-c)}\)</span>\)</span></p>
+<p>where s is the <strong>semi-perimeter</strong>: <span class="arithmatex">\(s = \frac{a+b+c}{2}\)</span></p>
+<h3 id="area-using-circumradius">Area Using Circumradius</h3>
+<p>For advanced applications:
+<span class="arithmatex">\(<span class="arithmatex">\(\text{Area} = \frac{abc}{4R}\)</span>\)</span></p>
+<p>where R is the radius of the circumscribed circle.</p>
+<hr />
+<h3 id="worked-examples_3">Worked Examples</h3>
+<h4 id="example-811-area-using-sas-formula">Example 8.11: Area Using SAS Formula</h4>
+<p><strong>Problem</strong>: Find the area of triangle ABC where b = 10 cm, c = 12 cm, and angle A = 50°.</p>
+<p><strong>Solution</strong>:</p>
+<p>Using the SAS area formula:
+<span class="arithmatex">\(<span class="arithmatex">\(\text{Area} = \frac{1}{2}bc \sin A\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(= \frac{1}{2}(10)(12) \sin 50°\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(= 60 \sin 50°\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(= 60(0.766)\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(= 45.96 \text{ cm}^2\)</span>\)</span></p>
+<p><strong>Answer</strong>: Area ≈ <strong>45.96 cm²</strong></p>
+<hr />
+<h4 id="example-812-area-using-herons-formula">Example 8.12: Area Using Heron's Formula</h4>
+<p><strong>Problem</strong>: Find the area of a triangle with sides 7 m, 8 m, and 9 m.</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Step 1</strong>: Find semi-perimeter
+<span class="arithmatex">\(<span class="arithmatex">\(s = \frac{7 + 8 + 9}{2} = \frac{24}{2} = 12 \text{ m}\)</span>\)</span></p>
+<p><strong>Step 2</strong>: Apply Heron's formula
+<span class="arithmatex">\(<span class="arithmatex">\(\text{Area} = \sqrt{s(s-a)(s-b)(s-c)}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(= \sqrt{12(12-7)(12-8)(12-9)}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(= \sqrt{12(5)(4)(3)}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(= \sqrt{720}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(= 12\sqrt{5} \approx 26.83 \text{ m}^2\)</span>\)</span></p>
+<p><strong>Answer</strong>: Area = <span class="arithmatex">\(12\sqrt{5}\)</span> ≈ <strong>26.83 m²</strong></p>
+<hr />
+<h4 id="example-813-comparing-methods">Example 8.13: Comparing Methods</h4>
+<p><strong>Problem</strong>: A triangle has sides 6 ft, 8 ft, and 10 ft. Find its area using two different methods.</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Method 1: Recognize it's a right triangle</strong>
+Since 6² + 8² = 36 + 64 = 100 = 10², this is a right triangle.
+<span class="arithmatex">\(<span class="arithmatex">\(\text{Area} = \frac{1}{2}(6)(8) = 24 \text{ ft}^2\)</span>\)</span></p>
+<p><strong>Method 2: Heron's formula</strong>
+<span class="arithmatex">\(<span class="arithmatex">\(s = \frac{6+8+10}{2} = 12\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\text{Area} = \sqrt{12(12-6)(12-8)(12-10)}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(= \sqrt{12(6)(4)(2)}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(= \sqrt{576} = 24 \text{ ft}^2\)</span>\)</span></p>
+<p>Both methods give the same answer! ✓</p>
+<hr />
+<h3 id="practice-problems_3">Practice Problems</h3>
+<p><strong>Problem 8.13</strong>: Find the area of triangle ABC where:
+1. a = 5 cm, b = 7 cm, C = 60°
+2. All sides are 8 inches (equilateral)
+3. Sides are 10 m, 12 m, and 14 m</p>
+<p><strong>Problem 8.14</strong>: A triangle has sides 13 ft, 14 ft, and 15 ft. Find its area using Heron's formula.</p>
+<p><strong>Problem 8.15</strong>: Two sides of a triangle are 20 cm and 25 cm, forming a 75° angle. Find the area.</p>
+<hr />
+<h2 id="section-85-selecting-solution-methods">Section 8.5: Selecting Solution Methods</h2>
+<h3 id="decision-tree-for-triangle-problems">Decision Tree for Triangle Problems</h3>
+<p><strong>Do you have a right triangle?</strong>
+- YES → Use right triangle methods (Chapter 7)
+- NO → Continue below</p>
+<p><strong>What information do you have?</strong></p>
+<p><strong>ASA or AAS</strong> (two angles, one side):
+→ Use <strong>Law of Sines</strong></p>
+<p><strong>SSA</strong> (two sides, angle opposite one):
+→ Check for <strong>ambiguous case</strong>, then use <strong>Law of Sines</strong></p>
+<p><strong>SAS</strong> (two sides, included angle):
+→ Use <strong>Law of Cosines</strong></p>
+<p><strong>SSS</strong> (three sides):
+→ Use <strong>Law of Cosines</strong></p>
+<h3 id="choosing-area-formulas">Choosing Area Formulas</h3>
+<p><strong>Do you know the height?</strong>
+- YES → Use <span class="arithmatex">\(\frac{1}{2} \times \text{base} \times \text{height}\)</span></p>
+<p><strong>Do you know two sides and the included angle?</strong>
+- YES → Use <span class="arithmatex">\(\frac{1}{2}ab \sin C\)</span></p>
+<p><strong>Do you know all three sides?</strong>
+- YES → Use <strong>Heron's formula</strong></p>
+<h3 id="efficiency-tips">Efficiency Tips</h3>
+<ol>
+<li><strong>Use Law of Sines when possible</strong> - generally simpler calculations</li>
+<li><strong>Law of Cosines for finding sides</strong> - when you have SAS</li>
+<li><strong>Law of Cosines for finding angles</strong> - when you have SSS</li>
+<li><strong>Check for special triangles</strong> - 30-60-90, 45-45-90, 3-4-5, etc.</li>
+<li><strong>Verify with angle sum</strong> - angles should total 180°</li>
+</ol>
+<hr />
+<h3 id="worked-examples_4">Worked Examples</h3>
+<h4 id="example-814-choosing-the-best-method">Example 8.14: Choosing the Best Method</h4>
+<p><strong>Problem</strong>: You're given:
+- Triangle 1: Two angles (40° and 70°) and a side of 10 cm
+- Triangle 2: Three sides (5 cm, 6 cm, 7 cm)
+- Triangle 3: Two sides (8 cm, 12 cm) and the angle between them (55°)</p>
+<p>Which method should you use for each?</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Triangle 1</strong> (AAS): Use <strong>Law of Sines</strong>
+- Find third angle: 180° - 40° - 70° = 70°
+- Use Law of Sines to find other sides</p>
+<p><strong>Triangle 2</strong> (SSS): Use <strong>Law of Cosines</strong>
+- Use Law of Cosines to find angles
+- Or use Heron's formula for area</p>
+<p><strong>Triangle 3</strong> (SAS): Use <strong>Law of Cosines</strong>
+- Use Law of Cosines to find third side
+- Then Law of Sines for remaining angles</p>
+<hr />
+<h3 id="practice-problems_4">Practice Problems</h3>
+<p><strong>Problem 8.16</strong>: Identify which law(s) to use:
+1. a = 10, b = 12, C = 45°
+2. A = 30°, B = 75°, c = 20
+3. a = 7, b = 9, c = 11
+4. a = 15, A = 40°, b = 18</p>
+<p><strong>Problem 8.17</strong>: A surveyor needs to find the distance across a lake. From point A, she measures the distance to point B (on the other side) as 200 m and to point C (also on the other side) as 150 m. The angle at A is 65°. What's the distance from B to C?</p>
+<hr />
+<h2 id="section-86-chapter-summary">Section 8.6: Chapter Summary</h2>
+<h3 id="key-laws-and-formulas">Key Laws and Formulas</h3>
+<p><strong>Law of Sines</strong>:
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}\)</span>\)</span></p>
+<p><strong>Law of Cosines</strong>:
+<span class="arithmatex">\(<span class="arithmatex">\(a^2 = b^2 + c^2 - 2bc \cos A\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\cos A = \frac{b^2 + c^2 - a^2}{2bc}\)</span>\)</span></p>
+<p><strong>Area Formulas</strong>:
+- Standard: <span class="arithmatex">\(\frac{1}{2} \times \text{base} \times \text{height}\)</span>
+- SAS: <span class="arithmatex">\(\frac{1}{2}ab \sin C\)</span>
+- Heron's: <span class="arithmatex">\(\sqrt{s(s-a)(s-b)(s-c)}\)</span> where <span class="arithmatex">\(s = \frac{a+b+c}{2}\)</span></p>
+<h3 id="when-to-use-each-method">When to Use Each Method</h3>
+<table>
+<thead>
+<tr>
+<th>Given Info</th>
+<th>Method</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ASA or AAS</td>
+<td>Law of Sines</td>
+<td>Find third angle first</td>
+</tr>
+<tr>
+<td>SSA</td>
+<td>Law of Sines</td>
+<td>Check ambiguous case!</td>
+</tr>
+<tr>
+<td>SAS</td>
+<td>Law of Cosines</td>
+<td>Find third side, then angles</td>
+</tr>
+<tr>
+<td>SSS</td>
+<td>Law of Cosines</td>
+<td>Find angles</td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-ambiguous-case-ssa">The Ambiguous Case (SSA)</h3>
+<p>Given a, b, and angle A:
+- Calculate h = b sin A
+- If a &lt; h: no triangle
+- If a = h: one right triangle
+- If h &lt; a &lt; b: two triangles
+- If a ≥ b: one triangle</p>
+<h3 id="problem-solving-strategy">Problem-Solving Strategy</h3>
+<ol>
+<li><strong>Draw and label</strong> a diagram</li>
+<li><strong>Identify</strong> what you know (ASA, SAS, etc.)</li>
+<li><strong>Choose</strong> the appropriate law</li>
+<li><strong>Solve</strong> step by step</li>
+<li><strong>Verify</strong> (angles sum to 180°, triangle inequality, etc.)</li>
+</ol>
+<h3 id="why-this-matters-for-trigonometry">Why This Matters for Trigonometry</h3>
+<p>These advanced methods are essential because:</p>
+<ol>
+<li><strong>Universal applicability</strong> - Works for any triangle, not just right triangles</li>
+<li><strong>Real-world relevance</strong> - Surveying, navigation, architecture, engineering</li>
+<li><strong>Problem-solving flexibility</strong> - Multiple approaches to solve the same problem</li>
+<li><strong>Foundation for advanced topics</strong> - Vector analysis, complex numbers, physics</li>
+<li><strong>Practical efficiency</strong> - Choose the best method for each situation</li>
+</ol>
+<h3 id="looking-ahead">Looking Ahead</h3>
+<p>In <strong>Chapter 9</strong>, we'll apply everything we've learned to <strong>real-world problems</strong>. You'll work with navigation and surveying applications, solve height and distance problems, and explore how trigonometry is used in engineering and physics. These practical applications will show why trigonometry is such a powerful and essential tool.</p>
+<hr />
+<h3 id="chapter-review-questions">Chapter Review Questions</h3>
+<p><strong>Short Answer</strong>:</p>
+<ol>
+<li>State the Law of Sines.</li>
+<li>State the Law of Cosines.</li>
+<li>When would you use the Law of Cosines instead of the Law of Sines?</li>
+<li>What is the ambiguous case, and when does it occur?</li>
+<li>State Heron's formula for the area of a triangle.</li>
+</ol>
+<p><strong>Problem Solving</strong>:</p>
+<ol>
+<li>
+<p>In triangle ABC, A = 50°, B = 70°, and a = 15 cm. Find all remaining parts.</p>
+</li>
+<li>
+<p>In triangle ABC, a = 10 m, b = 12 m, and C = 65°. Find all remaining parts.</p>
+</li>
+<li>
+<p>In triangle ABC, a = 8 ft, b = 10 ft, and c = 12 ft. Find all angles.</p>
+</li>
+<li>
+<p>In triangle ABC, a = 7 inches, b = 9 inches, and A = 35°. Determine how many triangles are possible and solve all possible triangles.</p>
+</li>
+<li>
+<p>Find the area of a triangle with sides 6 cm, 8 cm, and 10 cm.</p>
+</li>
+<li>
+<p>Find the area of a triangle where two sides are 14 m and 18 m, forming a 75° angle.</p>
+</li>
+<li>
+<p>Two ships leave port simultaneously. One travels at 15 knots on bearing N 40° E, the other at 20 knots on bearing S 50° E. How far apart are they after 3 hours?</p>
+</li>
+<li>
+<p>A triangular plot of land has sides 50 m, 60 m, and 70 m. Find the largest angle.</p>
+</li>
+<li>
+<p>In triangle ABC, b = 20 cm, c = 15 cm, and A = 80°. Find side a.</p>
+</li>
+<li>
+<p>Which method (Law of Sines or Law of Cosines) would you use if given: a = 5, A = 30°, B = 45°?</p>
+</li>
+</ol>
+<hr />
+<p><strong>Chapter 8 Complete!</strong> Move on to Chapter 9: Real-World Applications</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

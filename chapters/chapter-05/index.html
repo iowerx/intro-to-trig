@@ -1,0 +1,2056 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An introductory course to Trigonometry">
+      
+      
+        <meta name="author" content="Hank Ratzesberger">
+      
+      
+        <link rel="canonical" href="https://iowerx.github.io/intro-to-trig/chapters/chapter-05/">
+      
+      
+        <link rel="prev" href="../chapter-04/">
+      
+      
+        <link rel="next" href="../chapter-06/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Chapter 5 - Unit Circle & Functions - Introduction to Trigonometry</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Chapter 5 - Unit Circle & Functions - Introduction to Trigonometry" />
+<meta property="og:description" content="An introductory course to Trigonometry" />
+<meta property="og:image" content="https://iowerx.github.io/intro-to-trig/assets/images/social/chapters/chapter-05.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://iowerx.github.io/intro-to-trig/chapters/chapter-05/" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Chapter 5 - Unit Circle & Functions - Introduction to Trigonometry" />
+<meta property="twitter:description" content="An introductory course to Trigonometry" />
+<meta property="twitter:image" content="https://iowerx.github.io/intro-to-trig/assets/images/social/chapters/chapter-05.png" />
+</head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-5-the-unit-circle-and-trigonometric-functions" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Introduction to Trigonometry" class="md-header__button md-logo" aria-label="Introduction to Trigonometry" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Introduction to Trigonometry
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 5 - Unit Circle & Functions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/iowerx/intro-to-trig" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../course-description/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Course Description
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../learning-graph/" class="md-tabs__link">
+          
+  
+  
+  Learning Graph
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../chapter-01/" class="md-tabs__link">
+          
+  
+  
+  Course Content
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Introduction to Trigonometry" class="md-nav__button md-logo" aria-label="Introduction to Trigonometry" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    Introduction to Trigonometry
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/iowerx/intro-to-trig" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Graph
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Learning Graph
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/course-description-assessment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Assessment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-taxonomy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept Taxonomy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/taxonomy-distribution-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Taxonomy Distribution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/chapters-outline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters Outline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Content
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Course Content
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1 - Foundations of Geometry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2 - The Pythagorean Theorem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3 - Trigonometric Ratios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 4 - Special Right Triangles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5 - Unit Circle & Functions
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5 - Unit Circle & Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chapter-learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Learning Objectives
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-51-unit-circle-foundation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 5.1: Unit Circle Foundation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 5.1: Unit Circle Foundation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-the-unit-circle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Is the Unit Circle?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#angles-in-standard-position" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Angles in Standard Position
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quadrants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quadrants
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reference-angles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reference Angles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coordinates-on-the-unit-circle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Coordinates on the Unit Circle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-51-identifying-quadrants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 5.1: Identifying Quadrants
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-52-finding-reference-angles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 5.2: Finding Reference Angles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-53-using-coordinates-to-find-trig-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 5.3: Using Coordinates to Find Trig Values
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-54-special-angles-on-the-unit-circle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 5.4: Special Angles on the Unit Circle
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-52-trigonometric-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 5.2: Trigonometric Functions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 5.2: Trigonometric Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#extending-beyond-right-triangles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extending Beyond Right Triangles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#signs-of-trigonometric-functions-by-quadrant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Signs of Trigonometric Functions by Quadrant
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#domain-and-range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Domain and Range
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-reference-angles-to-find-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using Reference Angles to Find Values
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-55-finding-trig-values-for-angles-greater-than-90" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 5.5: Finding Trig Values for Angles Greater than 90°
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-56-working-with-negative-angles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 5.6: Working with Negative Angles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-57-finding-trig-values-for-angles-greater-than-360" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 5.7: Finding Trig Values for Angles Greater than 360°
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-58-using-the-all-students-take-calculus-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 5.8: Using the "All Students Take Calculus" Rule
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-53-graphing-trigonometric-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 5.3: Graphing Trigonometric Functions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 5.3: Graphing Trigonometric Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-sine-function-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Sine Function Graph
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-cosine-function-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Cosine Function Graph
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-tangent-function-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Tangent Function Graph
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#properties-of-trig-function-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Properties of Trig Function Graphs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-59-reading-values-from-a-sine-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 5.9: Reading Values from a Sine Graph
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-510-identifying-key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 5.10: Identifying Key Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-511-comparing-sine-and-cosine-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 5.11: Comparing Sine and Cosine Graphs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-512-understanding-tangent-asymptotes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 5.12: Understanding Tangent Asymptotes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-54-chapter-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 5.4: Chapter Summary
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 5.4: Chapter Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-concepts-reviewed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Concepts Reviewed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#important-formulas-and-relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Formulas and Relationships
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#graph-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Graph Characteristics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-trigonometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Trigonometry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#looking-ahead" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Looking Ahead
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chapter-review-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Review Questions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6 - Trigonometric Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-07/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7 - Solving Triangles & Angles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8 - Advanced Triangle Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 9 - Real-World Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 10 - Tools & Integration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="chapter-5-the-unit-circle-and-trigonometric-functions">Chapter 5: The Unit Circle and Trigonometric Functions</h1>
+<h2 id="introduction">Introduction</h2>
+<p>So far, we've studied trigonometric ratios only in the context of right triangles with acute angles. But what about angles greater than 90°? What about negative angles? To answer these questions, we need a more powerful tool: the <strong>unit circle</strong>.</p>
+<p>The unit circle is a circle with radius 1 centered at the origin of a coordinate plane. It provides a elegant way to extend trigonometric functions to any angle and reveals beautiful patterns in how these functions behave. The unit circle is also the key to understanding the graphs of trigonometric functions, which describe wave patterns found throughout nature—from sound waves to ocean tides to the motion of planets.</p>
+<h3 id="chapter-learning-objectives">Chapter Learning Objectives</h3>
+<p>After completing this chapter, you will be able to:</p>
+<ul>
+<li><strong>Remember</strong>: Recall the definition of the unit circle and key angle positions</li>
+<li><strong>Understand</strong>: Explain how trigonometric functions extend beyond acute angles</li>
+<li><strong>Apply</strong>: Find trigonometric values using the unit circle</li>
+<li><strong>Analyze</strong>: Identify patterns in the behavior of trigonometric functions</li>
+<li><strong>Evaluate</strong>: Determine domains, ranges, and key features of trig function graphs</li>
+<li><strong>Create</strong>: Sketch graphs of sine, cosine, and tangent functions</li>
+</ul>
+<hr />
+<h2 id="section-51-unit-circle-foundation">Section 5.1: Unit Circle Foundation</h2>
+<h3 id="what-is-the-unit-circle">What Is the Unit Circle?</h3>
+<p>The <strong>unit circle</strong> is a circle with:
+- Center at the origin (0, 0) of a coordinate plane
+- Radius of exactly 1 unit</p>
+<p><strong>Equation</strong>: x² + y² = 1</p>
+<p>This equation comes directly from the Pythagorean theorem: the distance from the origin to any point (x, y) on the circle is 1.</p>
+<h3 id="angles-in-standard-position">Angles in Standard Position</h3>
+<p>An angle is in <strong>standard position</strong> when:
+- Its vertex is at the origin
+- Its initial side lies along the positive x-axis
+- It opens counterclockwise (for positive angles) or clockwise (for negative angles)</p>
+<p><strong>Measuring Angles</strong>:
+- Start at the positive x-axis (the "3 o'clock" position)
+- Rotate counterclockwise for positive angles
+- Rotate clockwise for negative angles
+- One complete rotation = 360°</p>
+<h3 id="quadrants">Quadrants</h3>
+<p>The coordinate plane is divided into four quadrants:
+- <strong>Quadrant I</strong>: Both x and y are positive (0° to 90°)
+- <strong>Quadrant II</strong>: x is negative, y is positive (90° to 180°)
+- <strong>Quadrant III</strong>: Both x and y are negative (180° to 270°)
+- <strong>Quadrant IV</strong>: x is positive, y is negative (270° to 360°)</p>
+<h3 id="reference-angles">Reference Angles</h3>
+<p>A <strong>reference angle</strong> is the acute angle formed between the terminal side of an angle and the x-axis.</p>
+<p><strong>Finding Reference Angles</strong>:
+- <strong>Quadrant I</strong>: reference angle = the angle itself
+- <strong>Quadrant II</strong>: reference angle = 180° - angle
+- <strong>Quadrant III</strong>: reference angle = angle - 180°
+- <strong>Quadrant IV</strong>: reference angle = 360° - angle</p>
+<p>Reference angles are always between 0° and 90° and help us find trigonometric values for any angle.</p>
+<h3 id="coordinates-on-the-unit-circle">Coordinates on the Unit Circle</h3>
+<p>For any angle θ in standard position, the point where the terminal side intersects the unit circle has coordinates:</p>
+<p><strong>(x, y) = (cos θ, sin θ)</strong></p>
+<p>This is the fundamental connection between the unit circle and trigonometric functions!</p>
+<p><strong>Why this works</strong>:
+- The radius of the unit circle is 1
+- cos θ = adjacent/hypotenuse = x/1 = x
+- sin θ = opposite/hypotenuse = y/1 = y</p>
+<hr />
+<h3 id="worked-examples">Worked Examples</h3>
+<h4 id="example-51-identifying-quadrants">Example 5.1: Identifying Quadrants</h4>
+<p><strong>Problem</strong>: In which quadrant does each angle terminate?
+a) 135°
+b) 250°
+c) -45°
+d) 400°</p>
+<p><strong>Solution</strong>:</p>
+<p>a) <strong>135°</strong>: Between 90° and 180° → <strong>Quadrant II</strong></p>
+<p>b) <strong>250°</strong>: Between 180° and 270° → <strong>Quadrant III</strong></p>
+<p>c) <strong>-45°</strong>: Negative, so rotate clockwise 45° from positive x-axis → <strong>Quadrant IV</strong></p>
+<p>d) <strong>400°</strong>: More than 360°, so subtract 360°: 400° - 360° = 40° → <strong>Quadrant I</strong></p>
+<hr />
+<h4 id="example-52-finding-reference-angles">Example 5.2: Finding Reference Angles</h4>
+<p><strong>Problem</strong>: Find the reference angle for each:
+a) 150°
+b) 225°
+c) 310°</p>
+<p><strong>Solution</strong>:</p>
+<p>a) <strong>150°</strong> is in Quadrant II
+   Reference angle = 180° - 150° = <strong>30°</strong></p>
+<p>b) <strong>225°</strong> is in Quadrant III
+   Reference angle = 225° - 180° = <strong>45°</strong></p>
+<p>c) <strong>310°</strong> is in Quadrant IV
+   Reference angle = 360° - 310° = <strong>50°</strong></p>
+<hr />
+<h4 id="example-53-using-coordinates-to-find-trig-values">Example 5.3: Using Coordinates to Find Trig Values</h4>
+<p><strong>Problem</strong>: A point on the unit circle at angle θ has coordinates (3/5, 4/5). Find sin θ, cos θ, and tan θ.</p>
+<p><strong>Solution</strong>:</p>
+<p>On the unit circle, (x, y) = (cos θ, sin θ)</p>
+<p>Therefore:
+- cos θ = 3/5
+- sin θ = 4/5
+- tan θ = sin θ / cos θ = (4/5) / (3/5) = 4/3</p>
+<p><strong>Answer</strong>:
+- sin θ = <strong>4/5</strong>
+- cos θ = <strong>3/5</strong>
+- tan θ = <strong>4/3</strong></p>
+<p><strong>Verification</strong>: x² + y² = (3/5)² + (4/5)² = 9/25 + 16/25 = 25/25 = 1 ✓</p>
+<hr />
+<h4 id="example-54-special-angles-on-the-unit-circle">Example 5.4: Special Angles on the Unit Circle</h4>
+<p><strong>Problem</strong>: Find the coordinates on the unit circle for angles 0°, 90°, 180°, and 270°.</p>
+<p><strong>Solution</strong>:</p>
+<p>These are the <strong>quadrantal angles</strong> (on the axes):</p>
+<ul>
+<li><strong>0°</strong>: Point (1, 0) → cos 0° = 1, sin 0° = 0</li>
+<li><strong>90°</strong>: Point (0, 1) → cos 90° = 0, sin 90° = 1</li>
+<li><strong>180°</strong>: Point (-1, 0) → cos 180° = -1, sin 180° = 0</li>
+<li><strong>270°</strong>: Point (0, -1) → cos 270° = 0, sin 270° = -1</li>
+</ul>
+<p><strong>Note</strong>: At these angles, one coordinate is always 0 and the other is ±1.</p>
+<hr />
+<h3 id="practice-problems">Practice Problems</h3>
+<p><strong>Problem 5.1</strong>: In which quadrant does each angle terminate?
+1. 75°
+2. 195°
+3. 315°
+4. -120°
+5. 450°</p>
+<p><strong>Problem 5.2</strong>: Find the reference angle for each:
+1. 120°
+2. 200°
+3. 330°
+4. 145°</p>
+<p><strong>Problem 5.3</strong>: A point on the unit circle has coordinates (-1/2, √3/2). Find sin θ, cos θ, and tan θ.</p>
+<p><strong>Problem 5.4</strong>: What are the coordinates on the unit circle for 360°?</p>
+<p><strong>Problem 5.5</strong>: If cos θ = -0.6 and sin θ = 0.8, in which quadrant is θ?</p>
+<p><strong>Problem 5.6</strong>: True or false: A reference angle can be 95°. Explain.</p>
+<p><strong>Problem 5.7</strong>: An angle in standard position has its terminal side in Quadrant III. If its reference angle is 40°, what is the angle?</p>
+<p><strong>Problem 5.8</strong>: Verify that the point (√2/2, √2/2) lies on the unit circle.</p>
+<hr />
+<h2 id="section-52-trigonometric-functions">Section 5.2: Trigonometric Functions</h2>
+<h3 id="extending-beyond-right-triangles">Extending Beyond Right Triangles</h3>
+<p>The unit circle allows us to define trigonometric functions for any angle, not just acute angles in right triangles.</p>
+<p><strong>Definitions for Any Angle θ</strong>:</p>
+<p>If (x, y) is the point where the terminal side of θ intersects the unit circle:</p>
+<div class="arithmatex">\[\sin \theta = y$$
+$$\cos \theta = x$$
+$$\tan \theta = \frac{y}{x} \text{ (when } x \neq 0\text{)}\]</div>
+<p><strong>Reciprocal Functions</strong>:
+<span class="arithmatex">\(<span class="arithmatex">\(\csc \theta = \frac{1}{y} \text{ (when } y \neq 0\text{)}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\sec \theta = \frac{1}{x} \text{ (when } x \neq 0\text{)}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\cot \theta = \frac{x}{y} \text{ (when } y \neq 0\text{)}\)</span>\)</span></p>
+<h3 id="signs-of-trigonometric-functions-by-quadrant">Signs of Trigonometric Functions by Quadrant</h3>
+<p>The sign (positive or negative) of trig functions depends on which quadrant the angle is in:</p>
+<p><strong>Quadrant I</strong>: All functions positive
+<strong>Quadrant II</strong>: Only sine (and csc) positive
+<strong>Quadrant III</strong>: Only tangent (and cot) positive
+<strong>Quadrant IV</strong>: Only cosine (and sec) positive</p>
+<p><strong>Memory device</strong>: "<strong>All Students Take Calculus</strong>"
+- <strong>A</strong>ll (Quadrant I)
+- <strong>S</strong>ine (Quadrant II)
+- <strong>T</strong>angent (Quadrant III)
+- <strong>C</strong>osine (Quadrant IV)</p>
+<h3 id="domain-and-range">Domain and Range</h3>
+<p><strong>Sine and Cosine</strong>:
+- Domain: All real numbers (any angle)
+- Range: [-1, 1] (values on the unit circle never exceed 1 in magnitude)</p>
+<p><strong>Tangent</strong>:
+- Domain: All real numbers except 90° + 180°k (where k is any integer)
+- Range: All real numbers (tangent can be any value)</p>
+<p><strong>Cotangent</strong>:
+- Domain: All real numbers except 180°k
+- Range: All real numbers</p>
+<p><strong>Secant</strong>:
+- Domain: All real numbers except 90° + 180°k
+- Range: (-∞, -1] ∪ [1, ∞)</p>
+<p><strong>Cosecant</strong>:
+- Domain: All real numbers except 180°k
+- Range: (-∞, -1] ∪ [1, ∞)</p>
+<h3 id="using-reference-angles-to-find-values">Using Reference Angles to Find Values</h3>
+<p><strong>Strategy</strong>:
+1. Find the reference angle
+2. Determine the trig function value for the reference angle
+3. Adjust the sign based on the quadrant</p>
+<hr />
+<h3 id="worked-examples_1">Worked Examples</h3>
+<h4 id="example-55-finding-trig-values-for-angles-greater-than-90">Example 5.5: Finding Trig Values for Angles Greater than 90°</h4>
+<p><strong>Problem</strong>: Find sin 150°, cos 150°, and tan 150°.</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Step 1</strong>: 150° is in Quadrant II
+Reference angle = 180° - 150° = 30°</p>
+<p><strong>Step 2</strong>: Find values for 30°:
+- sin 30° = 1/2
+- cos 30° = √3/2
+- tan 30° = √3/3</p>
+<p><strong>Step 3</strong>: Apply signs for Quadrant II (only sine positive):
+- sin 150° = +1/2 = <strong>1/2</strong>
+- cos 150° = -√3/2 = <strong>-√3/2</strong>
+- tan 150° = -√3/3 = <strong>-√3/3</strong></p>
+<p><strong>Answer</strong>:
+- sin 150° = 1/2
+- cos 150° = -√3/2
+- tan 150° = -√3/3</p>
+<hr />
+<h4 id="example-56-working-with-negative-angles">Example 5.6: Working with Negative Angles</h4>
+<p><strong>Problem</strong>: Find sin(-60°), cos(-60°), and tan(-60°).</p>
+<p><strong>Solution</strong>:</p>
+<p>-60° rotates 60° clockwise, ending in Quadrant IV.</p>
+<p>Reference angle = 60°</p>
+<p>Values for 60°:
+- sin 60° = √3/2
+- cos 60° = 1/2
+- tan 60° = √3</p>
+<p>In Quadrant IV (only cosine positive):
+- sin(-60°) = -√3/2
+- cos(-60°) = 1/2
+- tan(-60°) = -√3</p>
+<p><strong>Answer</strong>:
+- sin(-60°) = <strong>-√3/2</strong>
+- cos(-60°) = <strong>1/2</strong>
+- tan(-60°) = <strong>-√3</strong></p>
+<hr />
+<h4 id="example-57-finding-trig-values-for-angles-greater-than-360">Example 5.7: Finding Trig Values for Angles Greater than 360°</h4>
+<p><strong>Problem</strong>: Find sin 495°.</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Step 1</strong>: Reduce to an equivalent angle between 0° and 360°:
+495° - 360° = 135°</p>
+<p><strong>Step 2</strong>: 135° is in Quadrant II
+Reference angle = 180° - 135° = 45°</p>
+<p><strong>Step 3</strong>: sin 45° = √2/2</p>
+<p><strong>Step 4</strong>: In Quadrant II, sine is positive:
+sin 135° = √2/2</p>
+<p><strong>Answer</strong>: sin 495° = <strong>√2/2</strong></p>
+<hr />
+<h4 id="example-58-using-the-all-students-take-calculus-rule">Example 5.8: Using the "All Students Take Calculus" Rule</h4>
+<p><strong>Problem</strong>: In which quadrant is θ if sin θ &gt; 0 and cos θ &lt; 0?</p>
+<p><strong>Solution</strong>:</p>
+<p>Sine positive: Quadrants I or II
+Cosine negative: Quadrants II or III</p>
+<p>The quadrant where both conditions are met: <strong>Quadrant II</strong></p>
+<p><strong>Alternative reasoning</strong>: Using "All Students Take Calculus":
+- Only sine is positive in Quadrant II ✓</p>
+<hr />
+<h3 id="practice-problems_1">Practice Problems</h3>
+<p><strong>Problem 5.9</strong>: Find sin 120°, cos 120°, and tan 120°.</p>
+<p><strong>Problem 5.10</strong>: Find sin 225°, cos 225°, and tan 225°.</p>
+<p><strong>Problem 5.11</strong>: Find sin(-45°), cos(-45°), and tan(-45°).</p>
+<p><strong>Problem 5.12</strong>: Find cos 390°.</p>
+<p><strong>Problem 5.13</strong>: In which quadrant is θ if tan θ &gt; 0 and sin θ &lt; 0?</p>
+<p><strong>Problem 5.14</strong>: In which quadrant is θ if cos θ &lt; 0 and tan θ &lt; 0?</p>
+<p><strong>Problem 5.15</strong>: If sin θ = 3/5 and θ is in Quadrant II, find cos θ and tan θ.</p>
+<p><strong>Problem 5.16</strong>: Evaluate: sin 180° + cos 270°</p>
+<hr />
+<h2 id="section-53-graphing-trigonometric-functions">Section 5.3: Graphing Trigonometric Functions</h2>
+<h3 id="the-sine-function-graph">The Sine Function Graph</h3>
+<p>The graph of y = sin θ is a wave that:
+- Oscillates between -1 and 1
+- Has a period of 360° (repeats every 360°)
+- Passes through the origin (0, 0)
+- Reaches maximum (1) at 90°
+- Reaches minimum (-1) at 270°</p>
+<p><strong>Key Points</strong> (one period):
+- (0°, 0)
+- (90°, 1)
+- (180°, 0)
+- (270°, -1)
+- (360°, 0)</p>
+<p><strong>Shape</strong>: Smooth, continuous wave called a <strong>sinusoid</strong> or <strong>sine wave</strong></p>
+<h3 id="the-cosine-function-graph">The Cosine Function Graph</h3>
+<p>The graph of y = cos θ is a wave that:
+- Oscillates between -1 and 1
+- Has a period of 360° (repeats every 360°)
+- Starts at maximum (1) when θ = 0°
+- Crosses zero at 90° and 270°
+- Reaches minimum (-1) at 180°</p>
+<p><strong>Key Points</strong> (one period):
+- (0°, 1)
+- (90°, 0)
+- (180°, -1)
+- (270°, 0)
+- (360°, 1)</p>
+<p><strong>Relationship to Sine</strong>: The cosine graph is the sine graph shifted left by 90°.</p>
+<h3 id="the-tangent-function-graph">The Tangent Function Graph</h3>
+<p>The graph of y = tan θ:
+- Has a period of 180° (repeats every 180°)
+- Has vertical asymptotes at 90°, 270°, etc. (where cosine = 0)
+- Passes through the origin
+- Increases from -∞ to +∞ within each period
+- Has no maximum or minimum values</p>
+<p><strong>Key Points</strong>:
+- (0°, 0)
+- (45°, 1)
+- (135°, -1)
+- Undefined at 90°, 270°, etc.</p>
+<p><strong>Shape</strong>: Repeating curves separated by vertical asymptotes</p>
+<h3 id="properties-of-trig-function-graphs">Properties of Trig Function Graphs</h3>
+<p><strong>Amplitude</strong>: The height from the center line to the maximum (for sine and cosine: amplitude = 1)</p>
+<p><strong>Period</strong>: The horizontal length of one complete cycle
+- Sine and cosine: 360°
+- Tangent: 180°</p>
+<p><strong>Midline</strong>: The horizontal center line (for basic functions: y = 0)</p>
+<p><strong>Phase shift</strong>: Horizontal shift left or right (basic functions: no shift)</p>
+<p><strong>Vertical shift</strong>: Shift up or down (basic functions: no shift)</p>
+<hr />
+<h3 id="worked-examples_2">Worked Examples</h3>
+<h4 id="example-59-reading-values-from-a-sine-graph">Example 5.9: Reading Values from a Sine Graph</h4>
+<p><strong>Problem</strong>: Using the graph of y = sin θ, estimate sin 45° and sin 225°.</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>sin 45°</strong>:
+- 45° is halfway between 0° and 90°
+- The sine graph rises from 0 at 0° to 1 at 90°
+- At 45°, it's approximately <strong>0.707</strong> (which equals √2/2)</p>
+<p><strong>sin 225°</strong>:
+- 225° is in Quadrant III (between 180° and 270°)
+- The sine graph goes from 0 at 180° to -1 at 270°
+- At 225° (halfway), it's approximately <strong>-0.707</strong> (which equals -√2/2)</p>
+<hr />
+<h4 id="example-510-identifying-key-features">Example 5.10: Identifying Key Features</h4>
+<p><strong>Problem</strong>: For the function y = cos θ:
+a) What is the amplitude?
+b) What is the period?
+c) What is the range?
+d) At what angles between 0° and 360° does cos θ = 0?</p>
+<p><strong>Solution</strong>:</p>
+<p>a) <strong>Amplitude</strong> = 1 (distance from midline to maximum)</p>
+<p>b) <strong>Period</strong> = 360° (one complete cycle)</p>
+<p>c) <strong>Range</strong> = [-1, 1] (oscillates between -1 and 1)</p>
+<p>d) <strong>cos θ = 0</strong> at the quarter and three-quarter marks:
+   - θ = <strong>90° and 270°</strong></p>
+<hr />
+<h4 id="example-511-comparing-sine-and-cosine-graphs">Example 5.11: Comparing Sine and Cosine Graphs</h4>
+<p><strong>Problem</strong>: How is the graph of y = cos θ related to y = sin θ?</p>
+<p><strong>Solution</strong>:</p>
+<p>The cosine graph is the sine graph <strong>shifted left by 90°</strong>.</p>
+<p>Mathematically: cos θ = sin(θ + 90°)</p>
+<p><strong>Key differences</strong>:
+- Sine starts at 0; cosine starts at 1
+- Sine reaches maximum at 90°; cosine reaches maximum at 0°
+- Both have the same amplitude, period, and range</p>
+<p><strong>Answer</strong>: y = cos θ is a horizontal shift of y = sin θ by 90° to the left.</p>
+<hr />
+<h4 id="example-512-understanding-tangent-asymptotes">Example 5.12: Understanding Tangent Asymptotes</h4>
+<p><strong>Problem</strong>: Why does the tangent function have vertical asymptotes at 90° and 270°?</p>
+<p><strong>Solution</strong>:</p>
+<p>Tangent is defined as:
+<span class="arithmatex">\(<span class="arithmatex">\(\tan \theta = \frac{\sin \theta}{\cos \theta}\)</span>\)</span></p>
+<p>At 90° and 270°, cos θ = 0, which makes the denominator zero.</p>
+<p>Division by zero is undefined, so tan θ has <strong>vertical asymptotes</strong> at these angles.</p>
+<p>As θ approaches 90° from the left, tan θ → +∞
+As θ approaches 90° from the right, tan θ → -∞</p>
+<p><strong>Answer</strong>: Vertical asymptotes occur wherever the denominator (cos θ) equals zero.</p>
+<hr />
+<h3 id="practice-problems_2">Practice Problems</h3>
+<p><strong>Problem 5.17</strong>: Sketch one period of y = sin θ, labeling key points.</p>
+<p><strong>Problem 5.18</strong>: Sketch one period of y = cos θ, labeling key points.</p>
+<p><strong>Problem 5.19</strong>: What is the period of y = tan θ?</p>
+<p><strong>Problem 5.20</strong>: For y = sin θ, at what angles between 0° and 360° does the function equal:
+1. 0
+2. 1
+3. -1</p>
+<p><strong>Problem 5.21</strong>: Between 0° and 360°, how many times does the sine function cross the x-axis?</p>
+<p><strong>Problem 5.22</strong>: What is the maximum value of y = cos θ, and at what angles does it occur?</p>
+<p><strong>Problem 5.23</strong>: Compare the periods of sine, cosine, and tangent functions.</p>
+<p><strong>Problem 5.24</strong>: At what angle between 0° and 180° is tan θ = 1?</p>
+<hr />
+<h2 id="section-54-chapter-summary">Section 5.4: Chapter Summary</h2>
+<h3 id="key-concepts-reviewed">Key Concepts Reviewed</h3>
+<p><strong>Unit Circle</strong>:
+- Circle with radius 1 centered at origin
+- Equation: x² + y² = 1
+- Point coordinates: (cos θ, sin θ)</p>
+<p><strong>Angles in Standard Position</strong>:
+- Vertex at origin, initial side on positive x-axis
+- Positive angles: counterclockwise
+- Negative angles: clockwise
+- Reference angles help find trig values</p>
+<p><strong>Extended Trig Functions</strong>:
+- Defined for any angle using the unit circle
+- Signs depend on quadrant: "All Students Take Calculus"
+- Use reference angles to find values</p>
+<p><strong>Domains and Ranges</strong>:
+- Sine and cosine: domain all reals, range [-1, 1]
+- Tangent: domain excludes 90° + 180°k, range all reals</p>
+<h3 id="important-formulas-and-relationships">Important Formulas and Relationships</h3>
+<p><strong>Unit Circle Coordinates</strong>:
+<span class="arithmatex">\(<span class="arithmatex">\((x, y) = (\cos \theta, \sin \theta)\)</span>\)</span></p>
+<p><strong>Pythagorean Identity</strong> (from unit circle):
+<span class="arithmatex">\(<span class="arithmatex">\(\sin^2 \theta + \cos^2 \theta = 1\)</span>\)</span></p>
+<p><strong>Tangent Definition</strong>:
+<span class="arithmatex">\(<span class="arithmatex">\(\tan \theta = \frac{\sin \theta}{\cos \theta}\)</span>\)</span></p>
+<p><strong>Reference Angle Formulas</strong>:
+- Quad II: 180° - θ
+- Quad III: θ - 180°
+- Quad IV: 360° - θ</p>
+<h3 id="graph-characteristics">Graph Characteristics</h3>
+<p><strong>Sine and Cosine</strong>:
+- Amplitude: 1
+- Period: 360°
+- Range: [-1, 1]
+- Continuous, smooth waves</p>
+<p><strong>Tangent</strong>:
+- Period: 180°
+- Vertical asymptotes at 90° + 180°k
+- Range: all real numbers
+- Discontinuous</p>
+<h3 id="why-this-matters-for-trigonometry">Why This Matters for Trigonometry</h3>
+<p>The unit circle and trigonometric graphs are essential because:</p>
+<ol>
+<li><strong>Universal applicability</strong> - Extends trig functions to any angle</li>
+<li><strong>Wave phenomena</strong> - Sine and cosine graphs model real waves in nature</li>
+<li><strong>Periodic behavior</strong> - Repeating patterns appear throughout science</li>
+<li><strong>Foundation for calculus</strong> - These graphs are studied extensively in calculus</li>
+<li><strong>Engineering applications</strong> - AC circuits, signal processing, vibrations all use these functions</li>
+</ol>
+<h3 id="looking-ahead">Looking Ahead</h3>
+<p>In <strong>Chapter 6</strong>, we'll explore <strong>trigonometric identities</strong>—equations that are true for all angle values. These identities include the Pythagorean identity (which comes from the unit circle), quotient identities, and angle formulas that let us find exact values for more angles. These identities are powerful tools for simplifying expressions and solving equations.</p>
+<hr />
+<h3 id="chapter-review-questions">Chapter Review Questions</h3>
+<p><strong>Short Answer</strong>:</p>
+<ol>
+<li>What is the equation of the unit circle?</li>
+<li>How are sine and cosine related to coordinates on the unit circle?</li>
+<li>In which quadrants is sine positive?</li>
+<li>In which quadrants is cosine positive?</li>
+<li>What is the period of the sine function?</li>
+<li>Why does tangent have vertical asymptotes?</li>
+</ol>
+<p><strong>Problem Solving</strong>:</p>
+<ol>
+<li>
+<p>Find the reference angle for 210°.</p>
+</li>
+<li>
+<p>Find sin 135°, cos 135°, and tan 135°.</p>
+</li>
+<li>
+<p>If sin θ = -1/2 and cos θ = √3/2, in which quadrant is θ?</p>
+</li>
+<li>
+<p>Find cos 300°.</p>
+</li>
+<li>
+<p>What are the coordinates on the unit circle for 45°?</p>
+</li>
+<li>
+<p>Evaluate: sin 90° - cos 180° + tan 0°</p>
+</li>
+<li>
+<p>For what values of θ between 0° and 360° is sin θ = 1?</p>
+</li>
+<li>
+<p>Sketch one complete period of y = sin θ and y = cos θ on the same axes.</p>
+</li>
+<li>
+<p>What is the range of y = tan θ?</p>
+</li>
+</ol>
+<hr />
+<p><strong>Chapter 5 Complete!</strong> Move on to Chapter 6: Trigonometric Identities</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

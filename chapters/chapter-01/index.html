@@ -1,0 +1,1778 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An introductory course to Trigonometry">
+      
+      
+        <meta name="author" content="Hank Ratzesberger">
+      
+      
+        <link rel="canonical" href="https://iowerx.github.io/intro-to-trig/chapters/chapter-01/">
+      
+      
+        <link rel="prev" href="../../learning-graph/chapters-outline/">
+      
+      
+        <link rel="next" href="../chapter-02/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Chapter 1 - Foundations of Geometry - Introduction to Trigonometry</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Chapter 1 - Foundations of Geometry - Introduction to Trigonometry" />
+<meta property="og:description" content="An introductory course to Trigonometry" />
+<meta property="og:image" content="https://iowerx.github.io/intro-to-trig/assets/images/social/chapters/chapter-01.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://iowerx.github.io/intro-to-trig/chapters/chapter-01/" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Chapter 1 - Foundations of Geometry - Introduction to Trigonometry" />
+<meta property="twitter:description" content="An introductory course to Trigonometry" />
+<meta property="twitter:image" content="https://iowerx.github.io/intro-to-trig/assets/images/social/chapters/chapter-01.png" />
+</head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-1-foundations-of-geometry" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Introduction to Trigonometry" class="md-header__button md-logo" aria-label="Introduction to Trigonometry" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Introduction to Trigonometry
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 1 - Foundations of Geometry
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/iowerx/intro-to-trig" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../course-description/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Course Description
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../learning-graph/" class="md-tabs__link">
+          
+  
+  
+  Learning Graph
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+  Course Content
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Introduction to Trigonometry" class="md-nav__button md-logo" aria-label="Introduction to Trigonometry" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    Introduction to Trigonometry
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/iowerx/intro-to-trig" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Graph
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Learning Graph
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/course-description-assessment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Assessment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-taxonomy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept Taxonomy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/taxonomy-distribution-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Taxonomy Distribution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/chapters-outline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters Outline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Content
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Course Content
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1 - Foundations of Geometry
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1 - Foundations of Geometry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chapter-learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Learning Objectives
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-11-triangle-types-and-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 1.1: Triangle Types and Properties
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 1.1: Triangle Types and Properties">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-a-triangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is a Triangle?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#types-of-triangles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of Triangles
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Types of Triangles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#classification-by-sides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classification by Sides
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classification-by-angles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classification by Angles
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#important-geometric-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Geometric Properties
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-11-identifying-triangle-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1.1: Identifying Triangle Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-12-using-the-angle-sum-property" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1.2: Using the Angle Sum Property
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-13-finding-an-exterior-angle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1.3: Finding an Exterior Angle
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-12-angle-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 1.2: Angle Fundamentals
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 1.2: Angle Fundamentals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-an-angle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is an Angle?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#angle-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Angle Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#angle-relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Angle Relationships
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#angle-measurement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Angle Measurement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interior-and-exterior-angles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interior and Exterior Angles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-14-working-with-complementary-angles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1.4: Working with Complementary Angles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-15-identifying-supplementary-angles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1.5: Identifying Supplementary Angles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-16-using-vertical-angles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 1.6: Using Vertical Angles
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-13-chapter-summary-and-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 1.3: Chapter Summary and Review
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 1.3: Chapter Summary and Review">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-concepts-reviewed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Concepts Reviewed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-trigonometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Trigonometry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#looking-ahead" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Looking Ahead
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chapter-review-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Review Questions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connections-to-trigonometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Connections to Trigonometry
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2 - The Pythagorean Theorem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3 - Trigonometric Ratios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 4 - Special Right Triangles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5 - Unit Circle & Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6 - Trigonometric Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-07/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7 - Solving Triangles & Angles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8 - Advanced Triangle Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 9 - Real-World Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 10 - Tools & Integration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="chapter-1-foundations-of-geometry">Chapter 1: Foundations of Geometry</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Welcome to the study of trigonometric functions! Before we dive into trigonometry, we need to establish a solid foundation in geometry. This chapter reviews essential geometric concepts that form the building blocks for understanding trigonometric ratios.</p>
+<p>Geometry provides the visual and logical framework for trigonometry. When you understand triangles—their properties, angles, and relationships—you'll be well-prepared to explore how trigonometric functions connect angles to side lengths.</p>
+<h3 id="chapter-learning-objectives">Chapter Learning Objectives</h3>
+<p>After completing this chapter, you will be able to:</p>
+<ul>
+<li><strong>Remember</strong>: Recall definitions of different triangle types and angle types</li>
+<li><strong>Understand</strong>: Explain the properties of triangles and angle relationships</li>
+<li><strong>Apply</strong>: Use angle properties to solve geometric problems</li>
+<li><strong>Analyze</strong>: Compare different triangle classifications and identify key features</li>
+</ul>
+<hr />
+<h2 id="section-11-triangle-types-and-properties">Section 1.1: Triangle Types and Properties</h2>
+<h3 id="what-is-a-triangle">What is a Triangle?</h3>
+<p>A <strong>triangle</strong> is a polygon with three sides, three angles, and three vertices (corner points). Triangles are among the most fundamental shapes in geometry and serve as the foundation for trigonometry.</p>
+<p><strong>Key Components of a Triangle:</strong>
+- <strong>Sides</strong>: The three line segments that form the triangle's boundary
+- <strong>Angles</strong>: The three angles formed where sides meet
+- <strong>Vertices</strong>: The three points where sides intersect</p>
+<p><strong>Important Property</strong>: The sum of all three angles in any triangle equals <strong>180 degrees</strong>.</p>
+<h3 id="types-of-triangles">Types of Triangles</h3>
+<p>Triangles are classified in two main ways: by their sides and by their angles.</p>
+<h4 id="classification-by-sides">Classification by Sides</h4>
+<p><strong>Equilateral Triangle</strong>
+- All three sides have equal length
+- All three angles are equal (each measures 60°)
+- Perfectly balanced and symmetrical</p>
+<p><strong>Isosceles Triangle</strong>
+- Two sides have equal length
+- Two angles are equal (the angles opposite the equal sides)
+- Has a line of symmetry</p>
+<p><strong>Scalene Triangle</strong>
+- All three sides have different lengths
+- All three angles are different sizes
+- Asymmetrical shape</p>
+<h4 id="classification-by-angles">Classification by Angles</h4>
+<p><strong>Acute Triangle</strong>
+- All three angles are less than 90°
+- Sometimes called "sharp" triangles
+- Often appears pointed or well-balanced</p>
+<p><strong>Right Triangle</strong>
+- One angle is exactly 90° (a right angle, shown with a small square)
+- The other two angles are acute (less than 90°)
+- Sides have special relationships (Pythagorean theorem)
+- <strong>Most important for trigonometry!</strong></p>
+<p><strong>Obtuse Triangle</strong>
+- One angle is greater than 90° (obtuse)
+- The other two angles are acute
+- Often appears "flat" or spread out</p>
+<h3 id="important-geometric-properties">Important Geometric Properties</h3>
+<p><strong>Angle Sum Property</strong>: The sum of all three interior angles in any triangle is always 180°.</p>
+<p>If a triangle has angles A, B, and C, then:
+<span class="arithmatex">\(<span class="arithmatex">\(A + B + C = 180°\)</span>\)</span></p>
+<p><strong>Exterior Angle Property</strong>: An exterior angle of a triangle equals the sum of the two non-adjacent interior angles.</p>
+<p><strong>Vertex Relationships</strong>: Understanding how angles and sides relate at vertices is crucial for later work with trigonometric ratios.</p>
+<hr />
+<h3 id="worked-examples">Worked Examples</h3>
+<h4 id="example-11-identifying-triangle-types">Example 1.1: Identifying Triangle Types</h4>
+<p><strong>Problem</strong>: Classify each triangle:
+1. A triangle with sides 5 cm, 5 cm, and 7 cm
+2. A triangle with angles 45°, 45°, and 90°
+3. A triangle with angles 30°, 60°, and 90°</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li><strong>First triangle (5 cm, 5 cm, 7 cm)</strong></li>
+<li>Two sides are equal (5 cm each)</li>
+<li><strong>Classification by sides</strong>: Isosceles triangle</li>
+<li>
+<p>To classify by angles, we'd need to calculate them using more advanced methods</p>
+</li>
+<li>
+<p><strong>Second triangle (45°, 45°, 90°)</strong></p>
+</li>
+<li>One angle is exactly 90°</li>
+<li><strong>Classification by angles</strong>: Right triangle</li>
+<li>The two equal 45° angles suggest this is also isosceles (since equal angles opposite equal sides)</li>
+<li>
+<p><strong>Full classification</strong>: Isosceles right triangle</p>
+</li>
+<li>
+<p><strong>Third triangle (30°, 60°, 90°)</strong></p>
+</li>
+<li>One angle is exactly 90°</li>
+<li><strong>Classification by angles</strong>: Right triangle</li>
+<li>This is a special right triangle (30-60-90)</li>
+<li>All three sides have different lengths</li>
+<li><strong>Full classification</strong>: Scalene right triangle</li>
+</ol>
+<hr />
+<h4 id="example-12-using-the-angle-sum-property">Example 1.2: Using the Angle Sum Property</h4>
+<p><strong>Problem</strong>: In a triangle, one angle measures 50°, another measures 65°. What is the measure of the third angle?</p>
+<p><strong>Solution</strong>:</p>
+<p>Using the angle sum property:
+<span class="arithmatex">\(<span class="arithmatex">\(A + B + C = 180°\)</span>\)</span></p>
+<p>Substituting known values:
+<span class="arithmatex">\(<span class="arithmatex">\(50° + 65° + C = 180°\)</span>\)</span></p>
+<div class="arithmatex">\[115° + C = 180°\]</div>
+<div class="arithmatex">\[C = 180° - 115°\]</div>
+<div class="arithmatex">\[C = 65°\]</div>
+<p><strong>Answer</strong>: The third angle measures <strong>65°</strong>.</p>
+<p><strong>Note</strong>: Since two angles are equal (65° each), this is an <strong>isosceles triangle</strong>.</p>
+<hr />
+<h4 id="example-13-finding-an-exterior-angle">Example 1.3: Finding an Exterior Angle</h4>
+<p><strong>Problem</strong>: A triangle has interior angles of 40°, 70°, and 70°. If you extend one of the sides forming the 40° angle, what is the measure of the exterior angle formed?</p>
+<p><strong>Solution</strong>:</p>
+<p>Using the exterior angle property: An exterior angle equals the sum of the two non-adjacent interior angles.</p>
+<p>The two non-adjacent angles (the ones not at the vertex where the exterior angle is formed) are 70° and 70°.</p>
+<p><strong>Exterior angle</strong> = 70° + 70° = <strong>140°</strong></p>
+<p><strong>Verification</strong>: The exterior angle and its adjacent interior angle should sum to 180°:
+- 140° + 40° = 180° ✓</p>
+<hr />
+<h3 id="practice-problems">Practice Problems</h3>
+<p><strong>Problem 1.1</strong>: Name the type of triangle (by sides) that has:
+1. All sides of different lengths
+2. Two sides of equal length
+3. All three sides of equal length</p>
+<p><strong>Problem 1.2</strong>: A triangle has angles measuring 55°, 60°, and x°. Find the value of x.</p>
+<p><strong>Problem 1.3</strong>: In an isosceles triangle, two angles measure 70° each. What is the third angle?</p>
+<p><strong>Problem 1.4</strong>: Classify each triangle by angles:
+1. Angles: 30°, 60°, 90°
+2. Angles: 50°, 50°, 80°
+3. Angles: 100°, 40°, 40°</p>
+<p><strong>Problem 1.5</strong>: In a right triangle, one acute angle measures 35°. What is the measure of the other acute angle?</p>
+<hr />
+<h2 id="section-12-angle-fundamentals">Section 1.2: Angle Fundamentals</h2>
+<h3 id="what-is-an-angle">What is an Angle?</h3>
+<p>An <strong>angle</strong> is formed by two rays that share a common endpoint (called the vertex). Angles measure the amount of rotation from one ray to the other, typically measured in degrees.</p>
+<p><strong>Angle Notation</strong>: An angle can be labeled with three letters (with the vertex in the middle) or with a single letter or number representing the vertex.</p>
+<h3 id="angle-types">Angle Types</h3>
+<p><strong>Acute Angle</strong>
+- Measures less than 90°
+- Sharp or pointed appearance
+- Examples: 30°, 45°, 60°, 80°</p>
+<p><strong>Right Angle</strong>
+- Measures exactly 90°
+- Shown with a small square symbol in diagrams
+- Created when two perpendicular lines meet
+- Example: Corners of a square or rectangle</p>
+<p><strong>Obtuse Angle</strong>
+- Measures greater than 90° but less than 180°
+- Wide or spread-out appearance
+- Examples: 100°, 120°, 150°</p>
+<p><strong>Straight Angle</strong>
+- Measures exactly 180°
+- Forms a straight line
+- Actually two rays pointing in opposite directions</p>
+<h3 id="angle-relationships">Angle Relationships</h3>
+<p><strong>Complementary Angles</strong>
+- Two angles that sum to exactly 90°
+- Example: 30° and 60° are complementary
+- In a right triangle, the two acute angles are always complementary
+- If one angle is x°, its complement is (90 - x)°</p>
+<p><strong>Supplementary Angles</strong>
+- Two angles that sum to exactly 180°
+- Example: 120° and 60° are supplementary
+- Often found on a straight line
+- If one angle is x°, its supplement is (180 - x)°</p>
+<p><strong>Vertical Angles</strong>
+- Angles opposite each other when two lines intersect
+- Vertical angles are always equal
+- Important for understanding geometry diagrams</p>
+<p><strong>Adjacent Angles</strong>
+- Angles that share a common vertex and a common side
+- Found frequently in geometric figures
+- May or may not be equal</p>
+<h3 id="angle-measurement">Angle Measurement</h3>
+<p><strong>Degrees</strong>: The most common unit for measuring angles in basic trigonometry
+- One complete rotation = 360°
+- A right angle = 90°
+- Degrees can be subdivided into minutes (') and seconds (")
+- 1° = 60 minutes, 1 minute = 60 seconds</p>
+<p><strong>Radians</strong>: An alternative unit used especially in advanced mathematics
+- One complete rotation = 2π radians
+- A right angle = π/2 radians
+- We'll use degrees primarily in this course, with brief introduction to radians</p>
+<h3 id="interior-and-exterior-angles">Interior and Exterior Angles</h3>
+<p><strong>Interior Angles</strong>: The angles inside a triangle (the ones we usually focus on)</p>
+<p><strong>Exterior Angles</strong>: Angles formed by extending one side of a triangle beyond a vertex
+- An exterior angle and its adjacent interior angle are supplementary (sum to 180°)
+- An exterior angle equals the sum of the two non-adjacent interior angles</p>
+<hr />
+<h3 id="worked-examples_1">Worked Examples</h3>
+<h4 id="example-14-working-with-complementary-angles">Example 1.4: Working with Complementary Angles</h4>
+<p><strong>Problem</strong>: Two complementary angles have measures where one angle is 20° more than the other. Find both angles.</p>
+<p><strong>Solution</strong>:</p>
+<p>Let x = the smaller angle
+Then x + 20 = the larger angle</p>
+<p>Since they're complementary, they sum to 90°:
+<span class="arithmatex">\(<span class="arithmatex">\(x + (x + 20) = 90°\)</span>\)</span></p>
+<div class="arithmatex">\[2x + 20 = 90°\]</div>
+<div class="arithmatex">\[2x = 70°\]</div>
+<div class="arithmatex">\[x = 35°\]</div>
+<p><strong>Answer</strong>:
+- Smaller angle: <strong>35°</strong>
+- Larger angle: <strong>55°</strong></p>
+<p><strong>Verification</strong>: 35° + 55° = 90° ✓</p>
+<hr />
+<h4 id="example-15-identifying-supplementary-angles">Example 1.5: Identifying Supplementary Angles</h4>
+<p><strong>Problem</strong>: Two supplementary angles have a ratio of 2:3. Find both angles.</p>
+<p><strong>Solution</strong>:</p>
+<p>Let 2x = the smaller angle
+Let 3x = the larger angle</p>
+<p>Since they're supplementary, they sum to 180°:
+<span class="arithmatex">\(<span class="arithmatex">\(2x + 3x = 180°\)</span>\)</span></p>
+<div class="arithmatex">\[5x = 180°\]</div>
+<div class="arithmatex">\[x = 36°\]</div>
+<p><strong>Answer</strong>:
+- Smaller angle: 2(36°) = <strong>72°</strong>
+- Larger angle: 3(36°) = <strong>108°</strong></p>
+<p><strong>Verification</strong>: 72° + 108° = 180° ✓</p>
+<hr />
+<h4 id="example-16-using-vertical-angles">Example 1.6: Using Vertical Angles</h4>
+<p><strong>Problem</strong>: Two lines intersect forming four angles. One angle measures 65°. What are the measures of the other three angles?</p>
+<p><strong>Solution</strong>:</p>
+<p>When two lines intersect, they form two pairs of vertical angles:
+- Vertical angles are equal
+- Adjacent angles are supplementary (sum to 180°)</p>
+<p>If one angle is 65°:
+- Its vertical angle = <strong>65°</strong> (vertical angles equal)
+- Each adjacent angle = 180° - 65° = <strong>115°</strong>
+- The angle vertical to one of the 115° angles = <strong>115°</strong></p>
+<p><strong>Answer</strong>: The four angles are <strong>65°, 115°, 65°, and 115°</strong></p>
+<hr />
+<h3 id="practice-problems_1">Practice Problems</h3>
+<p><strong>Problem 1.6</strong>: Find the complement of each angle:
+1. 25°
+2. 45°
+3. 72°</p>
+<p><strong>Problem 1.7</strong>: Find the supplement of each angle:
+1. 40°
+2. 125°
+3. 88°</p>
+<p><strong>Problem 1.8</strong>: Two complementary angles are in the ratio 3:2. Find both angles.</p>
+<p><strong>Problem 1.9</strong>: Three angles of a triangle measure 40°, 60°, and 80°. Are these angles correct? Explain.</p>
+<p><strong>Problem 1.10</strong>: Determine if the following pairs of angles are complementary, supplementary, or neither:
+1. 45° and 45°
+2. 60° and 120°
+3. 30° and 60°</p>
+<hr />
+<h2 id="section-13-chapter-summary-and-review">Section 1.3: Chapter Summary and Review</h2>
+<h3 id="key-concepts-reviewed">Key Concepts Reviewed</h3>
+<p><strong>Triangle Classification</strong>
+- By sides: Equilateral, Isosceles, Scalene
+- By angles: Acute, Right, Obtuse
+- A triangle can be classified both ways</p>
+<p><strong>Important Triangle Property</strong>
+- Sum of interior angles = 180°</p>
+<p><strong>Angle Types and Relationships</strong>
+- Complementary angles sum to 90°
+- Supplementary angles sum to 180°
+- Vertical angles are equal
+- Adjacent angles share a vertex and side</p>
+<p><strong>Exterior Angles</strong>
+- Exterior angle = sum of two non-adjacent interior angles
+- Exterior angle + adjacent interior angle = 180°</p>
+<h3 id="why-this-matters-for-trigonometry">Why This Matters for Trigonometry</h3>
+<p>Understanding these geometric foundations is essential because:</p>
+<ol>
+<li>
+<p><strong>Right triangles are central to trigonometry</strong> - We'll use the properties of right triangles throughout this course</p>
+</li>
+<li>
+<p><strong>Angle relationships help us solve problems</strong> - Knowing complementary angles, for example, helps us understand trigonometric ratios</p>
+</li>
+<li>
+<p><strong>Vocabulary and concepts are referenced constantly</strong> - Terms like "adjacent side," "opposite side," and "vertex" appear throughout trigonometry</p>
+</li>
+<li>
+<p><strong>Geometric visualization supports understanding</strong> - Many trigonometric concepts are easier to understand when you can visualize the geometric relationships</p>
+</li>
+</ol>
+<h3 id="looking-ahead">Looking Ahead</h3>
+<p>In <strong>Chapter 2</strong>, we'll explore one of the most important relationships in geometry and trigonometry: the <strong>Pythagorean theorem</strong>. This theorem connects the sides of right triangles in a powerful way that forms the foundation for trigonometric ratios.</p>
+<hr />
+<h3 id="chapter-review-questions">Chapter Review Questions</h3>
+<p><strong>Short Answer</strong>:</p>
+<ol>
+<li>What is the sum of the angles in any triangle?</li>
+<li>What is a right angle, and how is it represented in diagrams?</li>
+<li>Explain the difference between complementary and supplementary angles.</li>
+</ol>
+<p><strong>Problem Solving</strong>:</p>
+<ol>
+<li>
+<p>A triangle has angles of 50° and 75°. Find the third angle.</p>
+</li>
+<li>
+<p>If one complementary angle measures 28°, what is the other?</p>
+</li>
+<li>
+<p>Classify the following triangle both by sides and by angles:</p>
+</li>
+<li>Sides: 5 cm, 5 cm, 7 cm</li>
+<li>
+<p>Angles: 30°, 75°, 75°</p>
+</li>
+<li>
+<p>Two lines intersect. If one angle measures 120°, find all four angles formed.</p>
+</li>
+<li>
+<p>In a right triangle, one acute angle is twice the other. Find both acute angles.</p>
+</li>
+</ol>
+<hr />
+<h2 id="connections-to-trigonometry">Connections to Trigonometry</h2>
+<p>These geometric concepts directly connect to trigonometry:</p>
+<ul>
+<li><strong>Right triangles</strong>: The foundation for sine, cosine, and tangent ratios</li>
+<li><strong>Complementary angles</strong>: In a right triangle, the two acute angles are always complementary</li>
+<li><strong>Angle measurement</strong>: Degrees are used to specify angles in trigonometric ratios</li>
+<li><strong>Sides and vertices</strong>: Understanding "opposite," "adjacent," and "hypotenuse" requires geometric understanding</li>
+</ul>
+<p><strong>Next Chapter Preview</strong>: We'll build on this foundation with the Pythagorean theorem, which describes the relationship between the three sides of a right triangle. This relationship is fundamental to all trigonometric calculations!</p>
+<hr />
+<p><strong>Chapter 1 Complete!</strong> Move on to Chapter 2: The Pythagorean Theorem</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

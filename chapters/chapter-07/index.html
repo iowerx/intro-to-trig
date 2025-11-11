@@ -1,0 +1,2283 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An introductory course to Trigonometry">
+      
+      
+        <meta name="author" content="Hank Ratzesberger">
+      
+      
+        <link rel="canonical" href="https://iowerx.github.io/intro-to-trig/chapters/chapter-07/">
+      
+      
+        <link rel="prev" href="../chapter-06/">
+      
+      
+        <link rel="next" href="../chapter-08/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Chapter 7 - Solving Triangles & Angles - Introduction to Trigonometry</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Chapter 7 - Solving Triangles & Angles - Introduction to Trigonometry" />
+<meta property="og:description" content="An introductory course to Trigonometry" />
+<meta property="og:image" content="https://iowerx.github.io/intro-to-trig/assets/images/social/chapters/chapter-07.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://iowerx.github.io/intro-to-trig/chapters/chapter-07/" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Chapter 7 - Solving Triangles & Angles - Introduction to Trigonometry" />
+<meta property="twitter:description" content="An introductory course to Trigonometry" />
+<meta property="twitter:image" content="https://iowerx.github.io/intro-to-trig/assets/images/social/chapters/chapter-07.png" />
+</head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-7-solving-right-triangles-and-finding-angles" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Introduction to Trigonometry" class="md-header__button md-logo" aria-label="Introduction to Trigonometry" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Introduction to Trigonometry
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 7 - Solving Triangles & Angles
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/iowerx/intro-to-trig" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../course-description/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Course Description
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../learning-graph/" class="md-tabs__link">
+          
+  
+  
+  Learning Graph
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../chapter-01/" class="md-tabs__link">
+          
+  
+  
+  Course Content
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Introduction to Trigonometry" class="md-nav__button md-logo" aria-label="Introduction to Trigonometry" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    Introduction to Trigonometry
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/iowerx/intro-to-trig" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Graph
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Learning Graph
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/course-description-assessment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Assessment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-taxonomy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept Taxonomy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/taxonomy-distribution-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Taxonomy Distribution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/chapters-outline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters Outline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Content
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Course Content
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1 - Foundations of Geometry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2 - The Pythagorean Theorem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3 - Trigonometric Ratios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 4 - Special Right Triangles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5 - Unit Circle & Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6 - Trigonometric Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7 - Solving Triangles & Angles
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7 - Solving Triangles & Angles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chapter-learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Learning Objectives
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-71-right-triangle-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 7.1: Right Triangle Solutions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 7.1: Right Triangle Solutions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-does-it-mean-to-solve-a-triangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Does It Mean to "Solve" a Triangle?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#minimum-information-needed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Minimum Information Needed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-strategy-for-solving-right-triangles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Strategy for Solving Right Triangles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#choosing-the-right-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Choosing the Right Ratio
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-71-solving-given-one-side-and-one-angle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.1: Solving Given One Side and One Angle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-72-solving-given-two-sides-both-legs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.2: Solving Given Two Sides (Both Legs)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-73-solving-given-hypotenuse-and-one-leg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.3: Solving Given Hypotenuse and One Leg
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-74-application-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.4: Application Problem
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-72-inverse-trigonometric-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 7.2: Inverse Trigonometric Functions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 7.2: Inverse Trigonometric Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-inverse-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Are Inverse Functions?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notation-for-inverse-trig-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notation for Inverse Trig Functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#domains-and-ranges-of-inverse-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Domains and Ranges of Inverse Functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculator-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Calculator Considerations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-75-basic-inverse-function-evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.5: Basic Inverse Function Evaluation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-76-using-calculator-for-inverse-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.6: Using Calculator for Inverse Functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-77-finding-all-solutions-in-0-360" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.7: Finding All Solutions in [0°, 360°)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-78-inverse-functions-with-negative-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.8: Inverse Functions with Negative Values
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-73-finding-angles-from-ratios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 7.3: Finding Angles from Ratios
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 7.3: Finding Angles from Ratios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-scenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Scenarios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiple Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-79-finding-an-angle-given-two-sides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.9: Finding an Angle Given Two Sides
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-710-using-inverse-functions-in-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.10: Using Inverse Functions in Applications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-711-finding-angles-when-given-special-ratios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.11: Finding Angles When Given Special Ratios
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-74-advanced-equation-solving" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 7.4: Advanced Equation Solving
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 7.4: Advanced Equation Solving">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#types-of-trigonometric-equations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of Trigonometric Equations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Strategy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-identities-to-solve-equations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using Identities to Solve Equations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-712-solving-a-quadratic-trigonometric-equation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.12: Solving a Quadratic Trigonometric Equation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-713-solving-equations-with-multiple-angles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.13: Solving Equations with Multiple Angles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-714-solving-mixed-function-equations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.14: Solving Mixed Function Equations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-715-using-pythagorean-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.15: Using Pythagorean Identity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-75-solution-sets-and-representation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 7.5: Solution Sets and Representation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 7.5: Solution Sets and Representation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interval-notation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interval Notation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verifying-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verifying Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-716-finding-general-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 7.16: Finding General Solutions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-76-chapter-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 7.6: Chapter Summary
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 7.6: Chapter Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-concepts-reviewed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Concepts Reviewed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#important-ranges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Ranges
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-solving-strategies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem-Solving Strategies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-trigonometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Trigonometry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#looking-ahead" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Looking Ahead
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chapter-review-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Review Questions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8 - Advanced Triangle Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 9 - Real-World Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 10 - Tools & Integration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="chapter-7-solving-right-triangles-and-finding-angles">Chapter 7: Solving Right Triangles and Finding Angles</h1>
+<h2 id="introduction">Introduction</h2>
+<p>So far, you've learned to find trigonometric ratios when you know the angle. But what if you know the ratio and need to find the angle? Or what if you know only some sides and need to find all the angles? This chapter introduces <strong>inverse trigonometric functions</strong>, which allow us to work backwards from ratios to angles.</p>
+<p>We'll also put together everything we've learned to <strong>solve right triangles</strong>—finding all unknown sides and angles when given partial information. This skill is fundamental to surveying, navigation, engineering, and architecture. Finally, we'll learn to solve trigonometric equations, finding all angles that satisfy a given condition.</p>
+<h3 id="chapter-learning-objectives">Chapter Learning Objectives</h3>
+<p>After completing this chapter, you will be able to:</p>
+<ul>
+<li><strong>Remember</strong>: Recall definitions of inverse trigonometric functions</li>
+<li><strong>Understand</strong>: Explain the relationship between trig functions and their inverses</li>
+<li><strong>Apply</strong>: Solve right triangles completely given partial information</li>
+<li><strong>Analyze</strong>: Determine which methods and formulas to use for different problems</li>
+<li><strong>Evaluate</strong>: Find all solutions to trigonometric equations</li>
+<li><strong>Create</strong>: Set up and solve multi-step real-world problems</li>
+</ul>
+<hr />
+<h2 id="section-71-right-triangle-solutions">Section 7.1: Right Triangle Solutions</h2>
+<h3 id="what-does-it-mean-to-solve-a-triangle">What Does It Mean to "Solve" a Triangle?</h3>
+<p>To <strong>solve a triangle</strong> means to find all unknown sides and angles. For a right triangle:
+- One angle is always 90°
+- The other two angles sum to 90° (complementary)
+- If you know two sides, you can find the third (Pythagorean theorem)
+- If you know one angle and one side, you can find everything else (trig ratios)</p>
+<h3 id="minimum-information-needed">Minimum Information Needed</h3>
+<p>To solve a right triangle, you need:
+- <strong>One side and one acute angle</strong>, OR
+- <strong>Two sides</strong> (any two of the three)</p>
+<p>The right angle (90°) is usually given.</p>
+<h3 id="general-strategy-for-solving-right-triangles">General Strategy for Solving Right Triangles</h3>
+<p><strong>Given one side and one angle</strong>:
+1. Find the third angle (subtract from 90°)
+2. Use trig ratios to find the other sides
+3. Verify using the Pythagorean theorem</p>
+<p><strong>Given two sides</strong>:
+1. Find the third side (Pythagorean theorem)
+2. Use trig ratios to find one angle
+3. Find the other angle (subtract from 90°)</p>
+<h3 id="choosing-the-right-ratio">Choosing the Right Ratio</h3>
+<p><strong>Decision guide</strong>:
+- If you know hypotenuse and need opposite/adjacent → use sine/cosine
+- If you know both legs → use tangent to find angles
+- If you know one leg and hypotenuse → use sine or cosine
+- If you know both legs and need hypotenuse → use Pythagorean theorem</p>
+<hr />
+<h3 id="worked-examples">Worked Examples</h3>
+<h4 id="example-71-solving-given-one-side-and-one-angle">Example 7.1: Solving Given One Side and One Angle</h4>
+<p><strong>Problem</strong>: In right triangle ABC with right angle at C, angle A = 35° and side AC (adjacent to angle A) = 12 cm. Find all other sides and angles.</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Given</strong>:
+- Right angle at C (90°)
+- Angle A = 35°
+- Adjacent side (AC) = 12 cm</p>
+<p><strong>Step 1</strong>: Find angle B
+<span class="arithmatex">\(<span class="arithmatex">\(B = 90° - 35° = 55°\)</span>\)</span></p>
+<p><strong>Step 2</strong>: Find opposite side (BC) using tangent
+<span class="arithmatex">\(<span class="arithmatex">\(\tan 35° = \frac{BC}{12}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(BC = 12 \tan 35°\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(BC = 12(0.700) \approx 8.40 \text{ cm}\)</span>\)</span></p>
+<p><strong>Step 3</strong>: Find hypotenuse (AB) using cosine
+<span class="arithmatex">\(<span class="arithmatex">\(\cos 35° = \frac{12}{AB}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(AB = \frac{12}{\cos 35°}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(AB = \frac{12}{0.819} \approx 14.65 \text{ cm}\)</span>\)</span></p>
+<p><strong>Verification</strong>: Check with Pythagorean theorem
+<span class="arithmatex">\(<span class="arithmatex">\(12^2 + 8.40^2 = 144 + 70.56 = 214.56\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(14.65^2 = 214.62\)</span>\)</span> ✓ (slight difference due to rounding)</p>
+<p><strong>Answer</strong>:
+- Angle B = 55°
+- Side BC ≈ 8.40 cm
+- Side AB ≈ 14.65 cm</p>
+<hr />
+<h4 id="example-72-solving-given-two-sides-both-legs">Example 7.2: Solving Given Two Sides (Both Legs)</h4>
+<p><strong>Problem</strong>: A right triangle has legs of 9 inches and 12 inches. Find the hypotenuse and both acute angles.</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Given</strong>:
+- Leg a = 9 inches
+- Leg b = 12 inches</p>
+<p><strong>Step 1</strong>: Find hypotenuse using Pythagorean theorem
+<span class="arithmatex">\(<span class="arithmatex">\(c^2 = 9^2 + 12^2 = 81 + 144 = 225\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(c = 15 \text{ inches}\)</span>\)</span></p>
+<p><strong>Step 2</strong>: Find one angle using tangent (we'll find angle A opposite the 9-inch side)
+<span class="arithmatex">\(<span class="arithmatex">\(\tan A = \frac{9}{12} = 0.75\)</span>\)</span></p>
+<p>To find A, we need the inverse tangent (covered in next section):
+<span class="arithmatex">\(<span class="arithmatex">\(A = \arctan(0.75) \approx 36.87°\)</span>\)</span></p>
+<p><strong>Step 3</strong>: Find the other angle
+<span class="arithmatex">\(<span class="arithmatex">\(B = 90° - 36.87° = 53.13°\)</span>\)</span></p>
+<p><strong>Answer</strong>:
+- Hypotenuse = 15 inches
+- Angle A ≈ 36.87°
+- Angle B ≈ 53.13°</p>
+<hr />
+<h4 id="example-73-solving-given-hypotenuse-and-one-leg">Example 7.3: Solving Given Hypotenuse and One Leg</h4>
+<p><strong>Problem</strong>: A right triangle has a hypotenuse of 25 feet and one leg of 15 feet. Find the other leg and both acute angles.</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Given</strong>:
+- Hypotenuse c = 25 feet
+- Leg a = 15 feet</p>
+<p><strong>Step 1</strong>: Find other leg using Pythagorean theorem
+<span class="arithmatex">\(<span class="arithmatex">\(15^2 + b^2 = 25^2\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(225 + b^2 = 625\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(b^2 = 400\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(b = 20 \text{ feet}\)</span>\)</span></p>
+<p><strong>Step 2</strong>: Find angle A (opposite 15-foot side) using sine
+<span class="arithmatex">\(<span class="arithmatex">\(\sin A = \frac{15}{25} = 0.6\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(A = \arcsin(0.6) \approx 36.87°\)</span>\)</span></p>
+<p><strong>Step 3</strong>: Find angle B
+<span class="arithmatex">\(<span class="arithmatex">\(B = 90° - 36.87° = 53.13°\)</span>\)</span></p>
+<p><strong>Answer</strong>:
+- Other leg = 20 feet
+- Angle A ≈ 36.87°
+- Angle B ≈ 53.13°</p>
+<hr />
+<h4 id="example-74-application-problem">Example 7.4: Application Problem</h4>
+<p><strong>Problem</strong>: A 20-foot ladder leans against a building. The base of the ladder is 8 feet from the building. How high up the building does the ladder reach, and what angle does it make with the ground?</p>
+<p><strong>Solution</strong>:</p>
+<p>This forms a right triangle:
+- Hypotenuse (ladder) = 20 feet
+- Base (adjacent to ground angle) = 8 feet</p>
+<p><strong>Find height</strong> (opposite side):
+<span class="arithmatex">\(<span class="arithmatex">\(8^2 + h^2 = 20^2\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(64 + h^2 = 400\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(h^2 = 336\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(h = \sqrt{336} \approx 18.33 \text{ feet}\)</span>\)</span></p>
+<p><strong>Find angle with ground</strong>:
+<span class="arithmatex">\(<span class="arithmatex">\(\cos \theta = \frac{8}{20} = 0.4\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\theta = \arccos(0.4) \approx 66.42°\)</span>\)</span></p>
+<p><strong>Answer</strong>:
+- The ladder reaches approximately <strong>18.33 feet</strong> up the building
+- The ladder makes an angle of approximately <strong>66.42°</strong> with the ground</p>
+<hr />
+<h3 id="practice-problems">Practice Problems</h3>
+<p><strong>Problem 7.1</strong>: In a right triangle, one acute angle is 28° and the hypotenuse is 15 cm. Find all other sides and angles.</p>
+<p><strong>Problem 7.2</strong>: A right triangle has legs of 5 meters and 12 meters. Find the hypotenuse and both acute angles.</p>
+<p><strong>Problem 7.3</strong>: A right triangle has a hypotenuse of 30 inches and one leg of 18 inches. Find the other leg and both acute angles.</p>
+<p><strong>Problem 7.4</strong>: The two acute angles of a right triangle are in the ratio 2:3. Find both angles.</p>
+<p><strong>Problem 7.5</strong>: A guy wire is attached to the top of a 40-foot pole and anchored 30 feet from the base. How long is the wire, and what angle does it make with the ground?</p>
+<hr />
+<h2 id="section-72-inverse-trigonometric-functions">Section 7.2: Inverse Trigonometric Functions</h2>
+<h3 id="what-are-inverse-functions">What Are Inverse Functions?</h3>
+<p>An <strong>inverse function</strong> reverses the operation of a function. If f(x) = y, then f⁻¹(y) = x.</p>
+<p>For trigonometry:
+- If sin θ = 0.5, then arcsin(0.5) = θ
+- The inverse function takes us from the ratio back to the angle</p>
+<h3 id="notation-for-inverse-trig-functions">Notation for Inverse Trig Functions</h3>
+<p><strong>Two equivalent notations</strong>:</p>
+<div class="arithmatex">\[\arcsin x = \sin^{-1} x$$
+$$\arccos x = \cos^{-1} x$$
+$$\arctan x = \tan^{-1} x\]</div>
+<p><strong>Important</strong>: sin⁻¹ x does NOT mean 1/sin x. It means the inverse sine function (arcsin).</p>
+<h3 id="domains-and-ranges-of-inverse-functions">Domains and Ranges of Inverse Functions</h3>
+<p>For inverse functions to work properly, we restrict their ranges:</p>
+<p><strong>Arcsine</strong>:
+- Domain: [-1, 1]
+- Range: [-90°, 90°] (or [-π/2, π/2] in radians)
+- Returns angles in Quadrants I and IV</p>
+<p><strong>Arccosine</strong>:
+- Domain: [-1, 1]
+- Range: [0°, 180°] (or [0, π] in radians)
+- Returns angles in Quadrants I and II</p>
+<p><strong>Arctangent</strong>:
+- Domain: All real numbers
+- Range: (-90°, 90°) (or (-π/2, π/2) in radians)
+- Returns angles in Quadrants I and IV</p>
+<h3 id="calculator-considerations">Calculator Considerations</h3>
+<p>When using a calculator:
+- Make sure it's in degree mode (or radian mode, depending on context)
+- The inverse functions return the <strong>principal value</strong> (one specific angle in the range)
+- There may be other angles with the same trig value</p>
+<hr />
+<h3 id="worked-examples_1">Worked Examples</h3>
+<h4 id="example-75-basic-inverse-function-evaluation">Example 7.5: Basic Inverse Function Evaluation</h4>
+<p><strong>Problem</strong>: Find each angle (in degrees):
+a) arcsin(1/2)
+b) arccos(√2/2)
+c) arctan(1)</p>
+<p><strong>Solution</strong>:</p>
+<p>a) <strong>arcsin(1/2)</strong>: What angle has sine = 1/2?
+   From special angles: sin 30° = 1/2
+   <strong>Answer</strong>: 30°</p>
+<p>b) <strong>arccos(√2/2)</strong>: What angle has cosine = √2/2?
+   From special angles: cos 45° = √2/2
+   <strong>Answer</strong>: 45°</p>
+<p>c) <strong>arctan(1)</strong>: What angle has tangent = 1?
+   From special angles: tan 45° = 1
+   <strong>Answer</strong>: 45°</p>
+<hr />
+<h4 id="example-76-using-calculator-for-inverse-functions">Example 7.6: Using Calculator for Inverse Functions</h4>
+<p><strong>Problem</strong>: Find the angle θ (in degrees, to two decimal places):
+a) sin θ = 0.75
+b) cos θ = 0.4
+c) tan θ = 2.5</p>
+<p><strong>Solution</strong>:</p>
+<p>Using a calculator in degree mode:</p>
+<p>a) θ = arcsin(0.75) = <strong>48.59°</strong></p>
+<p>b) θ = arccos(0.4) = <strong>66.42°</strong></p>
+<p>c) θ = arctan(2.5) = <strong>68.20°</strong></p>
+<hr />
+<h4 id="example-77-finding-all-solutions-in-0-360">Example 7.7: Finding All Solutions in [0°, 360°)</h4>
+<p><strong>Problem</strong>: Find all angles θ in [0°, 360°) where sin θ = 0.5.</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Step 1</strong>: Find the principal value
+<span class="arithmatex">\(<span class="arithmatex">\(\theta_1 = \arcsin(0.5) = 30°\)</span>\)</span></p>
+<p>This is in Quadrant I.</p>
+<p><strong>Step 2</strong>: Sine is also positive in Quadrant II
+The second solution is:
+<span class="arithmatex">\(<span class="arithmatex">\(\theta_2 = 180° - 30° = 150°\)</span>\)</span></p>
+<p><strong>Verification</strong>:
+- sin 30° = 0.5 ✓
+- sin 150° = 0.5 ✓</p>
+<p><strong>Answer</strong>: θ = <strong>30° or 150°</strong></p>
+<hr />
+<h4 id="example-78-inverse-functions-with-negative-values">Example 7.8: Inverse Functions with Negative Values</h4>
+<p><strong>Problem</strong>: Find arccos(-0.5).</p>
+<p><strong>Solution</strong>:</p>
+<p>We need an angle whose cosine is -0.5.</p>
+<p>Cosine is negative in Quadrants II and III, but arccos returns values in [0°, 180°], so it will be in Quadrant II.</p>
+<p>The reference angle satisfies cos(ref) = 0.5, so ref = 60°.</p>
+<p>In Quadrant II:
+<span class="arithmatex">\(<span class="arithmatex">\(\theta = 180° - 60° = 120°\)</span>\)</span></p>
+<p><strong>Answer</strong>: arccos(-0.5) = <strong>120°</strong></p>
+<p><strong>Verification</strong>: cos 120° = -1/2 = -0.5 ✓</p>
+<hr />
+<h3 id="practice-problems_1">Practice Problems</h3>
+<p><strong>Problem 7.6</strong>: Evaluate without a calculator:
+1. arcsin(√3/2)
+2. arccos(1/2)
+3. arctan(√3)</p>
+<p><strong>Problem 7.7</strong>: Use a calculator to find (in degrees):
+1. arcsin(0.85)
+2. arccos(0.3)
+3. arctan(4)</p>
+<p><strong>Problem 7.8</strong>: Find all angles θ in [0°, 360°) where:
+1. cos θ = 0.6
+2. tan θ = -1
+3. sin θ = -0.8</p>
+<p><strong>Problem 7.9</strong>: Evaluate: arcsin(-√2/2)</p>
+<p><strong>Problem 7.10</strong>: If arctan x = 30°, what is x?</p>
+<hr />
+<h2 id="section-73-finding-angles-from-ratios">Section 7.3: Finding Angles from Ratios</h2>
+<h3 id="the-process">The Process</h3>
+<p>When you know the ratio of sides in a right triangle:
+1. Identify which trig function relates the known sides
+2. Use the appropriate inverse function
+3. Consider whether other angles also satisfy the condition
+4. Check that angles are in the appropriate range for the problem</p>
+<h3 id="common-scenarios">Common Scenarios</h3>
+<p><strong>Given opposite and hypotenuse</strong> → use arcsin
+<strong>Given adjacent and hypotenuse</strong> → use arccos
+<strong>Given opposite and adjacent</strong> → use arctan</p>
+<h3 id="multiple-solutions">Multiple Solutions</h3>
+<p>Remember that:
+- Sine is positive in Quadrants I and II
+- Cosine is positive in Quadrants I and IV
+- Tangent is positive in Quadrants I and III</p>
+<p>If a problem asks for all solutions in [0°, 360°), you may need to find two angles.</p>
+<hr />
+<h3 id="worked-examples_2">Worked Examples</h3>
+<h4 id="example-79-finding-an-angle-given-two-sides">Example 7.9: Finding an Angle Given Two Sides</h4>
+<p><strong>Problem</strong>: In a right triangle, the opposite side is 7 cm and the adjacent side is 10 cm. Find the angle.</p>
+<p><strong>Solution</strong>:</p>
+<p>The ratio of opposite to adjacent suggests using tangent:
+<span class="arithmatex">\(<span class="arithmatex">\(\tan \theta = \frac{7}{10} = 0.7\)</span>\)</span></p>
+<div class="arithmatex">\[\theta = \arctan(0.7) \approx 34.99°\]</div>
+<p><strong>Answer</strong>: θ ≈ <strong>35.0°</strong></p>
+<hr />
+<h4 id="example-710-using-inverse-functions-in-applications">Example 7.10: Using Inverse Functions in Applications</h4>
+<p><strong>Problem</strong>: A person stands 50 meters from a building and looks up at a 65° angle to see the top. How tall is the building?</p>
+<p><strong>Solution</strong>:</p>
+<p>This is actually a forward problem (given angle, find side), but let's solve it:</p>
+<div class="arithmatex">\[\tan 65° = \frac{h}{50}$$
+$$h = 50 \tan 65° \approx 50(2.145) = 107.25 \text{ meters}\]</div>
+<p><strong>Reverse question</strong>: If the building is 107.25 m tall and you're 50 m away, what's the angle?</p>
+<p><span class="arithmatex">\(<span class="arithmatex">\(\tan \theta = \frac{107.25}{50} = 2.145\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\theta = \arctan(2.145) \approx 65°\)</span>\)</span> ✓</p>
+<hr />
+<h4 id="example-711-finding-angles-when-given-special-ratios">Example 7.11: Finding Angles When Given Special Ratios</h4>
+<p><strong>Problem</strong>: In a right triangle, the ratio of the opposite side to the hypotenuse is 3:5. Find the angle.</p>
+<p><strong>Solution</strong>:</p>
+<div class="arithmatex">\[\sin \theta = \frac{3}{5} = 0.6\]</div>
+<div class="arithmatex">\[\theta = \arcsin(0.6) \approx 36.87°\]</div>
+<p><strong>Answer</strong>: θ ≈ <strong>36.87°</strong></p>
+<p><strong>Note</strong>: This is the same as the 3-4-5 triangle (scaled), which we could verify:
+- If opposite = 3 and hypotenuse = 5, then adjacent = 4 (by Pythagorean theorem)
+- tan θ = 3/4 = 0.75
+- arctan(0.75) ≈ 36.87° ✓</p>
+<hr />
+<h3 id="practice-problems_2">Practice Problems</h3>
+<p><strong>Problem 7.11</strong>: Find the angle θ in a right triangle where:
+1. Opposite = 8, adjacent = 15
+2. Opposite = 12, hypotenuse = 13
+3. Adjacent = 20, hypotenuse = 29</p>
+<p><strong>Problem 7.12</strong>: A kite string is 80 meters long and reaches a height of 60 meters. What angle does the string make with the ground?</p>
+<p><strong>Problem 7.13</strong>: From a point 100 feet from the base of a building, the angle of elevation to the top is measured. If the building is 150 feet tall, what is the angle of elevation?</p>
+<p><strong>Problem 7.14</strong>: In a right triangle, the two legs are in the ratio 5:12. What are the two acute angles?</p>
+<hr />
+<h2 id="section-74-advanced-equation-solving">Section 7.4: Advanced Equation Solving</h2>
+<h3 id="types-of-trigonometric-equations">Types of Trigonometric Equations</h3>
+<p><strong>Linear equations</strong>: sin θ = 0.5
+<strong>Quadratic equations</strong>: 2sin² θ - sin θ = 0
+<strong>Multiple angle equations</strong>: sin 2θ = 0.5
+<strong>Mixed function equations</strong>: sin θ = cos θ</p>
+<h3 id="general-strategy">General Strategy</h3>
+<ol>
+<li><strong>Isolate the trig function</strong> (if possible)</li>
+<li><strong>Use identities</strong> to simplify (if needed)</li>
+<li><strong>Solve for the angle</strong> using inverse functions</li>
+<li><strong>Find all solutions</strong> in the specified range</li>
+<li><strong>Check solutions</strong> in the original equation</li>
+</ol>
+<h3 id="using-identities-to-solve-equations">Using Identities to Solve Equations</h3>
+<p>Sometimes you need to use identities like:
+- Pythagorean identities
+- Double angle formulas
+- Factoring</p>
+<hr />
+<h3 id="worked-examples_3">Worked Examples</h3>
+<h4 id="example-712-solving-a-quadratic-trigonometric-equation">Example 7.12: Solving a Quadratic Trigonometric Equation</h4>
+<p><strong>Problem</strong>: Solve 2sin² θ - sin θ = 0 for θ in [0°, 360°).</p>
+<p><strong>Solution</strong>:</p>
+<p>Factor out sin θ:
+<span class="arithmatex">\(<span class="arithmatex">\(\sin \theta(2\sin \theta - 1) = 0\)</span>\)</span></p>
+<p>This gives two equations:
+<span class="arithmatex">\(<span class="arithmatex">\(\sin \theta = 0 \quad \text{or} \quad 2\sin \theta - 1 = 0\)</span>\)</span></p>
+<p><strong>From sin θ = 0</strong>:
+θ = 0°, 180°, 360°</p>
+<p><strong>From 2sin θ - 1 = 0</strong>:
+<span class="arithmatex">\(<span class="arithmatex">\(\sin \theta = \frac{1}{2}\)</span>\)</span>
+θ = 30°, 150°</p>
+<p><strong>Answer</strong>: θ = <strong>0°, 30°, 150°, 180°, 360°</strong></p>
+<p>(Note: Depending on convention, 360° might be excluded since it's the same as 0°)</p>
+<hr />
+<h4 id="example-713-solving-equations-with-multiple-angles">Example 7.13: Solving Equations with Multiple Angles</h4>
+<p><strong>Problem</strong>: Solve sin 2θ = 1/2 for θ in [0°, 180°).</p>
+<p><strong>Solution</strong>:</p>
+<p>Let u = 2θ, then we need sin u = 1/2</p>
+<p>From the unit circle: u = 30° or u = 150° (in [0°, 360°))</p>
+<p>Since u can range from 0° to 360° when θ ranges from 0° to 180°:</p>
+<div class="arithmatex">\[2\theta = 30° \Rightarrow \theta = 15°$$
+$$2\theta = 150° \Rightarrow \theta = 75°\]</div>
+<p>But 2θ could also equal 390° (which is 30° + 360°):
+<span class="arithmatex">\(<span class="arithmatex">\(2\theta = 390° \Rightarrow \theta = 195°\)</span>\)</span></p>
+<p>This is outside [0°, 180°), so we don't include it.</p>
+<p><strong>Answer</strong>: θ = <strong>15° or 75°</strong></p>
+<hr />
+<h4 id="example-714-solving-mixed-function-equations">Example 7.14: Solving Mixed Function Equations</h4>
+<p><strong>Problem</strong>: Solve sin θ = cos θ for θ in [0°, 360°).</p>
+<p><strong>Solution</strong>:</p>
+<p><strong>Method 1</strong>: Divide both sides by cos θ:
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{\sin \theta}{\cos \theta} = 1\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\tan \theta = 1\)</span>\)</span>
+θ = 45°, 225°</p>
+<p><strong>Method 2</strong>: Use the fact that sin θ = cos θ when θ = 45° + 180°k</p>
+<p><strong>Answer</strong>: θ = <strong>45° or 225°</strong></p>
+<hr />
+<h4 id="example-715-using-pythagorean-identity">Example 7.15: Using Pythagorean Identity</h4>
+<p><strong>Problem</strong>: Solve 2cos² θ + sin θ = 2 for θ in [0°, 360°).</p>
+<p><strong>Solution</strong>:</p>
+<p>Use the identity cos² θ = 1 - sin² θ:
+<span class="arithmatex">\(<span class="arithmatex">\(2(1 - \sin^2 \theta) + \sin \theta = 2\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(2 - 2\sin^2 \theta + \sin \theta = 2\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(-2\sin^2 \theta + \sin \theta = 0\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\sin \theta(-2\sin \theta + 1) = 0\)</span>\)</span></p>
+<p><strong>From sin θ = 0</strong>:
+θ = 0°, 180°, 360°</p>
+<p><strong>From -2sin θ + 1 = 0</strong>:
+<span class="arithmatex">\(<span class="arithmatex">\(\sin \theta = \frac{1}{2}\)</span>\)</span>
+θ = 30°, 150°</p>
+<p><strong>Answer</strong>: θ = <strong>0°, 30°, 150°, 180°, 360°</strong></p>
+<hr />
+<h3 id="practice-problems_3">Practice Problems</h3>
+<p><strong>Problem 7.15</strong>: Solve for θ in [0°, 360°):
+1. 2sin θ - 1 = 0
+2. cos² θ = 1/4
+3. tan² θ = 3</p>
+<p><strong>Problem 7.16</strong>: Solve cos 2θ = 0 for θ in [0°, 180°).</p>
+<p><strong>Problem 7.17</strong>: Solve 2sin² θ + 3sin θ + 1 = 0 for θ in [0°, 360°).</p>
+<p><strong>Problem 7.18</strong>: Solve sin θ + cos θ = 1 for θ in [0°, 360°). (Hint: Square both sides)</p>
+<hr />
+<h2 id="section-75-solution-sets-and-representation">Section 7.5: Solution Sets and Representation</h2>
+<h3 id="general-solutions">General Solutions</h3>
+<p>For many trigonometric equations, there are infinitely many solutions because trig functions are periodic.</p>
+<p><strong>General solution notation</strong>:
+- If sin θ = 1/2, then θ = 30° + 360°k or θ = 150° + 360°k, where k is any integer
+- If tan θ = 1, then θ = 45° + 180°k, where k is any integer</p>
+<h3 id="interval-notation">Interval Notation</h3>
+<p>Solutions are often requested for a specific interval:
+- [0°, 360°): angles from 0° up to (but not including) 360°
+- [0°, 2π): same interval in radians
+- [0°, 180°): restricted to half the circle</p>
+<h3 id="verifying-solutions">Verifying Solutions</h3>
+<p>Always check solutions by substituting back into the original equation.</p>
+<hr />
+<h3 id="worked-examples_4">Worked Examples</h3>
+<h4 id="example-716-finding-general-solutions">Example 7.16: Finding General Solutions</h4>
+<p><strong>Problem</strong>: Find the general solution to cos θ = 1/2.</p>
+<p><strong>Solution</strong>:</p>
+<p>First find solutions in [0°, 360°):
+<span class="arithmatex">\(<span class="arithmatex">\(\theta = 60° \text{ or } \theta = 300°\)</span>\)</span></p>
+<p>The general solution adds multiples of the period (360°):
+<span class="arithmatex">\(<span class="arithmatex">\(\theta = 60° + 360°k \text{ or } \theta = 300° + 360°k\)</span>\)</span></p>
+<p>where k is any integer.</p>
+<p><strong>Answer</strong>: θ = <strong>60° + 360°k</strong> or θ = <strong>300° + 360°k</strong>, k ∈ ℤ</p>
+<hr />
+<h3 id="practice-problems_4">Practice Problems</h3>
+<p><strong>Problem 7.19</strong>: Find the general solution to sin θ = √3/2.</p>
+<p><strong>Problem 7.20</strong>: Find all solutions to tan θ = -1 in [0°, 720°).</p>
+<hr />
+<h2 id="section-76-chapter-summary">Section 7.6: Chapter Summary</h2>
+<h3 id="key-concepts-reviewed">Key Concepts Reviewed</h3>
+<p><strong>Solving Right Triangles</strong>:
+- Need at least one side and one angle (besides the right angle), or two sides
+- Use trig ratios to find unknown sides
+- Use Pythagorean theorem to find the third side
+- Angles sum to 180° (with one being 90°)</p>
+<p><strong>Inverse Trigonometric Functions</strong>:
+- arcsin, arccos, arctan (or sin⁻¹, cos⁻¹, tan⁻¹)
+- Return angles given ratios
+- Have restricted ranges to be true functions</p>
+<p><strong>Finding All Solutions</strong>:
+- Use reference angles and quadrant analysis
+- Consider the period of the function
+- Check all solutions in the specified interval</p>
+<h3 id="important-ranges">Important Ranges</h3>
+<p><strong>Inverse Function Ranges</strong>:
+- arcsin: [-90°, 90°]
+- arccos: [0°, 180°]
+- arctan: (-90°, 90°)</p>
+<h3 id="problem-solving-strategies">Problem-Solving Strategies</h3>
+<p><strong>For solving triangles</strong>:
+1. Draw and label a diagram
+2. Identify what you know and what you need
+3. Choose appropriate trig ratios or theorems
+4. Solve step by step
+5. Verify using another method</p>
+<p><strong>For trigonometric equations</strong>:
+1. Isolate the trig function
+2. Use identities to simplify if needed
+3. Find principal value(s)
+4. Find all values in the specified range
+5. Check solutions</p>
+<h3 id="why-this-matters-for-trigonometry">Why This Matters for Trigonometry</h3>
+<p>These skills are essential because:</p>
+<ol>
+<li><strong>Real-world applications</strong> - Surveying, navigation, engineering all require solving triangles</li>
+<li><strong>Inverse thinking</strong> - Moving from effect to cause (ratio to angle)</li>
+<li><strong>Complete solutions</strong> - Finding all possible answers, not just one</li>
+<li><strong>Foundation for advanced topics</strong> - Calculus, differential equations, complex numbers</li>
+<li><strong>Practical problem-solving</strong> - Combining multiple concepts to solve complex problems</li>
+</ol>
+<h3 id="looking-ahead">Looking Ahead</h3>
+<p>In <strong>Chapter 8</strong>, we'll extend triangle-solving beyond right triangles using the <strong>Law of Sines</strong> and <strong>Law of Cosines</strong>. These powerful tools work for any triangle, not just right triangles, opening up a whole new world of applications. We'll also learn special formulas for triangle areas and how to choose the best method for each problem.</p>
+<hr />
+<h3 id="chapter-review-questions">Chapter Review Questions</h3>
+<p><strong>Short Answer</strong>:</p>
+<ol>
+<li>What information do you need to solve a right triangle?</li>
+<li>What is the range of the arcsine function?</li>
+<li>What does arctan(1) equal?</li>
+<li>In which quadrants is sine positive?</li>
+<li>Why might a trigonometric equation have multiple solutions in [0°, 360°)?</li>
+</ol>
+<p><strong>Problem Solving</strong>:</p>
+<ol>
+<li>
+<p>In a right triangle, one acute angle is 40° and the adjacent side is 10 cm. Find all other sides and angles.</p>
+</li>
+<li>
+<p>A right triangle has legs of 6 m and 8 m. Find the hypotenuse and both acute angles.</p>
+</li>
+<li>
+<p>Evaluate without a calculator: arccos(√3/2)</p>
+</li>
+<li>
+<p>Find all θ in [0°, 360°) where sin θ = -1/2.</p>
+</li>
+<li>
+<p>Solve for θ in [0°, 360°): 2cos² θ - cos θ = 0</p>
+</li>
+<li>
+<p>A person stands 80 feet from a building and measures the angle of elevation to the top as 58°. How tall is the building?</p>
+</li>
+<li>
+<p>Find the general solution to tan θ = √3.</p>
+</li>
+<li>
+<p>Solve sin 2θ = √2/2 for θ in [0°, 180°).</p>
+</li>
+<li>
+<p>If arcsin x = 30°, what is x?</p>
+</li>
+<li>
+<p>In a right triangle, the hypotenuse is 17 inches and one leg is 8 inches. Find the other leg and both acute angles.</p>
+</li>
+</ol>
+<hr />
+<p><strong>Chapter 7 Complete!</strong> Move on to Chapter 8: Advanced Triangle Solutions</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

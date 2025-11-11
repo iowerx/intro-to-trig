@@ -1,0 +1,1832 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An introductory course to Trigonometry">
+      
+      
+        <meta name="author" content="Hank Ratzesberger">
+      
+      
+        <link rel="canonical" href="https://iowerx.github.io/intro-to-trig/chapters/chapter-06/">
+      
+      
+        <link rel="prev" href="../chapter-05/">
+      
+      
+        <link rel="next" href="../chapter-07/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Chapter 6 - Trigonometric Identities - Introduction to Trigonometry</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Chapter 6 - Trigonometric Identities - Introduction to Trigonometry" />
+<meta property="og:description" content="An introductory course to Trigonometry" />
+<meta property="og:image" content="https://iowerx.github.io/intro-to-trig/assets/images/social/chapters/chapter-06.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://iowerx.github.io/intro-to-trig/chapters/chapter-06/" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Chapter 6 - Trigonometric Identities - Introduction to Trigonometry" />
+<meta property="twitter:description" content="An introductory course to Trigonometry" />
+<meta property="twitter:image" content="https://iowerx.github.io/intro-to-trig/assets/images/social/chapters/chapter-06.png" />
+</head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-6-trigonometric-identities" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Introduction to Trigonometry" class="md-header__button md-logo" aria-label="Introduction to Trigonometry" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Introduction to Trigonometry
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 6 - Trigonometric Identities
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/iowerx/intro-to-trig" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../course-description/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Course Description
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../learning-graph/" class="md-tabs__link">
+          
+  
+  
+  Learning Graph
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../chapter-01/" class="md-tabs__link">
+          
+  
+  
+  Course Content
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Introduction to Trigonometry" class="md-nav__button md-logo" aria-label="Introduction to Trigonometry" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    Introduction to Trigonometry
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/iowerx/intro-to-trig" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Description
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Graph
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Learning Graph
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/course-description-assessment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Assessment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/concept-taxonomy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concept Taxonomy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/taxonomy-distribution-report/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Taxonomy Distribution
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/chapters-outline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapters Outline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course Content
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Course Content
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 1 - Foundations of Geometry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 2 - The Pythagorean Theorem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 3 - Trigonometric Ratios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 4 - Special Right Triangles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 5 - Unit Circle & Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6 - Trigonometric Identities
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 6 - Trigonometric Identities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chapter-learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Learning Objectives
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-61-basic-identities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 6.1: Basic Identities
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 6.1: Basic Identities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-pythagorean-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Pythagorean Identity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quotient-identities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quotient Identities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reciprocal-identities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reciprocal Identities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#even-odd-identities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Even-Odd Identities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cofunction-identities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cofunction Identities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-61-using-the-pythagorean-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 6.1: Using the Pythagorean Identity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-62-simplifying-using-quotient-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 6.2: Simplifying Using Quotient Identity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-63-using-even-odd-identities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 6.3: Using Even-Odd Identities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-64-verifying-an-identity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 6.4: Verifying an Identity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-62-angle-formulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 6.2: Angle Formulas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 6.2: Angle Formulas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sum-and-difference-formulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sum and Difference Formulas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#double-angle-formulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Double Angle Formulas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#half-angle-formulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Half Angle Formulas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-to-sum-formulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Product-to-Sum Formulas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-examples_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worked Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-65-using-sum-formula-to-find-exact-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 6.5: Using Sum Formula to Find Exact Value
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-66-using-difference-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 6.6: Using Difference Formula
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-67-using-double-angle-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 6.7: Using Double Angle Formula
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-68-using-half-angle-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 6.8: Using Half Angle Formula
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-69-simplifying-using-double-angle-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example 6.9: Simplifying Using Double Angle Formula
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-problems_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-63-chapter-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 6.3: Chapter Summary
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 6.3: Chapter Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-identities-to-memorize" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Identities to Memorize
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strategies-for-using-identities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Strategies for Using Identities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-mistakes-to-avoid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Mistakes to Avoid
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-this-matters-for-trigonometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why This Matters for Trigonometry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#looking-ahead" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Looking Ahead
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chapter-review-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter Review Questions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-07/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 7 - Solving Triangles & Angles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 8 - Advanced Triangle Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 9 - Real-World Applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chapter 10 - Tools & Integration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="chapter-6-trigonometric-identities">Chapter 6: Trigonometric Identities</h1>
+<h2 id="introduction">Introduction</h2>
+<p>A <strong>trigonometric identity</strong> is an equation involving trigonometric functions that is true for all values of the variable (where both sides are defined). These identities are not just mathematical curiosities—they're essential tools for simplifying expressions, solving equations, and proving other mathematical relationships.</p>
+<p>Think of identities as the "algebra" of trigonometry. Just as you use algebraic rules like the distributive property to simplify expressions, you'll use trigonometric identities to transform complex trig expressions into simpler forms. Engineers use these identities to analyze alternating current circuits, physicists use them to describe wave interference, and mathematicians use them to solve otherwise intractable equations.</p>
+<h3 id="chapter-learning-objectives">Chapter Learning Objectives</h3>
+<p>After completing this chapter, you will be able to:</p>
+<ul>
+<li><strong>Remember</strong>: Recall fundamental trigonometric identities</li>
+<li><strong>Understand</strong>: Explain why identities are true using the unit circle and algebra</li>
+<li><strong>Apply</strong>: Use identities to simplify trigonometric expressions</li>
+<li><strong>Analyze</strong>: Determine which identities to apply in different situations</li>
+<li><strong>Evaluate</strong>: Verify trigonometric identities through algebraic manipulation</li>
+<li><strong>Create</strong>: Derive new relationships using fundamental identities</li>
+</ul>
+<hr />
+<h2 id="section-61-basic-identities">Section 6.1: Basic Identities</h2>
+<h3 id="the-pythagorean-identity">The Pythagorean Identity</h3>
+<p>The most fundamental trigonometric identity comes directly from the unit circle equation x² + y² = 1:</p>
+<div class="arithmatex">\[\sin^2 \theta + \cos^2 \theta = 1\]</div>
+<p>This is called the <strong>Pythagorean identity</strong> because it's based on the Pythagorean theorem.</p>
+<p><strong>Alternative forms</strong> (by algebraic rearrangement):
+<span class="arithmatex">\(<span class="arithmatex">\(\sin^2 \theta = 1 - \cos^2 \theta\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\cos^2 \theta = 1 - \sin^2 \theta\)</span>\)</span></p>
+<p><strong>Extended Pythagorean Identities</strong>:</p>
+<p>Dividing the basic identity by cos² θ:
+<span class="arithmatex">\(<span class="arithmatex">\(\tan^2 \theta + 1 = \sec^2 \theta\)</span>\)</span></p>
+<p>Dividing the basic identity by sin² θ:
+<span class="arithmatex">\(<span class="arithmatex">\(1 + \cot^2 \theta = \csc^2 \theta\)</span>\)</span></p>
+<h3 id="quotient-identities">Quotient Identities</h3>
+<p>These define tangent and cotangent in terms of sine and cosine:</p>
+<div class="arithmatex">\[\tan \theta = \frac{\sin \theta}{\cos \theta}\]</div>
+<div class="arithmatex">\[\cot \theta = \frac{\cos \theta}{\sin \theta}\]</div>
+<h3 id="reciprocal-identities">Reciprocal Identities</h3>
+<p>These relate the three primary functions to their reciprocals:</p>
+<div class="arithmatex">\[\csc \theta = \frac{1}{\sin \theta}, \quad \sin \theta = \frac{1}{\csc \theta}\]</div>
+<div class="arithmatex">\[\sec \theta = \frac{1}{\cos \theta}, \quad \cos \theta = \frac{1}{\sec \theta}\]</div>
+<div class="arithmatex">\[\cot \theta = \frac{1}{\tan \theta}, \quad \tan \theta = \frac{1}{\cot \theta}\]</div>
+<h3 id="even-odd-identities">Even-Odd Identities</h3>
+<p>These describe the symmetry of trig functions:</p>
+<p><strong>Odd functions</strong> (symmetric about the origin):
+<span class="arithmatex">\(<span class="arithmatex">\(\sin(-\theta) = -\sin \theta\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\tan(-\theta) = -\tan \theta\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\cot(-\theta) = -\cot \theta\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\csc(-\theta) = -\csc \theta\)</span>\)</span></p>
+<p><strong>Even function</strong> (symmetric about the y-axis):
+<span class="arithmatex">\(<span class="arithmatex">\(\cos(-\theta) = \cos \theta\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\sec(-\theta) = \sec \theta\)</span>\)</span></p>
+<p><strong>Why these matter</strong>: They tell us how trig functions behave with negative angles.</p>
+<h3 id="cofunction-identities">Cofunction Identities</h3>
+<p>These relate complementary angles (angles that sum to 90°):</p>
+<div class="arithmatex">\[\sin \theta = \cos(90° - \theta)$$
+$$\cos \theta = \sin(90° - \theta)$$
+$$\tan \theta = \cot(90° - \theta)$$
+$$\cot \theta = \tan(90° - \theta)$$
+$$\sec \theta = \csc(90° - \theta)$$
+$$\csc \theta = \sec(90° - \theta)\]</div>
+<p><strong>Meaning</strong>: The sine of an angle equals the cosine of its complement.</p>
+<hr />
+<h3 id="worked-examples">Worked Examples</h3>
+<h4 id="example-61-using-the-pythagorean-identity">Example 6.1: Using the Pythagorean Identity</h4>
+<p><strong>Problem</strong>: If sin θ = 3/5 and θ is in Quadrant I, find cos θ.</p>
+<p><strong>Solution</strong>:</p>
+<p>Using the Pythagorean identity:
+<span class="arithmatex">\(<span class="arithmatex">\(\sin^2 \theta + \cos^2 \theta = 1\)</span>\)</span></p>
+<div class="arithmatex">\[\left(\frac{3}{5}\right)^2 + \cos^2 \theta = 1\]</div>
+<div class="arithmatex">\[\frac{9}{25} + \cos^2 \theta = 1\]</div>
+<div class="arithmatex">\[\cos^2 \theta = 1 - \frac{9}{25} = \frac{16}{25}\]</div>
+<div class="arithmatex">\[\cos \theta = \pm\frac{4}{5}\]</div>
+<p>Since θ is in Quadrant I (where cosine is positive):
+<span class="arithmatex">\(<span class="arithmatex">\(\cos \theta = \frac{4}{5}\)</span>\)</span></p>
+<p><strong>Answer</strong>: cos θ = <strong>4/5</strong></p>
+<hr />
+<h4 id="example-62-simplifying-using-quotient-identity">Example 6.2: Simplifying Using Quotient Identity</h4>
+<p><strong>Problem</strong>: Simplify: <span class="arithmatex">\(\frac{\sin \theta}{\cos \theta} + \frac{\cos \theta}{\sin \theta}\)</span></p>
+<p><strong>Solution</strong>:</p>
+<p>Recognize the quotient identities:
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{\sin \theta}{\cos \theta} = \tan \theta\)</span>\)</span></p>
+<div class="arithmatex">\[\frac{\cos \theta}{\sin \theta} = \cot \theta\]</div>
+<p>So the expression becomes:
+<span class="arithmatex">\(<span class="arithmatex">\(\tan \theta + \cot \theta\)</span>\)</span></p>
+<p>We can also find a common denominator:
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{\sin \theta}{\cos \theta} + \frac{\cos \theta}{\sin \theta} = \frac{\sin^2 \theta + \cos^2 \theta}{\sin \theta \cos \theta}\)</span>\)</span></p>
+<p>Using the Pythagorean identity (sin² θ + cos² θ = 1):
+<span class="arithmatex">\(<span class="arithmatex">\(= \frac{1}{\sin \theta \cos \theta}\)</span>\)</span></p>
+<p><strong>Answer</strong>: <span class="arithmatex">\(\tan \theta + \cot \theta = \frac{1}{\sin \theta \cos \theta}\)</span></p>
+<hr />
+<h4 id="example-63-using-even-odd-identities">Example 6.3: Using Even-Odd Identities</h4>
+<p><strong>Problem</strong>: Simplify: sin(-30°) + cos(-30°)</p>
+<p><strong>Solution</strong>:</p>
+<p>Using even-odd identities:
+- sin(-30°) = -sin 30° = -1/2
+- cos(-30°) = cos 30° = √3/2</p>
+<div class="arithmatex">\[\sin(-30°) + \cos(-30°) = -\frac{1}{2} + \frac{\sqrt{3}}{2} = \frac{\sqrt{3} - 1}{2}\]</div>
+<p><strong>Answer</strong>: <span class="arithmatex">\(\frac{\sqrt{3} - 1}{2}\)</span> ≈ 0.366</p>
+<hr />
+<h4 id="example-64-verifying-an-identity">Example 6.4: Verifying an Identity</h4>
+<p><strong>Problem</strong>: Verify the identity: <span class="arithmatex">\(\sin \theta \tan \theta = \sec \theta - \cos \theta\)</span></p>
+<p><strong>Solution</strong>:</p>
+<p>Work with the left side, converting to sine and cosine:
+<span class="arithmatex">\(<span class="arithmatex">\(\sin \theta \tan \theta = \sin \theta \cdot \frac{\sin \theta}{\cos \theta} = \frac{\sin^2 \theta}{\cos \theta}\)</span>\)</span></p>
+<p>Use the Pythagorean identity: sin² θ = 1 - cos² θ
+<span class="arithmatex">\(<span class="arithmatex">\(= \frac{1 - \cos^2 \theta}{\cos \theta}\)</span>\)</span></p>
+<p>Separate the fraction:
+<span class="arithmatex">\(<span class="arithmatex">\(= \frac{1}{\cos \theta} - \frac{\cos^2 \theta}{\cos \theta} = \sec \theta - \cos \theta\)</span>\)</span></p>
+<p>This matches the right side, so the identity is verified! ✓</p>
+<hr />
+<h3 id="practice-problems">Practice Problems</h3>
+<p><strong>Problem 6.1</strong>: If cos θ = 5/13 and θ is in Quadrant I, find sin θ and tan θ.</p>
+<p><strong>Problem 6.2</strong>: Simplify using identities:
+1. sin θ · csc θ
+2. cos θ · sec θ
+3. tan θ · cos θ</p>
+<p><strong>Problem 6.3</strong>: Evaluate without a calculator:
+1. sin(-45°)
+2. cos(-60°)
+3. tan(-30°)</p>
+<p><strong>Problem 6.4</strong>: Use cofunction identities to write each as a function of the complement:
+1. sin 25°
+2. tan 40°
+3. sec 15°</p>
+<p><strong>Problem 6.5</strong>: If tan θ = 4/3 and θ is in Quadrant III, find sin θ and cos θ.</p>
+<p><strong>Problem 6.6</strong>: Simplify: <span class="arithmatex">\(\frac{\tan \theta}{\sec \theta}\)</span></p>
+<p><strong>Problem 6.7</strong>: Verify the identity: <span class="arithmatex">\(\tan^2 \theta - \sin^2 \theta = \tan^2 \theta \sin^2 \theta\)</span></p>
+<p><strong>Problem 6.8</strong>: Simplify: <span class="arithmatex">\((sin \theta + \cos \theta)^2 + (\sin \theta - \cos \theta)^2\)</span></p>
+<hr />
+<h2 id="section-62-angle-formulas">Section 6.2: Angle Formulas</h2>
+<h3 id="sum-and-difference-formulas">Sum and Difference Formulas</h3>
+<p>These formulas allow us to find exact trig values for sums and differences of angles:</p>
+<p><strong>Sine Sum and Difference</strong>:
+<span class="arithmatex">\(<span class="arithmatex">\(\sin(A + B) = \sin A \cos B + \cos A \sin B\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\sin(A - B) = \sin A \cos B - \cos A \sin B\)</span>\)</span></p>
+<p><strong>Cosine Sum and Difference</strong>:
+<span class="arithmatex">\(<span class="arithmatex">\(\cos(A + B) = \cos A \cos B - \sin A \sin B\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\cos(A - B) = \cos A \cos B + \sin A \sin B\)</span>\)</span></p>
+<p><strong>Tangent Sum and Difference</strong>:
+<span class="arithmatex">\(<span class="arithmatex">\(\tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A \tan B}\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\tan(A - B) = \frac{\tan A - \tan B}{1 + \tan A \tan B}\)</span>\)</span></p>
+<p><strong>Important</strong>: Note that sin(A + B) ≠ sin A + sin B. You must use the formula!</p>
+<h3 id="double-angle-formulas">Double Angle Formulas</h3>
+<p>These are special cases of the sum formulas where B = A:</p>
+<p><strong>Sine Double Angle</strong>:
+<span class="arithmatex">\(<span class="arithmatex">\(\sin 2\theta = 2\sin \theta \cos \theta\)</span>\)</span></p>
+<p><strong>Cosine Double Angle</strong> (three equivalent forms):
+<span class="arithmatex">\(<span class="arithmatex">\(\cos 2\theta = \cos^2 \theta - \sin^2 \theta\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\cos 2\theta = 2\cos^2 \theta - 1\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(\cos 2\theta = 1 - 2\sin^2 \theta\)</span>\)</span></p>
+<p><strong>Tangent Double Angle</strong>:
+<span class="arithmatex">\(<span class="arithmatex">\(\tan 2\theta = \frac{2\tan \theta}{1 - \tan^2 \theta}\)</span>\)</span></p>
+<h3 id="half-angle-formulas">Half Angle Formulas</h3>
+<p>These formulas find trig values of half an angle:</p>
+<div class="arithmatex">\[\sin \frac{\theta}{2} = \pm\sqrt{\frac{1 - \cos \theta}{2}}\]</div>
+<div class="arithmatex">\[\cos \frac{\theta}{2} = \pm\sqrt{\frac{1 + \cos \theta}{2}}\]</div>
+<div class="arithmatex">\[\tan \frac{\theta}{2} = \pm\sqrt{\frac{1 - \cos \theta}{1 + \cos \theta}} = \frac{\sin \theta}{1 + \cos \theta} = \frac{1 - \cos \theta}{\sin \theta}\]</div>
+<p>The ± sign is determined by the quadrant of θ/2.</p>
+<h3 id="product-to-sum-formulas">Product-to-Sum Formulas</h3>
+<p>These convert products of trig functions to sums:</p>
+<div class="arithmatex">\[\sin A \cos B = \frac{1}{2}[\sin(A+B) + \sin(A-B)]\]</div>
+<div class="arithmatex">\[\cos A \sin B = \frac{1}{2}[\sin(A+B) - \sin(A-B)]\]</div>
+<div class="arithmatex">\[\cos A \cos B = \frac{1}{2}[\cos(A+B) + \cos(A-B)]\]</div>
+<div class="arithmatex">\[\sin A \sin B = \frac{1}{2}[\cos(A-B) - \cos(A+B)]\]</div>
+<hr />
+<h3 id="worked-examples_1">Worked Examples</h3>
+<h4 id="example-65-using-sum-formula-to-find-exact-value">Example 6.5: Using Sum Formula to Find Exact Value</h4>
+<p><strong>Problem</strong>: Find the exact value of sin 75° without a calculator.</p>
+<p><strong>Solution</strong>:</p>
+<p>Write 75° as a sum of special angles: 75° = 45° + 30°</p>
+<p>Using the sine sum formula:
+<span class="arithmatex">\(<span class="arithmatex">\(\sin(A + B) = \sin A \cos B + \cos A \sin B\)</span>\)</span></p>
+<div class="arithmatex">\[\sin 75° = \sin(45° + 30°)$$
+$$= \sin 45° \cos 30° + \cos 45° \sin 30°$$
+$$= \frac{\sqrt{2}}{2} \cdot \frac{\sqrt{3}}{2} + \frac{\sqrt{2}}{2} \cdot \frac{1}{2}$$
+$$= \frac{\sqrt{6}}{4} + \frac{\sqrt{2}}{4}$$
+$$= \frac{\sqrt{6} + \sqrt{2}}{4}\]</div>
+<p><strong>Answer</strong>: <span class="arithmatex">\(\sin 75° = \frac{\sqrt{6} + \sqrt{2}}{4}\)</span> ≈ 0.966</p>
+<hr />
+<h4 id="example-66-using-difference-formula">Example 6.6: Using Difference Formula</h4>
+<p><strong>Problem</strong>: Find the exact value of cos 15°.</p>
+<p><strong>Solution</strong>:</p>
+<p>Write 15° as a difference: 15° = 45° - 30°</p>
+<p>Using the cosine difference formula:
+<span class="arithmatex">\(<span class="arithmatex">\(\cos(A - B) = \cos A \cos B + \sin A \sin B\)</span>\)</span></p>
+<div class="arithmatex">\[\cos 15° = \cos(45° - 30°)$$
+$$= \cos 45° \cos 30° + \sin 45° \sin 30°$$
+$$= \frac{\sqrt{2}}{2} \cdot \frac{\sqrt{3}}{2} + \frac{\sqrt{2}}{2} \cdot \frac{1}{2}$$
+$$= \frac{\sqrt{6}}{4} + \frac{\sqrt{2}}{4}$$
+$$= \frac{\sqrt{6} + \sqrt{2}}{4}\]</div>
+<p><strong>Answer</strong>: <span class="arithmatex">\(\cos 15° = \frac{\sqrt{6} + \sqrt{2}}{4}\)</span> ≈ 0.966</p>
+<hr />
+<h4 id="example-67-using-double-angle-formula">Example 6.7: Using Double Angle Formula</h4>
+<p><strong>Problem</strong>: If sin θ = 3/5 and θ is in Quadrant II, find sin 2θ.</p>
+<p><strong>Solution</strong>:</p>
+<p>First, find cos θ using the Pythagorean identity:
+<span class="arithmatex">\(<span class="arithmatex">\(\cos^2 \theta = 1 - \sin^2 \theta = 1 - \frac{9}{25} = \frac{16}{25}\)</span>\)</span></p>
+<p>In Quadrant II, cosine is negative:
+<span class="arithmatex">\(<span class="arithmatex">\(\cos \theta = -\frac{4}{5}\)</span>\)</span></p>
+<p>Now use the double angle formula:
+<span class="arithmatex">\(<span class="arithmatex">\(\sin 2\theta = 2\sin \theta \cos \theta\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(= 2 \cdot \frac{3}{5} \cdot \left(-\frac{4}{5}\right)\)</span>\)</span>
+<span class="arithmatex">\(<span class="arithmatex">\(= -\frac{24}{25}\)</span>\)</span></p>
+<p><strong>Answer</strong>: sin 2θ = <strong>-24/25</strong></p>
+<hr />
+<h4 id="example-68-using-half-angle-formula">Example 6.8: Using Half Angle Formula</h4>
+<p><strong>Problem</strong>: Find sin 15° using a half angle formula.</p>
+<p><strong>Solution</strong>:</p>
+<p>Note that 15° = 30°/2</p>
+<p>Using the half angle formula:
+<span class="arithmatex">\(<span class="arithmatex">\(\sin \frac{\theta}{2} = \sqrt{\frac{1 - \cos \theta}{2}}\)</span>\)</span></p>
+<div class="arithmatex">\[\sin 15° = \sin \frac{30°}{2} = \sqrt{\frac{1 - \cos 30°}{2}}\]</div>
+<div class="arithmatex">\[= \sqrt{\frac{1 - \frac{\sqrt{3}}{2}}{2}} = \sqrt{\frac{2 - \sqrt{3}}{4}}\]</div>
+<div class="arithmatex">\[= \frac{\sqrt{2 - \sqrt{3}}}{2}\]</div>
+<p><strong>Answer</strong>: <span class="arithmatex">\(\sin 15° = \frac{\sqrt{2 - \sqrt{3}}}{2}\)</span> ≈ 0.259</p>
+<p><strong>Note</strong>: This is a different form than we got in Example 6.6 for cos 15°, but both are correct!</p>
+<hr />
+<h4 id="example-69-simplifying-using-double-angle-formula">Example 6.9: Simplifying Using Double Angle Formula</h4>
+<p><strong>Problem</strong>: Simplify: <span class="arithmatex">\(\frac{\sin 2\theta}{2\sin \theta}\)</span></p>
+<p><strong>Solution</strong>:</p>
+<p>Use the double angle formula for sine:
+<span class="arithmatex">\(<span class="arithmatex">\(\sin 2\theta = 2\sin \theta \cos \theta\)</span>\)</span></p>
+<p>Substitute:
+<span class="arithmatex">\(<span class="arithmatex">\(\frac{\sin 2\theta}{2\sin \theta} = \frac{2\sin \theta \cos \theta}{2\sin \theta}\)</span>\)</span></p>
+<p>Cancel common factors:
+<span class="arithmatex">\(<span class="arithmatex">\(= \cos \theta\)</span>\)</span></p>
+<p><strong>Answer</strong>: <span class="arithmatex">\(\frac{\sin 2\theta}{2\sin \theta} = \cos \theta\)</span></p>
+<hr />
+<h3 id="practice-problems_1">Practice Problems</h3>
+<p><strong>Problem 6.9</strong>: Find exact values using sum or difference formulas:
+1. sin 105° (Hint: 105° = 60° + 45°)
+2. cos 75°
+3. tan 15°</p>
+<p><strong>Problem 6.10</strong>: If cos θ = 12/13 and θ is in Quadrant I, find:
+1. sin 2θ
+2. cos 2θ
+3. tan 2θ</p>
+<p><strong>Problem 6.11</strong>: Use a half angle formula to find cos 22.5° (note: 22.5° = 45°/2).</p>
+<p><strong>Problem 6.12</strong>: Simplify using double angle formulas:
+1. <span class="arithmatex">\(\frac{\cos 2\theta}{\cos \theta}\)</span>
+2. <span class="arithmatex">\(2\sin 3\theta \cos 3\theta\)</span></p>
+<p><strong>Problem 6.13</strong>: Verify the identity: <span class="arithmatex">\(\sin 2\theta = \frac{2\tan \theta}{1 + \tan^2 \theta}\)</span></p>
+<p><strong>Problem 6.14</strong>: If tan θ = 2 and θ is in Quadrant I, find tan 2θ.</p>
+<p><strong>Problem 6.15</strong>: Express sin 5x cos 3x as a sum.</p>
+<p><strong>Problem 6.16</strong>: Verify: <span class="arithmatex">\(\cos 2\theta = \frac{1 - \tan^2 \theta}{1 + \tan^2 \theta}\)</span></p>
+<hr />
+<h2 id="section-63-chapter-summary">Section 6.3: Chapter Summary</h2>
+<h3 id="key-identities-to-memorize">Key Identities to Memorize</h3>
+<p><strong>Pythagorean Identities</strong>:
+- <span class="arithmatex">\(\sin^2 \theta + \cos^2 \theta = 1\)</span>
+- <span class="arithmatex">\(\tan^2 \theta + 1 = \sec^2 \theta\)</span>
+- <span class="arithmatex">\(1 + \cot^2 \theta = \csc^2 \theta\)</span></p>
+<p><strong>Quotient Identities</strong>:
+- <span class="arithmatex">\(\tan \theta = \frac{\sin \theta}{\cos \theta}\)</span>
+- <span class="arithmatex">\(\cot \theta = \frac{\cos \theta}{\sin \theta}\)</span></p>
+<p><strong>Reciprocal Identities</strong>:
+- <span class="arithmatex">\(\csc \theta = \frac{1}{\sin \theta}\)</span>, <span class="arithmatex">\(\sec \theta = \frac{1}{\cos \theta}\)</span>, <span class="arithmatex">\(\cot \theta = \frac{1}{\tan \theta}\)</span></p>
+<p><strong>Even-Odd Identities</strong>:
+- <span class="arithmatex">\(\sin(-\theta) = -\sin \theta\)</span> (odd)
+- <span class="arithmatex">\(\cos(-\theta) = \cos \theta\)</span> (even)
+- <span class="arithmatex">\(\tan(-\theta) = -\tan \theta\)</span> (odd)</p>
+<p><strong>Sum and Difference</strong>:
+- <span class="arithmatex">\(\sin(A \pm B) = \sin A \cos B \pm \cos A \sin B\)</span>
+- <span class="arithmatex">\(\cos(A \pm B) = \cos A \cos B \mp \sin A \sin B\)</span></p>
+<p><strong>Double Angle</strong>:
+- <span class="arithmatex">\(\sin 2\theta = 2\sin \theta \cos \theta\)</span>
+- <span class="arithmatex">\(\cos 2\theta = \cos^2 \theta - \sin^2 \theta = 2\cos^2 \theta - 1 = 1 - 2\sin^2 \theta\)</span></p>
+<h3 id="strategies-for-using-identities">Strategies for Using Identities</h3>
+<p><strong>Simplification</strong>:
+1. Convert everything to sine and cosine
+2. Look for Pythagorean identity opportunities
+3. Factor when possible
+4. Find common denominators for fractions</p>
+<p><strong>Verification</strong>:
+1. Work with one side (usually the more complex side)
+2. Transform it step-by-step
+3. Each step should use a valid identity or algebraic operation
+4. Stop when you reach the other side</p>
+<p><strong>Finding Exact Values</strong>:
+1. Express the angle as a sum, difference, or multiple of special angles
+2. Apply the appropriate formula
+3. Use known values for 30°, 45°, 60°</p>
+<h3 id="common-mistakes-to-avoid">Common Mistakes to Avoid</h3>
+<ol>
+<li><strong>Don't distribute incorrectly</strong>: sin(A + B) ≠ sin A + sin B</li>
+<li><strong>Watch signs</strong>: Negative angles and different quadrants affect signs</li>
+<li><strong>Verify domain restrictions</strong>: Some identities require certain conditions</li>
+<li><strong>Don't skip steps</strong>: Show each transformation clearly</li>
+<li><strong>Check your algebra</strong>: Factor correctly, combine fractions properly</li>
+</ol>
+<h3 id="why-this-matters-for-trigonometry">Why This Matters for Trigonometry</h3>
+<p>Trigonometric identities are essential because:</p>
+<ol>
+<li><strong>Simplification</strong> - Complex expressions become manageable</li>
+<li><strong>Equation solving</strong> - Many trig equations can only be solved using identities</li>
+<li><strong>Integration and differentiation</strong> - Calculus relies heavily on these identities</li>
+<li><strong>Engineering applications</strong> - Signal processing, wave analysis, and AC circuits</li>
+<li><strong>Exact values</strong> - Find precise values for any angle built from special angles</li>
+<li><strong>Proof and derivation</strong> - Establish new mathematical relationships</li>
+</ol>
+<h3 id="looking-ahead">Looking Ahead</h3>
+<p>In <strong>Chapter 7</strong>, we'll put these identities to work solving <strong>trigonometric equations</strong>. You'll learn how to find angles when you know the value of a trig function, solve equations involving multiple angles, and work with inverse trigonometric functions. The identities from this chapter will be essential tools for solving these problems!</p>
+<hr />
+<h3 id="chapter-review-questions">Chapter Review Questions</h3>
+<p><strong>Short Answer</strong>:</p>
+<ol>
+<li>State the Pythagorean identity.</li>
+<li>What is the quotient identity for tangent?</li>
+<li>Is sine an even or odd function? What does this mean?</li>
+<li>State the double angle formula for sin 2θ.</li>
+<li>Why is sin(A + B) not equal to sin A + sin B?</li>
+</ol>
+<p><strong>Problem Solving</strong>:</p>
+<ol>
+<li>
+<p>If sin θ = 7/25 and θ is in Quadrant II, find cos θ and tan θ.</p>
+</li>
+<li>
+<p>Simplify: <span class="arithmatex">\(\frac{\tan \theta \cos \theta}{\sin \theta}\)</span></p>
+</li>
+<li>
+<p>Evaluate: sin(-45°) + cos(-30°)</p>
+</li>
+<li>
+<p>Find the exact value of sin 15° using a difference formula.</p>
+</li>
+<li>
+<p>Verify the identity: <span class="arithmatex">\(\frac{1 - \sin^2 \theta}{\cos \theta} = \cos \theta\)</span></p>
+</li>
+<li>
+<p>If cos θ = 3/5 and θ is in Quadrant IV, find sin 2θ and cos 2θ.</p>
+</li>
+<li>
+<p>Simplify: <span class="arithmatex">\((\sin \theta + \cos \theta)^2\)</span></p>
+</li>
+<li>
+<p>Use a cofunction identity to write tan 35° in terms of another function.</p>
+</li>
+<li>
+<p>Find tan 75° using a sum formula.</p>
+</li>
+<li>
+<p>Verify: <span class="arithmatex">\(\sec^2 \theta - \tan^2 \theta = 1\)</span></p>
+</li>
+</ol>
+<hr />
+<p><strong>Chapter 6 Complete!</strong> Move on to Chapter 7: Solving Right Triangles and Finding Angles</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
