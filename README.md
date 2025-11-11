@@ -1,16 +1,16 @@
-# Algebra I - Intelligent Textbook
+# Introduction to Trigonometry - Intelligent Textbook
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![MkDocs](https://img.shields.io/badge/docs-mkdocs-blue)](https://www.mkdocs.org/)
 [![Material for MkDocs](https://img.shields.io/badge/theme-material-blue)](https://squidfunk.github.io/mkdocs-material/)
 
-An interactive, AI-assisted Algebra I textbook designed for junior high and high school students (Grades 8-10). This intelligent textbook features a comprehensive learning graph with 200 interconnected concepts, interactive MicroSims, and structured chapter content aligned with Common Core State Standards.
+An interactive, AI-assisted Trigonometry textbook designed for junior high and high school students (Grades 8-10). This intelligent textbook features a comprehensive learning graph with interconnected concepts, interactive MicroSims, and structured chapter content aligned with Common Core State Standards.
 
-**Live Site:** [https://dmccreary.github.io/algebra-1/](https://dmccreary.github.io/algebra-1/)
+**Live Site:** [https://iowerx.github.io/intro-to-trig/](https://iowerx.github.io/intro-to-trig/)
 
 ## Features
 
-- **📚 13 Comprehensive Chapters** - Structured progression from foundational algebra to data analysis
+- **📚 10 Comprehensive Chapters** - From definitions of angles to types of triangles, to trig functions
 - **🕸️ Learning Graph** - 200 concepts with 248 dependency relationships visualized as an interactive graph
 - **🎮 Interactive MicroSims** - Educational simulations using p5.js and vis-network
 - **🎯 Standards-Aligned** - Aligned with Common Core State Standards for Mathematics (CCSSM)
@@ -45,7 +45,7 @@ An interactive, AI-assisted Algebra I textbook designed for junior high and high
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dmccreary/algebra-1.git
+   git clone https://github.com/iowerx/intro-to-trig.git
    cd algebra-1
    ```
 
@@ -53,6 +53,7 @@ An interactive, AI-assisted Algebra I textbook designed for junior high and high
    ```bash
    pip install mkdocs
    pip install mkdocs-material
+   pip install mkdocs-material[imaging]
    ```
 
 3. Serve the site locally:
@@ -60,25 +61,22 @@ An interactive, AI-assisted Algebra I textbook designed for junior high and high
    mkdocs serve
    ```
 
-4. Open your browser to `http://127.0.0.1:8000`
+4. Open your browser to `http://127.0.0.1:8000/intro-to-trig`
 
 ## Course Structure
 
 The textbook is organized into 13 chapters covering 200 algebra concepts:
 
-1. **Foundations of Algebra** - Variables, expressions, and basic operations
-2. **Number Systems and Properties** - Integer, rational, and real numbers
-3. **Exponents and Powers** - Exponent rules, radicals, and scientific notation
-4. **Polynomial Expressions** - Polynomial operations and special products
-5. **Factoring Polynomials** - Comprehensive factoring techniques
-6. **Solving Linear Equations** - Multi-step equations and literal equations
-7. **Linear Inequalities and Absolute Value** - Inequalities and compound inequalities
-8. **Introduction to Functions** - Function concepts, notation, and transformations
-9. **Graphing and Linear Functions** - Coordinate plane, slope, and linear equations
-10. **Systems of Equations and Inequalities** - Multiple solution methods
-11. **Quadratic Functions and Equations** - Parabolas and solving quadratics
-12. **Exponential Functions** - Growth, decay, and exponential models
-13. **Data Analysis and Real-World Applications** - Statistics and practical applications
+1. **Foundations of Geometry** - 
+2. **The Pythogrean Theorem** - 
+3. **Trigonometric Ratios** - 
+4. **Special Right Triangles** - 
+5. **Unit Circle & Functions** - 
+6. **Trigonometric Identities** - 
+7. **Solving Triangles & Angles** - 
+8. **Advanced Triangle Solutions** - 
+9. **Real World Applications** - 
+10. **Tools & Integration** - 
 
 ## Learning Graph
 
@@ -158,7 +156,8 @@ This command builds the site and pushes it to the `gh-pages` branch.
 ## Project Structure
 
 ```
-algebra-1/
+# TODO - corrections.
+intro-to-it/
 ├── docs/                          # Source content
 │   ├── chapters/                  # 13 chapter directories
 │   │   ├── 01-foundations-of-algebra/
@@ -297,6 +296,7 @@ This project is made possible by the following open-source software and communit
 - **Khan Academy** - For pioneering free, world-class education
 - **OpenStax** - For open educational resources
 - **Mathematics Educators Worldwide** - For sharing knowledge and best practices
+- **Dan McCreary** - For Inteligent Textbooks Claude Skills
 
 ### Special Thanks
 
@@ -306,15 +306,15 @@ This project is made possible by the following open-source software and communit
 
 ## Contact
 
-**Author:** Dan McCreary
+**Author:** Hank R.
 
-**Project Repository:** [https://github.com/dmccreary/algebra-1](https://github.com/dmccreary/algebra-1)
+**Project Repository:** [https://github.com/iowerx/intro-to-trig](https://github.com/iowerx/intro-to-trig)
 
-**Website:** [https://dmccreary.github.io/algebra-1/](https://dmccreary.github.io/algebra-1/)
+**Website:** [https://iowerx.github.io/intro-to-trig/](https://iowerx.github.io/intro-to-trig/)
 
 For questions, suggestions, or issues, please:
 - Open an issue on GitHub
-- Visit the [Contact page](https://dmccreary.github.io/algebra-1/contact/) on the website
+- Visit the TODO
 
 ---
 

@@ -1,4 +1,4 @@
-# Chapter 1: Foundations of Geometry
+# Chapter 1: Geometric Foundations
 
 ## Introduction
 
@@ -17,164 +17,7 @@ After completing this chapter, you will be able to:
 
 ---
 
-## Section 1.1: Triangle Types and Properties
-
-### What is a Triangle?
-
-A **triangle** is a polygon with three sides, three angles, and three vertices (corner points). Triangles are among the most fundamental shapes in geometry and serve as the foundation for trigonometry.
-
-**Key Components of a Triangle:**
-- **Sides**: The three line segments that form the triangle's boundary
-- **Angles**: The three angles formed where sides meet
-- **Vertices**: The three points where sides intersect
-
-**Important Property**: The sum of all three angles in any triangle equals **180 degrees**.
-
-### Types of Triangles
-
-Triangles are classified in two main ways: by their sides and by their angles.
-
-#### Classification by Sides
-
-**Equilateral Triangle**
-- All three sides have equal length
-- All three angles are equal (each measures 60°)
-- Perfectly balanced and symmetrical
-
-**Isosceles Triangle**
-- Two sides have equal length
-- Two angles are equal (the angles opposite the equal sides)
-- Has a line of symmetry
-
-**Scalene Triangle**
-- All three sides have different lengths
-- All three angles are different sizes
-- Asymmetrical shape
-
-#### Classification by Angles
-
-**Acute Triangle**
-- All three angles are less than 90°
-- Sometimes called "sharp" triangles
-- Often appears pointed or well-balanced
-
-**Right Triangle**
-- One angle is exactly 90° (a right angle, shown with a small square)
-- The other two angles are acute (less than 90°)
-- Sides have special relationships (Pythagorean theorem)
-- **Most important for trigonometry!**
-
-**Obtuse Triangle**
-- One angle is greater than 90° (obtuse)
-- The other two angles are acute
-- Often appears "flat" or spread out
-
-### Important Geometric Properties
-
-**Angle Sum Property**: The sum of all three interior angles in any triangle is always 180°.
-
-If a triangle has angles A, B, and C, then:
-$$A + B + C = 180°$$
-
-**Exterior Angle Property**: An exterior angle of a triangle equals the sum of the two non-adjacent interior angles.
-
-**Vertex Relationships**: Understanding how angles and sides relate at vertices is crucial for later work with trigonometric ratios.
-
----
-
-### Worked Examples
-
-#### Example 1.1: Identifying Triangle Types
-
-**Problem**: Classify each triangle:
-1. A triangle with sides 5 cm, 5 cm, and 7 cm
-2. A triangle with angles 45°, 45°, and 90°
-3. A triangle with angles 30°, 60°, and 90°
-
-**Solution**:
-
-1. **First triangle (5 cm, 5 cm, 7 cm)**
-   - Two sides are equal (5 cm each)
-   - **Classification by sides**: Isosceles triangle
-   - To classify by angles, we'd need to calculate them using more advanced methods
-
-2. **Second triangle (45°, 45°, 90°)**
-   - One angle is exactly 90°
-   - **Classification by angles**: Right triangle
-   - The two equal 45° angles suggest this is also isosceles (since equal angles opposite equal sides)
-   - **Full classification**: Isosceles right triangle
-
-3. **Third triangle (30°, 60°, 90°)**
-   - One angle is exactly 90°
-   - **Classification by angles**: Right triangle
-   - This is a special right triangle (30-60-90)
-   - All three sides have different lengths
-   - **Full classification**: Scalene right triangle
-
----
-
-#### Example 1.2: Using the Angle Sum Property
-
-**Problem**: In a triangle, one angle measures 50°, another measures 65°. What is the measure of the third angle?
-
-**Solution**:
-
-Using the angle sum property:
-$$A + B + C = 180°$$
-
-Substituting known values:
-$$50° + 65° + C = 180°$$
-
-$$115° + C = 180°$$
-
-$$C = 180° - 115°$$
-
-$$C = 65°$$
-
-**Answer**: The third angle measures **65°**.
-
-**Note**: Since two angles are equal (65° each), this is an **isosceles triangle**.
-
----
-
-#### Example 1.3: Finding an Exterior Angle
-
-**Problem**: A triangle has interior angles of 40°, 70°, and 70°. If you extend one of the sides forming the 40° angle, what is the measure of the exterior angle formed?
-
-**Solution**:
-
-Using the exterior angle property: An exterior angle equals the sum of the two non-adjacent interior angles.
-
-The two non-adjacent angles (the ones not at the vertex where the exterior angle is formed) are 70° and 70°.
-
-**Exterior angle** = 70° + 70° = **140°**
-
-**Verification**: The exterior angle and its adjacent interior angle should sum to 180°:
-- 140° + 40° = 180° ✓
-
----
-
-### Practice Problems
-
-**Problem 1.1**: Name the type of triangle (by sides) that has:
-1. All sides of different lengths
-2. Two sides of equal length
-3. All three sides of equal length
-
-**Problem 1.2**: A triangle has angles measuring 55°, 60°, and x°. Find the value of x.
-
-**Problem 1.3**: In an isosceles triangle, two angles measure 70° each. What is the third angle?
-
-**Problem 1.4**: Classify each triangle by angles:
-1. Angles: 30°, 60°, 90°
-2. Angles: 50°, 50°, 80°
-3. Angles: 100°, 40°, 40°
-
-**Problem 1.5**: In a right triangle, one acute angle measures 35°. What is the measure of the other acute angle?
-
----
-
-## Section 1.2: Angle Fundamentals
+## Section 1.1: Angle Fundamentals
 
 ### What is an Angle?
 
@@ -254,7 +97,7 @@ An **angle** is formed by two rays that share a common endpoint (called the vert
 
 ### Worked Examples
 
-#### Example 1.4: Working with Complementary Angles
+#### Example 1.1: Working with Complementary Angles
 
 **Problem**: Two complementary angles have measures where one angle is 20° more than the other. Find both angles.
 
@@ -280,7 +123,7 @@ $$x = 35°$$
 
 ---
 
-#### Example 1.5: Identifying Supplementary Angles
+#### Example 1.2: Identifying Supplementary Angles
 
 **Problem**: Two supplementary angles have a ratio of 2:3. Find both angles.
 
@@ -304,7 +147,7 @@ $$x = 36°$$
 
 ---
 
-#### Example 1.6: Using Vertical Angles
+#### Example 1.3: Using Vertical Angles
 
 **Problem**: Two lines intersect forming four angles. One angle measures 65°. What are the measures of the other three angles?
 
@@ -325,24 +168,184 @@ If one angle is 65°:
 
 ### Practice Problems
 
-**Problem 1.6**: Find the complement of each angle:
+**Problem 1.1**: Find the complement of each angle:
 1. 25°
 2. 45°
 3. 72°
 
-**Problem 1.7**: Find the supplement of each angle:
+**Problem 1.2**: Find the supplement of each angle:
 1. 40°
 2. 125°
 3. 88°
 
-**Problem 1.8**: Two complementary angles are in the ratio 3:2. Find both angles.
+**Problem 1.3**: Two complementary angles are in the ratio 3:2. Find both angles.
 
-**Problem 1.9**: Three angles of a triangle measure 40°, 60°, and 80°. Are these angles correct? Explain.
+**Problem 1.4**: Three angles of a triangle measure 40°, 60°, and 80°. Are these angles correct? Explain.
 
-**Problem 1.10**: Determine if the following pairs of angles are complementary, supplementary, or neither:
+**Problem 1.5**: Determine if the following pairs of angles are complementary, supplementary, or neither:
 1. 45° and 45°
 2. 60° and 120°
 3. 30° and 60°
+
+---
+
+## Section 1.2: Triangle Types and Properties
+
+### What is a Triangle?
+
+A **triangle** is a polygon with three sides, three angles, and three vertices (corner points). Triangles are among the most fundamental shapes in geometry and serve as the foundation for trigonometry.
+
+**Key Components of a Triangle:**
+- **Sides**: The three line segments that form the triangle's boundary
+- **Angles**: The three angles formed where sides meet
+- **Vertices**: The three points where sides intersect
+
+**Important Property**: The sum of all three angles in any triangle equals **180 degrees**.
+
+### Types of Triangles
+
+Triangles are classified in two main ways: by their sides and by their angles.
+
+#### Classification by Sides
+
+**Equilateral Triangle**
+- All three sides have equal length
+- All three angles are equal (each measures 60°)
+- Perfectly balanced and symmetrical
+
+**Isosceles Triangle**
+- Two sides have equal length
+- Two angles are equal (the angles opposite the equal sides)
+- Has a line of symmetry
+
+**Scalene Triangle**
+- All three sides have different lengths
+- All three angles are different sizes
+- Asymmetrical shape
+
+#### Classification by Angles
+
+**Acute Triangle**
+- All three angles are less than 90°
+- Sometimes called "sharp" triangles
+- Often appears pointed or well-balanced
+
+**Right Triangle**
+- One angle is exactly 90° (a right angle, shown with a small square)
+- The other two angles are acute (less than 90°)
+- Sides have special relationships (Pythagorean theorem)
+- **Most important for trigonometry!**
+
+**Obtuse Triangle**
+- One angle is greater than 90° (obtuse)
+- The other two angles are acute
+- Often appears "flat" or spread out
+
+<iframe src="/intro-to-trig/sims/triangle-type-explorer/main.html" width="100%" height="600"></iframe>
+[Run Triangle Explorer Fullscreen](/intro-to-trig/sims/triangle-type-explorer/main.html){ .md-button .md-button--primary }
+
+### Important Geometric Properties
+
+**Angle Sum Property**: The sum of all three interior angles in any triangle is always 180°.
+
+If a triangle has angles A, B, and C, then:
+$$A + B + C = 180°$$
+
+**Exterior Angle Property**: An exterior angle of a triangle equals the sum of the two non-adjacent interior angles.
+
+**Vertex Relationships**: Understanding how angles and sides relate at vertices is crucial for later work with trigonometric ratios.
+
+---
+
+### Worked Examples
+
+#### Example 1.4: Identifying Triangle Types
+
+**Problem**: Classify each triangle:
+1. A triangle with sides 5 cm, 5 cm, and 7 cm
+2. A triangle with angles 45°, 45°, and 90°
+3. A triangle with angles 30°, 60°, and 90°
+
+**Solution**:
+
+1. **First triangle (5 cm, 5 cm, 7 cm)**
+   - Two sides are equal (5 cm each)
+   - **Classification by sides**: Isosceles triangle
+   - To classify by angles, we'd need to calculate them using more advanced methods
+
+2. **Second triangle (45°, 45°, 90°)**
+   - One angle is exactly 90°
+   - **Classification by angles**: Right triangle
+   - The two equal 45° angles suggest this is also isosceles (since equal angles opposite equal sides)
+   - **Full classification**: Isosceles right triangle
+
+3. **Third triangle (30°, 60°, 90°)**
+   - One angle is exactly 90°
+   - **Classification by angles**: Right triangle
+   - This is a special right triangle (30-60-90)
+   - All three sides have different lengths
+   - **Full classification**: Scalene right triangle
+
+---
+
+#### Example 1.5: Using the Angle Sum Property
+
+**Problem**: In a triangle, one angle measures 50°, another measures 65°. What is the measure of the third angle?
+
+**Solution**:
+
+Using the angle sum property:
+$$A + B + C = 180°$$
+
+Substituting known values:
+$$50° + 65° + C = 180°$$
+
+$$115° + C = 180°$$
+
+$$C = 180° - 115°$$
+
+$$C = 65°$$
+
+**Answer**: The third angle measures **65°**.
+
+**Note**: Since two angles are equal (65° each), this is an **isosceles triangle**.
+
+---
+
+#### Example 1.6: Finding an Exterior Angle
+
+**Problem**: A triangle has interior angles of 40°, 70°, and 70°. If you extend one of the sides forming the 40° angle, what is the measure of the exterior angle formed?
+
+**Solution**:
+
+Using the exterior angle property: An exterior angle equals the sum of the two non-adjacent interior angles.
+
+The two non-adjacent angles (the ones not at the vertex where the exterior angle is formed) are 70° and 70°.
+
+**Exterior angle** = 70° + 70° = **140°**
+
+**Verification**: The exterior angle and its adjacent interior angle should sum to 180°:
+- 140° + 40° = 180° ✓
+
+---
+
+### Practice Problems
+
+**Problem 1.6**: Name the type of triangle (by sides) that has:
+1. All sides of different lengths
+2. Two sides of equal length
+3. All three sides of equal length
+
+**Problem 1.7**: A triangle has angles measuring 55°, 60°, and x°. Find the value of x.
+
+**Problem 1.8**: In an isosceles triangle, two angles measure 70° each. What is the third angle?
+
+**Problem 1.9**: Classify each triangle by angles:
+1. Angles: 30°, 60°, 90°
+2. Angles: 50°, 50°, 80°
+3. Angles: 100°, 40°, 40°
+
+**Problem 1.10**: In a right triangle, one acute angle measures 35°. What is the measure of the other acute angle?
 
 ---
 
