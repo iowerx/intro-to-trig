@@ -1,0 +1,67 @@
+site_name: Introduction to Trigonometry
+site_description: An introductory course to Trigonometry
+site_author: Hank Ratzesberger
+repo_name: 'GitHub Repo'
+site_url: 'https://iowerx.github.io/intro-to-trig/'
+repo_url: 'https://github.com/iowerx/intro-to-trig'
+edit_uri: 'blob/master/docs'
+
+nav:
+  - Home: index.md
+  - Course Description: course-description.md
+  - Learning Graph:
+    - Overview: learning-graph/index.md
+    - Course Assessment: learning-graph/course-description-assessment.md
+    - Concept List: learning-graph/concept-list.md
+    - Concept Taxonomy: learning-graph/concept-taxonomy.md
+    - Taxonomy Distribution: learning-graph/taxonomy-distribution-report.md
+    - Chapters Outline: learning-graph/chapters-outline.md
+  - Course Content:
+    - Chapter 1 - Foundations of Geometry: chapters/chapter-01.md
+    - Chapter 2 - The Pythagorean Theorem: chapters/chapter-02.md
+    - Chapter 3 - Trigonometric Ratios: chapters/chapter-03.md
+    - Chapter 4 - Special Right Triangles: chapters/chapter-04.md
+    - Chapter 5 - Unit Circle & Functions: chapters/chapter-05.md
+    - Chapter 6 - Trigonometric Identities: chapters/chapter-06.md
+    - Chapter 7 - Solving Triangles & Angles: chapters/chapter-07.md
+    - Chapter 8 - Advanced Triangle Solutions: chapters/chapter-08.md
+    - Chapter 9 - Real-World Applications: chapters/chapter-09.md
+    - Chapter 10 - Tools & Integration: chapters/chapter-10.md
+
+theme:
+  name: material
+  logo: img/logo.png
+  favicon: img/favicon.ico
+  palette:
+    primary: 'orange'
+    accent: 'blue'
+  include_sidebar: true
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+  - social
+    #  - social_override
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+extra_css:
+  - css/extra.css
+extra_javascript:
+  - js/extra.js
+    # needed for mathjax to work
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+

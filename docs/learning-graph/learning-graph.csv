@@ -1,0 +1,201 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Right Triangle Definition,,GEOM
+2,Triangle Properties,,GEOM
+3,Triangle Classification,2,GEOM
+4,Acute Triangle,3,GEOM
+5,Right Triangle Components,1,GEOM
+6,Obtuse Triangle,3,GEOM
+7,Isosceles Triangle,2,GEOM
+8,Equilateral Triangle,2,GEOM
+9,Scalene Triangle,2,GEOM
+10,Triangle Sides,2,GEOM
+11,Triangle Angles,2,GEOM
+12,Triangle Vertices,2,GEOM
+13,Angle Types,,GEOM
+14,Acute Angle,13,GEOM
+15,Right Angle,13,GEOM
+16,Obtuse Angle,13,GEOM
+17,Angle Measurement,13,GEOM
+18,Degree Measurement,17,GEOM
+19,Radian Measurement,17,GEOM
+20,Angle Sum Property,11,GEOM
+21,Complementary Angles,13|20,GEOM
+22,Supplementary Angles,13|20,GEOM
+23,Vertical Angles,13,GEOM
+24,Adjacent Angles,13,GEOM
+25,Interior Angles,11|20,GEOM
+26,Exterior Angles,11|20,GEOM
+27,Pythagorean Theorem,1|10|11,PYTH
+28,Pythagorean Theorem Statement,27,PYTH
+29,Pythagorean Theorem Proof,27|28,PYTH
+30,Pythagorean Triples,27|28,PYTH
+31,Common Pythagorean Triples,30,PYTH
+32,Converse Of Pythagorean Theorem,27|28,PYTH
+33,Verifying Right Triangles,27|32,PYTH
+34,Hypotenuse Definition,1|5|10,PYTH
+35,Legs Of Triangle,1|5|10,PYTH
+36,Side Relationships,10|27|34|35,PYTH
+37,Side Length Calculations,27|36,PYTH
+38,Distance Formula,36|37,PYTH
+39,Pythagorean Theorem Applications,27|37|38,PYTH
+40,Finding Hypotenuse,27|34,PYTH
+41,Finding Leg Length,27|35,PYTH
+42,Solving For Unknown Sides,40|41,PYTH
+43,Trigonometric Ratios,1|27|34|35,RATIO
+44,Sine Definition,43|14,RATIO
+45,Cosine Definition,43|14,RATIO
+46,Tangent Definition,43|14,RATIO
+47,Sine Ratio Formula,44,RATIO
+48,Cosine Ratio Formula,45,RATIO
+49,Tangent Ratio Formula,46,RATIO
+50,Reciprocal Trigonometric Functions,43|47|48|49,RATIO
+51,Cosecant Definition,50|44,RATIO
+52,Secant Definition,50|45,RATIO
+53,Cotangent Definition,50|46,RATIO
+54,Opposite Side,35|43,RATIO
+55,Adjacent Side,35|43,RATIO
+56,Hypotenuse Reference,34|43,RATIO
+57,SOHCAHTOA Mnemonic,44|45|46|54|55|56,RATIO
+58,Sine In Right Triangles,44|47|57,RATIO
+59,Cosine In Right Triangles,45|48|57,RATIO
+60,Tangent In Right Triangles,46|49|57,RATIO
+61,Trigonometric Ratio Selection,57|58|59|60,RATIO
+62,Identifying Right Triangle Parts,5|54|55|56,RATIO
+63,Angle Reference For Ratios,43|62,RATIO
+64,Reference Angle,63|14,RATIO
+65,Special Right Triangles,1|27|36,SPECIAL
+66,45-45-90 Triangle,65|7,SPECIAL
+67,30-60-90 Triangle,65,SPECIAL
+68,Special Angle Ratios,66|67,SPECIAL
+69,Trigonometric Values Of Special Angles,44|45|46|68,SPECIAL
+70,Sine Of 30 Degrees,69|67,SPECIAL
+71,Sine Of 45 Degrees,69|66,SPECIAL
+72,Sine Of 60 Degrees,69|67,SPECIAL
+73,Cosine Of 30 Degrees,69|67,SPECIAL
+74,Cosine Of 45 Degrees,69|66,SPECIAL
+75,Cosine Of 60 Degrees,69|67,SPECIAL
+76,Tangent Of 30 Degrees,69|67,SPECIAL
+77,Tangent Of 45 Degrees,69|66,SPECIAL
+78,Tangent Of 60 Degrees,69|67,SPECIAL
+79,Unit Circle Foundation,43|18,CIRCLE
+80,Unit Circle Definition,79,CIRCLE
+81,Coordinate System Basics,,CIRCLE
+82,Cartesian Plane,81,CIRCLE
+83,X-Axis And Y-Axis,82,CIRCLE
+84,Angle In Standard Position,17|79|83,CIRCLE
+85,Terminal Side Of Angle,84,CIRCLE
+86,Initial Side Of Angle,84,CIRCLE
+87,Rotation Direction,84,CIRCLE
+88,Counterclockwise Rotation,87,CIRCLE
+89,Clockwise Rotation,87,CIRCLE
+90,Trigonometric Function Values,44|45|46|80|85,CIRCLE
+91,Sine Function,44|90,CIRCLE
+92,Cosine Function,45|90,CIRCLE
+93,Tangent Function,46|90,CIRCLE
+94,Function Domains,90|91|92|93,CIRCLE
+95,Function Ranges,90|91|92|93,CIRCLE
+96,Sine Value Range,91|95,CIRCLE
+97,Cosine Value Range,92|95,CIRCLE
+98,Tangent Value Range,93|95,CIRCLE
+99,Trigonometric Graphs,91|92|93,CIRCLE
+100,Sine Wave,99|91,CIRCLE
+101,Cosine Wave,99|92,CIRCLE
+102,Amplitude Of Wave,100|101,WAVE
+103,Period Of Function,100|101,WAVE
+104,Frequency Concept,103,WAVE
+105,Phase Shift,99|102|103,CIRCLE
+106,Vertical Translation,99|102|103,CIRCLE
+107,Horizontal Translation,99|102|103,CIRCLE
+108,Trigonometric Identities,90|91|92|93,IDENTITY
+109,Pythagorean Identity,108|27,IDENTITY
+110,Quotient Identity,108|49,IDENTITY
+111,Reciprocal Identity,108|50,IDENTITY
+112,Even-Odd Identities,108|109,IDENTITY
+113,Cofunction Identities,108|21,IDENTITY
+114,Angle Addition Formulas,108|21|22,IDENTITY
+115,Sum Formula For Sine,114|91,IDENTITY
+116,Sum Formula For Cosine,114|92,IDENTITY
+117,Difference Formula For Sine,114|91,IDENTITY
+118,Difference Formula For Cosine,114|92,IDENTITY
+119,Double Angle Formula,115|116|117|118,IDENTITY
+120,Product-To-Sum Formulas,108|119,IDENTITY
+121,Sum-To-Product Formulas,108|119,IDENTITY
+122,Half-Angle Formula,119,IDENTITY
+123,Solving Right Triangles,1|42|58|59|60,INVERSE
+124,Finding Missing Angles,123|63|64,INVERSE
+125,Finding Missing Sides,123|42|57,INVERSE
+126,Triangle Solution Process,123|124|125,INVERSE
+127,Using Inverse Trigonometric Functions,90|124,INVERSE
+128,Inverse Sine Function,127|91,INVERSE
+129,Inverse Cosine Function,127|92,INVERSE
+130,Inverse Tangent Function,127|93,INVERSE
+131,Arcsine Notation,128,INVERSE
+132,Arccosine Notation,129,INVERSE
+133,Arctangent Notation,130,INVERSE
+134,Domain Restrictions,128|129|130,INVERSE
+135,Range Restrictions,128|129|130,INVERSE
+136,Solving For Unknown Angles,127|134|135,INVERSE
+137,Angle Calculation Methods,136|124,INVERSE
+138,Angle From Ratios,128|129|130,INVERSE
+139,Two-Solution Cases,136|138,INVERSE
+140,Law Of Sines,1|11|20|27|126,ADVANCED
+141,Law Of Sines Ratio,140,ADVANCED
+142,Law Of Sines Application,141|126,ADVANCED
+143,Ambiguous Case,140|142,ADVANCED
+144,Law Of Cosines,1|27|126,ADVANCED
+145,Law Of Cosines Formula,144,ADVANCED
+146,Law Of Cosines Application,145|126,ADVANCED
+147,Triangle Area Formulas,10|27|40,ADVANCED
+148,Area Using Sine,147|91,ADVANCED
+149,Area Using Two Sides And Angle,148,ADVANCED
+150,Area Using Heron's Formula,147|31,ADVANCED
+151,Real-World Applications,123|126|142|146,APPLY
+152,Navigation Problems,151|64|84,APPLY
+153,Bearing And Direction,152|17|83,APPLY
+154,Distance Calculation,152|38|152,APPLY
+155,Height And Distance Problems,151|152,APPLY
+156,Angle Of Elevation,155|17,APPLY
+157,Angle Of Depression,155|17,APPLY
+158,Surveying Concepts,151|152|153,APPLY
+159,Land Measurement,158,APPLY
+160,Indirect Measurement,155|156|157,APPLY
+161,Building Height Problems,160|1,APPLY
+162,Ladder And Wall Problems,160|1,APPLY
+163,Ramp Angle Problems,160|1,APPLY
+164,Roofing Slope Problems,160|1,APPLY
+165,Bridge Design Application,151|146|149,APPLY
+166,Engineering Applications,151|165,APPLY
+167,Architecture And Design,151|166,APPLY
+168,Physics Applications,151|166|170,APPLY
+169,Force Resolution,168|82|83,APPLY
+170,Vector Components,169|82,APPLY
+171,Projectile Motion,168|170,APPLY
+172,Wave Motion,99|104,WAVE
+173,Harmonic Motion,172|91,WAVE
+174,Oscillation Frequency,173|104,WAVE
+175,Periodic Phenomena,172|104,WAVE
+176,Amplitude In Applications,172|102,WAVE
+177,Trigonometric Equation Solving,108|119,INVERSE
+178,Simple Trigonometric Equations,177|128|129|130,INVERSE
+179,Quadratic Trigonometric Equations,178,INVERSE
+180,Factoring With Trigonometric Functions,177|179,INVERSE
+181,Multiple Angle Equations,177|119,INVERSE
+182,General Solutions,177|181,INVERSE
+183,Particular Solutions,182,INVERSE
+184,Solution Intervals,182|19,INVERSE
+185,Trigonometric Inequalities,177|184,INVERSE
+186,Solving Inequalities,185|184,INVERSE
+187,Inequality Solution Sets,186,INVERSE
+188,Interval Notation,187|19,INVERSE
+189,Number Line Representation,187|83,INVERSE
+190,Trigonometric Tables,69|70|71|72|73|74|75|76|77|78,TOOLS
+191,Calculator Usage,18|19,TOOLS
+192,Degree Mode,18|191,TOOLS
+193,Radian Mode,19|191,TOOLS
+194,Calculator Accuracy,191|192|193,TOOLS
+195,Significant Figures,194,TOOLS
+196,Rounding Rules,194|195,TOOLS
+197,Error Analysis,194|196,TOOLS
+198,Trigonometric Formulas Reference,108|114|119|190,TOOLS
+199,Common Values Table,69|190|198,TOOLS
+200,Trigonometric Identities Summary,108|109|110|111|112|113,SYNTH
