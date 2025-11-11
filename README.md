@@ -10,7 +10,7 @@ An interactive, AI-assisted Trigonometry textbook designed for junior high and h
 
 ## Features
 
-- **📚 13 Comprehensive Chapters** - Structured progression from foundational algebra to data analysis
+- **📚 10 Comprehensive Chapters** - From definitions of angles to types of triangles, to trig functions
 - **🕸️ Learning Graph** - 200 concepts with 248 dependency relationships visualized as an interactive graph
 - **🎮 Interactive MicroSims** - Educational simulations using p5.js and vis-network
 - **🎯 Standards-Aligned** - Aligned with Common Core State Standards for Mathematics (CCSSM)
@@ -45,7 +45,7 @@ An interactive, AI-assisted Trigonometry textbook designed for junior high and h
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dmccreary/algebra-1.git
+   git clone https://github.com/iowerx/intro-to-trig.git
    cd algebra-1
    ```
 
@@ -67,19 +67,16 @@ An interactive, AI-assisted Trigonometry textbook designed for junior high and h
 
 The textbook is organized into 13 chapters covering 200 algebra concepts:
 
-1. **Foundations of Algebra** - Variables, expressions, and basic operations
-2. **Number Systems and Properties** - Integer, rational, and real numbers
-3. **Exponents and Powers** - Exponent rules, radicals, and scientific notation
-4. **Polynomial Expressions** - Polynomial operations and special products
-5. **Factoring Polynomials** - Comprehensive factoring techniques
-6. **Solving Linear Equations** - Multi-step equations and literal equations
-7. **Linear Inequalities and Absolute Value** - Inequalities and compound inequalities
-8. **Introduction to Functions** - Function concepts, notation, and transformations
-9. **Graphing and Linear Functions** - Coordinate plane, slope, and linear equations
-10. **Systems of Equations and Inequalities** - Multiple solution methods
-11. **Quadratic Functions and Equations** - Parabolas and solving quadratics
-12. **Exponential Functions** - Growth, decay, and exponential models
-13. **Data Analysis and Real-World Applications** - Statistics and practical applications
+1. **Foundations of Geometry** - 
+2. **The Pythogrean Theorem** - 
+3. **Trigonometric Ratios** - 
+4. **Special Right Triangles** - 
+5. **Unit Circle & Functions** - 
+6. **Trigonometric Identities** - 
+7. **Solving Triangles & Angles** - 
+8. **Advanced Triangle Solutions** - 
+9. **Real World Applications** - 
+10. **Tools & Integration** - 
 
 ## Learning Graph
 
