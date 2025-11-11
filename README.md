@@ -1,12 +1,12 @@
-# Algebra I - Intelligent Textbook
+# Introduction to Trigonometry - Intelligent Textbook
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![MkDocs](https://img.shields.io/badge/docs-mkdocs-blue)](https://www.mkdocs.org/)
 [![Material for MkDocs](https://img.shields.io/badge/theme-material-blue)](https://squidfunk.github.io/mkdocs-material/)
 
-An interactive, AI-assisted Algebra I textbook designed for junior high and high school students (Grades 8-10). This intelligent textbook features a comprehensive learning graph with 200 interconnected concepts, interactive MicroSims, and structured chapter content aligned with Common Core State Standards.
+An interactive, AI-assisted Trigonometry textbook designed for junior high and high school students (Grades 8-10). This intelligent textbook features a comprehensive learning graph with interconnected concepts, interactive MicroSims, and structured chapter content aligned with Common Core State Standards.
 
-**Live Site:** [https://dmccreary.github.io/algebra-1/](https://dmccreary.github.io/algebra-1/)
+**Live Site:** [https://iowerx.github.io/intro-to-trig/](https://iowerx.github.io/intro-to-trig/)
 
 ## Features
 
@@ -53,6 +53,7 @@ An interactive, AI-assisted Algebra I textbook designed for junior high and high
    ```bash
    pip install mkdocs
    pip install mkdocs-material
+   pip install mkdocs-material[imaging]
    ```
 
 3. Serve the site locally:
@@ -60,7 +61,7 @@ An interactive, AI-assisted Algebra I textbook designed for junior high and high
    mkdocs serve
    ```
 
-4. Open your browser to `http://127.0.0.1:8000`
+4. Open your browser to `http://127.0.0.1:8000/intro-to-trig`
 
 ## Course Structure
 
@@ -158,7 +159,8 @@ This command builds the site and pushes it to the `gh-pages` branch.
 ## Project Structure
 
 ```
-algebra-1/
+# TODO - corrections.
+intro-to-it/
 ├── docs/                          # Source content
 │   ├── chapters/                  # 13 chapter directories
 │   │   ├── 01-foundations-of-algebra/
@@ -297,6 +299,7 @@ This project is made possible by the following open-source software and communit
 - **Khan Academy** - For pioneering free, world-class education
 - **OpenStax** - For open educational resources
 - **Mathematics Educators Worldwide** - For sharing knowledge and best practices
+- **Dan McCreary** - For Inteligent Textbooks Claude Skills
 
 ### Special Thanks
 
@@ -306,15 +309,15 @@ This project is made possible by the following open-source software and communit
 
 ## Contact
 
-**Author:** Dan McCreary
+**Author:** Hank R.
 
-**Project Repository:** [https://github.com/dmccreary/algebra-1](https://github.com/dmccreary/algebra-1)
+**Project Repository:** [https://github.com/iowerx/intro-to-trig](https://github.com/iowerx/intro-to-trig)
 
-**Website:** [https://dmccreary.github.io/algebra-1/](https://dmccreary.github.io/algebra-1/)
+**Website:** [https://iowerx.github.io/intro-to-trig/](https://iowerx.github.io/intro-to-trig/)
 
 For questions, suggestions, or issues, please:
 - Open an issue on GitHub
-- Visit the [Contact page](https://dmccreary.github.io/algebra-1/contact/) on the website
+- Visit the TODO
 
 ---
 
