@@ -1,4 +1,4 @@
-# Chapter 1: Foundations of Geometry
+# Chapter 1: Geometric Foundations
 
 ## Introduction
 
@@ -69,8 +69,8 @@ Triangles are classified in two main ways: by their sides and by their angles.
 - The other two angles are acute
 - Often appears "flat" or spread out
 
-<iframe src="/intro-to-trig/sims/angle-explorer/angle-explorer.html" height="470"></iframe>
-[Run Angle Explorer Fullscreen](/intro-to-trig/sims/angle-explorer/angle-explorer.html){ .md-button .md-button--primary }
+<iframe src="/intro-to-trig/sims/triangle-type-explorer/main.html" width="100%" height="600"></iframe>
+[Run Triangle Explorer Fullscreen](/intro-to-trig/sims/triangle-type-explorer/main.html){ .md-button .md-button--primary }
 
 ### Important Geometric Properties
 
