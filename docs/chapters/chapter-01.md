@@ -69,6 +69,9 @@ Triangles are classified in two main ways: by their sides and by their angles.
 - The other two angles are acute
 - Often appears "flat" or spread out
 
+<iframe src="/intro-to-trig/sims/angle-explorer/angle-explorer.html" height="470"></iframe>
+[Run Angle Explorer Fullscreen](/intro-to-trig/sims/angle-explorer/angle-explorer.html){ .md-button .md-button--primary }
+
 ### Important Geometric Properties
 
 **Angle Sum Property**: The sum of all three interior angles in any triangle is always 180°.
