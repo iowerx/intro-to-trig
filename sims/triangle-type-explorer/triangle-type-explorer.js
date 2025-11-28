@@ -1,12 +1,13 @@
 // Triangle Type Explorer MicroSim
 // Interactive triangle visualization that classifies triangles by sides and angles
-// Based on angle-explorer pattern for 2D geometry with draggable vertices
+// Uses p5.js and responsive canvas design for educational exploration
+// Author: Claude Code
+// Version: 1.0
 
-// Canvas dimensions
-let canvasWidth = 667;
-let drawWidth = canvasWidth;
-let drawHeight = 450;
-let controlHeight = 60;
+// Canvas dimensions - responsive design
+let canvasWidth = 400;
+let drawHeight = 400;
+let controlHeight = 110;
 let canvasHeight = drawHeight + controlHeight;
 let margin = 25;
 let defaultTextSize = 16;
@@ -21,22 +22,30 @@ let draggingVertex = null;
 let dragDistance = 20; // pixels from vertex center to start drag
 
 function setup() {
+    updateCanvasSize();
     const canvas = createCanvas(canvasWidth, canvasHeight);
-    var mainElement = document.querySelector('main');
+    const mainElement = document.querySelector('main');
     canvas.parent(mainElement);
-    textSize(defaultTextSize);
+
+    // Set description for accessibility
+    describe('Interactive triangle explorer. Drag the red vertices to create different types of triangles. The triangle type (Equilateral, Isosceles, or Scalene) combined with angle classification (Acute, Right, or Obtuse) is displayed in real time.', LABEL);
 }
 
 function draw() {
+    // Update canvas size for responsiveness
+    updateCanvasSize();
+    resizeCanvas(canvasWidth, canvasHeight);
+
     // Draw background regions
     fill('aliceblue');
     stroke('silver');
+    strokeWeight(1);
     rect(0, 0, canvasWidth, drawHeight);
 
     fill('white');
     rect(0, drawHeight, canvasWidth, controlHeight);
 
-    // Draw the triangle
+    // Draw the triangle with semi-transparent fill
     stroke('black');
     strokeWeight(2);
     fill('rgba(100, 150, 255, 0.3)');
@@ -54,77 +63,89 @@ function draw() {
     let angleType = classifyByAngles(angles);
     let fullClassification = sideType + " " + angleType;
 
-    // Display classification
+    // Display classification title
     fill('black');
     textSize(28);
-    textWeight = 'bold';
-    text(fullClassification, 20, 40);
+    textAlign(LEFT);
+    noStroke();
+    text(fullClassification, margin, margin + 28);
 
     // Display side lengths
     fill('black');
     textSize(14);
-    text(`Sides: ${sides.a.toFixed(1)}, ${sides.b.toFixed(1)}, ${sides.c.toFixed(1)}`, 20, 65);
+    text(`Sides: ${sides.a.toFixed(1)}, ${sides.b.toFixed(1)}, ${sides.c.toFixed(1)}`, margin, margin + 60);
 
     // Display angles
-    text(`Angles: ${angles.A.toFixed(1)}°, ${angles.B.toFixed(1)}°, ${angles.C.toFixed(1)}°`, 20, 85);
+    text(`Angles: ${angles.A.toFixed(1)}°, ${angles.B.toFixed(1)}°, ${angles.C.toFixed(1)}°`, margin, margin + 80);
 
-    // Display instructions
-    textSize(12);
+    // Display instructions in control area
     fill('darkgray');
-    text("Drag vertices to create different triangles", 20, drawHeight + 25);
-    text("Try creating: Equilateral, Isosceles Right, Obtuse Scalene, etc.", 20, drawHeight + 45);
+    textSize(12);
+    text("Drag vertices (red circles A, B, C) to create different triangle types.", margin, drawHeight + 25);
+    text("Try: Equilateral, Isosceles Right, Obtuse Scalene, Acute Isosceles, etc.", margin, drawHeight + 45);
+    text("Angles in any triangle sum to 180°. Click Reset to return to start position.", margin, drawHeight + 65);
+
+    // Reset text
+    textSize(11);
+    fill('blue');
+    text("[R key = Reset]", canvasWidth - 120, drawHeight + 25);
 }
 
 function drawVertices() {
-    // Draw vertex circles
+    // Draw vertex circles - large enough to be draggable
     fill('red');
     stroke('darkred');
     strokeWeight(2);
 
-    // Vertex 1
+    // Vertex A
     circle(v1.x, v1.y, 12);
 
-    // Vertex 2
+    // Vertex B
     circle(v2.x, v2.y, 12);
 
-    // Vertex 3
+    // Vertex C
     circle(v3.x, v3.y, 12);
 
     // Draw vertex labels
     fill('darkred');
     textSize(12);
-    text('A', v1.x - 15, v1.y + 5);
-    text('B', v2.x + 8, v2.y + 5);
-    text('C', v3.x - 5, v3.y - 15);
+    textAlign(CENTER, CENTER);
+    text('A', v1.x, v1.y);
+    text('B', v2.x, v2.y);
+    text('C', v3.x, v3.y);
 }
 
 function calculateSides() {
-    // Calculate distances between vertices
-    let a = dist(v2.x, v2.y, v3.x, v3.y); // Side opposite to vertex A (BC)
-    let b = dist(v1.x, v1.y, v3.x, v3.y); // Side opposite to vertex B (AC)
-    let c = dist(v1.x, v1.y, v2.x, v2.y); // Side opposite to vertex C (AB)
+    // Calculate distances between vertices using distance formula
+    // a = side opposite to vertex A (BC)
+    // b = side opposite to vertex B (AC)
+    // c = side opposite to vertex C (AB)
+    let a = dist(v2.x, v2.y, v3.x, v3.y);
+    let b = dist(v1.x, v1.y, v3.x, v3.y);
+    let c = dist(v1.x, v1.y, v2.x, v2.y);
 
     return { a: a, b: b, c: c };
 }
 
 function calculateAngles() {
-    // Use law of cosines to find angles
+    // Use Law of Cosines to find angles
+    // cos(A) = (b² + c² - a²) / (2bc)
     let sides = calculateSides();
     let a = sides.a;
     let b = sides.b;
     let c = sides.c;
 
-    // Avoid division by zero
+    // Avoid division by zero with minimum side length
     if (a < 1 || b < 1 || c < 1) {
         return { A: 0, B: 0, C: 0 };
     }
 
-    // Law of cosines: cos(A) = (b² + c² - a²) / (2bc)
-    let angleA = Math.acos((b * b + c * c - a * a) / (2 * b * c));
-    let angleB = Math.acos((a * a + c * c - b * b) / (2 * a * c));
-    let angleC = Math.acos((a * a + b * b - c * c) / (2 * a * b));
+    // Apply Law of Cosines
+    let angleA = Math.acos(Math.max(-1, Math.min(1, (b * b + c * c - a * a) / (2 * b * c))));
+    let angleB = Math.acos(Math.max(-1, Math.min(1, (a * a + c * c - b * b) / (2 * a * c))));
+    let angleC = Math.acos(Math.max(-1, Math.min(1, (a * a + b * b - c * c) / (2 * a * b))));
 
-    // Convert to degrees
+    // Convert from radians to degrees
     return {
         A: degrees(angleA),
         B: degrees(angleB),
@@ -133,9 +154,9 @@ function calculateAngles() {
 }
 
 function classifyBySides(sides) {
-    let tolerance = 2; // pixels tolerance for equal sides
+    // Tolerance for determining if sides are "equal"
+    let tolerance = 5; // pixels
 
-    // Sort sides to compare
     let sideArray = [sides.a, sides.b, sides.c].sort((x, y) => x - y);
 
     // Check if equilateral (all three sides approximately equal)
@@ -149,12 +170,13 @@ function classifyBySides(sides) {
         return "Isosceles";
     }
 
-    // Otherwise scalene
+    // Otherwise scalene (all sides different)
     return "Scalene";
 }
 
 function classifyByAngles(angles) {
-    let rightAngleTolerance = 5; // degrees tolerance for right angle
+    // Tolerance for determining if angle is "right" (90°)
+    let rightAngleTolerance = 5; // degrees
 
     let angleArray = [angles.A, angles.B, angles.C];
 
@@ -179,14 +201,15 @@ function classifyByAngles(angles) {
 }
 
 function degrees(radians) {
+    // Convert radians to degrees
     return radians * 180 / Math.PI;
 }
 
 function mousePressed() {
-    // Check if clicking on a vertex
+    // Check if clicking on a vertex to start dragging
     if (dist(mouseX, mouseY, v1.x, v1.y) < dragDistance) {
         draggingVertex = 'v1';
-        return false; // Prevent default behavior
+        return false;
     }
     if (dist(mouseX, mouseY, v2.x, v2.y) < dragDistance) {
         draggingVertex = 'v2';
@@ -199,7 +222,7 @@ function mousePressed() {
 }
 
 function mouseDragged() {
-    // Keep vertices within canvas bounds
+    // Constrain vertices to stay within canvas bounds with padding
     let padding = 10;
 
     if (draggingVertex === 'v1') {
@@ -220,5 +243,41 @@ function mouseDragged() {
 }
 
 function mouseReleased() {
+    // Stop dragging when mouse is released
     draggingVertex = null;
+}
+
+function keyPressed() {
+    // Allow reset with 'R' or 'r' key
+    if (key === 'r' || key === 'R') {
+        resetTriangle();
+        return false;
+    }
+}
+
+function resetTriangle() {
+    // Reset to initial triangle configuration
+    v1 = { x: 150, y: 350 };
+    v2 = { x: 550, y: 350 };
+    v3 = { x: 350, y: 100 };
+}
+
+function updateCanvasSize() {
+    // Update canvas width based on container size for responsiveness
+    const container = document.querySelector('main');
+    if (container) {
+        canvasWidth = container.offsetWidth;
+        // Ensure minimum width
+        if (canvasWidth < 300) {
+            canvasWidth = 300;
+        }
+        // Update vertex positions proportionally if container changed significantly
+        canvasHeight = drawHeight + controlHeight;
+    }
+}
+
+function windowResized() {
+    // Handle window resize for responsive design
+    updateCanvasSize();
+    resizeCanvas(canvasWidth, canvasHeight);
 }
