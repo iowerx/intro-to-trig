@@ -139,21 +139,21 @@ function drawRightAngleSymbol(angles) {
     }
 }
 
-function drawRightAngleMarker(vertex, adjacent1, adjacent2, size) {
+function drawRightAngleMarker(rightAngleVertex, adjacent1, adjacent2, size) {
     // Draw a small square at the vertex to indicate a right angle
-    // vertex: the vertex with the right angle
+    // rightAngleVertex: the vertex with the right angle
     // adjacent1, adjacent2: the two adjacent vertices
     // size: size of the square marker
 
     // Calculate unit vectors from vertex to adjacent vertices
-    let dx1 = adjacent1.x - vertex.x;
-    let dy1 = adjacent1.y - vertex.y;
+    let dx1 = adjacent1.x - rightAngleVertex.x;
+    let dy1 = adjacent1.y - rightAngleVertex.y;
     let len1 = Math.sqrt(dx1 * dx1 + dy1 * dy1);
     let ux1 = (dx1 / len1) * size;
     let uy1 = (dy1 / len1) * size;
 
-    let dx2 = adjacent2.x - vertex.x;
-    let dy2 = adjacent2.y - vertex.y;
+    let dx2 = adjacent2.x - rightAngleVertex.x;
+    let dy2 = adjacent2.y - rightAngleVertex.y;
     let len2 = Math.sqrt(dx2 * dx2 + dy2 * dy2);
     let ux2 = (dx2 / len2) * size;
     let uy2 = (dy2 / len2) * size;
@@ -164,10 +164,10 @@ function drawRightAngleMarker(vertex, adjacent1, adjacent2, size) {
     stroke('black');
     strokeWeight(2);
     beginShape();
-    vertex(vertex.x + ux1, vertex.y + uy1);
-    vertex(vertex.x + ux1 + ux2, vertex.y + uy1 + uy2);
-    vertex(vertex.x + ux2, vertex.y + uy2);
-    vertex(vertex.x, vertex.y);
+    vertex(rightAngleVertex.x + ux1, rightAngleVertex.y + uy1);
+    vertex(rightAngleVertex.x + ux1 + ux2, rightAngleVertex.y + uy1 + uy2);
+    vertex(rightAngleVertex.x + ux2, rightAngleVertex.y + uy2);
+    vertex(rightAngleVertex.x, rightAngleVertex.y);
     endShape(CLOSE);
     pop();
 }
