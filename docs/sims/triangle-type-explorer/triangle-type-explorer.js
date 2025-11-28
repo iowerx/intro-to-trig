@@ -13,9 +13,10 @@ let margin = 25;
 let defaultTextSize = 16;
 
 // Triangle vertices - positions that can be dragged
-let v1 = { x: 150, y: 350 };
-let v2 = { x: 550, y: 350 };
-let v3 = { x: 350, y: 100 };
+// Initial configuration: Equilateral triangle with side length ~250
+let v1 = { x: 175, y: 300 };
+let v2 = { x: 425, y: 300 };
+let v3 = { x: 300, y: 83.5 };
 
 // Dragging state
 let draggingVertex = null;
@@ -51,12 +52,15 @@ function draw() {
     fill('rgba(100, 150, 255, 0.3)');
     triangle(v1.x, v1.y, v2.x, v2.y, v3.x, v3.y);
 
-    // Draw vertices as draggable circles
-    drawVertices();
-
     // Calculate triangle properties
     let sides = calculateSides();
     let angles = calculateAngles();
+
+    // Draw right angle symbol if applicable
+    drawRightAngleSymbol(angles);
+
+    // Draw vertices as draggable circles
+    drawVertices();
 
     // Classify triangle
     let sideType = classifyBySides(sides);
@@ -115,6 +119,60 @@ function drawVertices() {
     text('C', v3.x, v3.y);
 }
 
+function drawRightAngleSymbol(angles) {
+    // Draw right angle symbol (small square) at any vertex with a 90° angle
+    let rightAngleTolerance = 5; // degrees
+    let squareSize = 15; // size of the right angle marker
+
+    // Check angle at vertex A (v1)
+    if (Math.abs(angles.A - 90) < rightAngleTolerance) {
+        drawRightAngleMarker(v1, v2, v3, squareSize);
+    }
+
+    // Check angle at vertex B (v2)
+    if (Math.abs(angles.B - 90) < rightAngleTolerance) {
+        drawRightAngleMarker(v2, v1, v3, squareSize);
+    }
+
+    // Check angle at vertex C (v3)
+    if (Math.abs(angles.C - 90) < rightAngleTolerance) {
+        drawRightAngleMarker(v3, v1, v2, squareSize);
+    }
+}
+
+function drawRightAngleMarker(rightAngleVertex, adjacent1, adjacent2, size) {
+    // Draw a small square at the vertex to indicate a right angle
+    // rightAngleVertex: the vertex with the right angle
+    // adjacent1, adjacent2: the two adjacent vertices
+    // size: size of the square marker
+
+    // Calculate unit vectors from vertex to adjacent vertices
+    let dx1 = adjacent1.x - rightAngleVertex.x;
+    let dy1 = adjacent1.y - rightAngleVertex.y;
+    let len1 = Math.sqrt(dx1 * dx1 + dy1 * dy1);
+    let ux1 = (dx1 / len1) * size;
+    let uy1 = (dy1 / len1) * size;
+
+    let dx2 = adjacent2.x - rightAngleVertex.x;
+    let dy2 = adjacent2.y - rightAngleVertex.y;
+    let len2 = Math.sqrt(dx2 * dx2 + dy2 * dy2);
+    let ux2 = (dx2 / len2) * size;
+    let uy2 = (dy2 / len2) * size;
+
+    // Draw the square
+    push();
+    noFill();
+    stroke('black');
+    strokeWeight(2);
+    beginShape();
+    vertex(rightAngleVertex.x + ux1, rightAngleVertex.y + uy1);
+    vertex(rightAngleVertex.x + ux1 + ux2, rightAngleVertex.y + uy1 + uy2);
+    vertex(rightAngleVertex.x + ux2, rightAngleVertex.y + uy2);
+    vertex(rightAngleVertex.x, rightAngleVertex.y);
+    endShape(CLOSE);
+    pop();
+}
+
 function calculateSides() {
     // Calculate distances between vertices using distance formula
     // a = side opposite to vertex A (BC)
@@ -147,9 +205,9 @@ function calculateAngles() {
 
     // Convert from radians to degrees
     return {
-        A: degrees(angleA),
-        B: degrees(angleB),
-        C: degrees(angleC)
+        A: radiansToDegrees(angleA),
+        B: radiansToDegrees(angleB),
+        C: radiansToDegrees(angleC)
     };
 }
 
@@ -200,7 +258,7 @@ function classifyByAngles(angles) {
     return "";
 }
 
-function degrees(radians) {
+function radiansToDegrees(radians) {
     // Convert radians to degrees
     return radians * 180 / Math.PI;
 }
@@ -256,10 +314,10 @@ function keyPressed() {
 }
 
 function resetTriangle() {
-    // Reset to initial triangle configuration
-    v1 = { x: 150, y: 350 };
-    v2 = { x: 550, y: 350 };
-    v3 = { x: 350, y: 100 };
+    // Reset to initial triangle configuration (Equilateral)
+    v1 = { x: 175, y: 300 };
+    v2 = { x: 425, y: 300 };
+    v3 = { x: 300, y: 83.5 };
 }
 
 function updateCanvasSize() {
