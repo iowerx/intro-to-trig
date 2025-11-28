@@ -51,12 +51,15 @@ function draw() {
     fill('rgba(100, 150, 255, 0.3)');
     triangle(v1.x, v1.y, v2.x, v2.y, v3.x, v3.y);
 
-    // Draw vertices as draggable circles
-    drawVertices();
-
     // Calculate triangle properties
     let sides = calculateSides();
     let angles = calculateAngles();
+
+    // Draw right angle symbol if applicable
+    drawRightAngleSymbol(angles);
+
+    // Draw vertices as draggable circles
+    drawVertices();
 
     // Classify triangle
     let sideType = classifyBySides(sides);
@@ -113,6 +116,60 @@ function drawVertices() {
     text('A', v1.x, v1.y);
     text('B', v2.x, v2.y);
     text('C', v3.x, v3.y);
+}
+
+function drawRightAngleSymbol(angles) {
+    // Draw right angle symbol (small square) at any vertex with a 90° angle
+    let rightAngleTolerance = 5; // degrees
+    let squareSize = 15; // size of the right angle marker
+
+    // Check angle at vertex A (v1)
+    if (Math.abs(angles.A - 90) < rightAngleTolerance) {
+        drawRightAngleMarker(v1, v2, v3, squareSize);
+    }
+
+    // Check angle at vertex B (v2)
+    if (Math.abs(angles.B - 90) < rightAngleTolerance) {
+        drawRightAngleMarker(v2, v1, v3, squareSize);
+    }
+
+    // Check angle at vertex C (v3)
+    if (Math.abs(angles.C - 90) < rightAngleTolerance) {
+        drawRightAngleMarker(v3, v1, v2, squareSize);
+    }
+}
+
+function drawRightAngleMarker(vertex, adjacent1, adjacent2, size) {
+    // Draw a small square at the vertex to indicate a right angle
+    // vertex: the vertex with the right angle
+    // adjacent1, adjacent2: the two adjacent vertices
+    // size: size of the square marker
+
+    // Calculate unit vectors from vertex to adjacent vertices
+    let dx1 = adjacent1.x - vertex.x;
+    let dy1 = adjacent1.y - vertex.y;
+    let len1 = Math.sqrt(dx1 * dx1 + dy1 * dy1);
+    let ux1 = (dx1 / len1) * size;
+    let uy1 = (dy1 / len1) * size;
+
+    let dx2 = adjacent2.x - vertex.x;
+    let dy2 = adjacent2.y - vertex.y;
+    let len2 = Math.sqrt(dx2 * dx2 + dy2 * dy2);
+    let ux2 = (dx2 / len2) * size;
+    let uy2 = (dy2 / len2) * size;
+
+    // Draw the square
+    push();
+    noFill();
+    stroke('black');
+    strokeWeight(2);
+    beginShape();
+    vertex(vertex.x + ux1, vertex.y + uy1);
+    vertex(vertex.x + ux1 + ux2, vertex.y + uy1 + uy2);
+    vertex(vertex.x + ux2, vertex.y + uy2);
+    vertex(vertex.x, vertex.y);
+    endShape(CLOSE);
+    pop();
 }
 
 function calculateSides() {
