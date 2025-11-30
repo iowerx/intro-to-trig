@@ -204,9 +204,9 @@ function calculateAngles() {
 
     // Convert from radians to degrees
     return {
-        A: degrees(angleA),
-        B: degrees(angleB),
-        C: degrees(angleC)
+        A: radiansToDegrees(angleA),
+        B: radiansToDegrees(angleB),
+        C: radiansToDegrees(angleC)
     };
 }
 
@@ -257,7 +257,7 @@ function classifyByAngles(angles) {
     return "";
 }
 
-function degrees(radians) {
+function radiansToDegrees(radians) {
     // Convert radians to degrees
     return radians * 180 / Math.PI;
 }
