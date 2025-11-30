@@ -13,9 +13,10 @@ let margin = 25;
 let defaultTextSize = 16;
 
 // Triangle vertices - positions that can be dragged
-let v1 = { x: 150, y: 350 };
-let v2 = { x: 550, y: 350 };
-let v3 = { x: 350, y: 100 };
+// Initial configuration: Equilateral triangle with side length ~250
+let v1 = { x: 175, y: 300 };
+let v2 = { x: 425, y: 300 };
+let v3 = { x: 300, y: 83.5 };
 
 // Dragging state
 let draggingVertex = null;
@@ -313,10 +314,10 @@ function keyPressed() {
 }
 
 function resetTriangle() {
-    // Reset to initial triangle configuration
-    v1 = { x: 150, y: 350 };
-    v2 = { x: 550, y: 350 };
-    v3 = { x: 350, y: 100 };
+    // Reset to initial triangle configuration (Equilateral)
+    v1 = { x: 175, y: 300 };
+    v2 = { x: 425, y: 300 };
+    v3 = { x: 300, y: 83.5 };
 }
 
 function updateCanvasSize() {
